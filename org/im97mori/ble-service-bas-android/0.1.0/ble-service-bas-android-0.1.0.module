@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.1.1",
-      "buildId": "rlliynj225agnapefqm3p3qhiu"
+      "buildId": "vdshvfksofcw3psi6e37oosvcq"
     }
   },
   "variants": [
@@ -21,6 +21,20 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904-android",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
         {
           "group": "org.im97mori",
           "module": "ble-characteristic-u2a19-android",
@@ -47,6 +61,20 @@
         "org.gradle.usage": "java-api"
       },
       "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904-android",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
         {
           "group": "org.im97mori",
           "module": "ble-characteristic-u2a19-android",
