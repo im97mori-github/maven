@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-peripheral",
+    "version": "0.2.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "xkebjxa6jvctjdek5g2bz3ghum"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.2.17.aar",
+          "url": "ble-peripheral-0.2.17.aar",
+          "size": 38489,
+          "sha512": "d924c7c9f0480456b3b08c3bd706ed3cfe5bc9594f6ac25e1fdce2ea13ec639e0cbad0843488327aac7255290c142031f0eaebe4126a4177fd10065420d1313f",
+          "sha256": "0da21ff5b3437cea200257066486399690647dcd068cc046fdb271944c1597a0",
+          "sha1": "616c71997ac2104f929c0074d190fe25bf237f01",
+          "md5": "0ea2608696af023f1a2cfd8aeb7dbb82"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.2.17.aar",
+          "url": "ble-peripheral-0.2.17.aar",
+          "size": 38489,
+          "sha512": "d924c7c9f0480456b3b08c3bd706ed3cfe5bc9594f6ac25e1fdce2ea13ec639e0cbad0843488327aac7255290c142031f0eaebe4126a4177fd10065420d1313f",
+          "sha256": "0da21ff5b3437cea200257066486399690647dcd068cc046fdb271944c1597a0",
+          "sha1": "616c71997ac2104f929c0074d190fe25bf237f01",
+          "md5": "0ea2608696af023f1a2cfd8aeb7dbb82"
+        }
+      ]
+    }
+  ]
+}
