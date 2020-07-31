@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-advertising",
+    "version": "0.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0",
+      "buildId": "cdnn3e4xtnb5pk6pxtykefj2mm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-advertising-0.2.2.jar",
+          "url": "ble-advertising-0.2.2.jar",
+          "size": 50546,
+          "sha512": "4ca63f572212896839c9a83b0ec8fc54ac4dc41bedfcddd44affef4226b75a187d9dc995bc4d1c271126f072060ff788bac5d21690abb4c2b68cdf167ca972",
+          "sha256": "200e4ce56d3c8f85fa6228c060a2ae4daef169b1218d0a7835508d3b5f68e9b0",
+          "sha1": "11cdb821e1f56ca0081cce774a3d1a455714a536",
+          "md5": "c4d88d694984bf9e3fe06f0ee499267b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-advertising-0.2.2.jar",
+          "url": "ble-advertising-0.2.2.jar",
+          "size": 50546,
+          "sha512": "4ca63f572212896839c9a83b0ec8fc54ac4dc41bedfcddd44affef4226b75a187d9dc995bc4d1c271126f072060ff788bac5d21690abb4c2b68cdf167ca972",
+          "sha256": "200e4ce56d3c8f85fa6228c060a2ae4daef169b1218d0a7835508d3b5f68e9b0",
+          "sha1": "11cdb821e1f56ca0081cce774a3d1a455714a536",
+          "md5": "c4d88d694984bf9e3fe06f0ee499267b"
+        }
+      ]
+    }
+  ]
+}
