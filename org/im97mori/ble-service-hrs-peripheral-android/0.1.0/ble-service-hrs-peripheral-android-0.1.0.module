@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-hrs-peripheral-android",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "mkrq4h7cm5efncarhazctggxni"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hrs-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-hrs-peripheral-android-0.1.0.aar",
+          "url": "ble-service-hrs-peripheral-android-0.1.0.aar",
+          "size": 6455,
+          "sha512": "4efb66e31d3977b610b73890a096050b4b58f638e4613d9e9e487ad6fd9e3831b287c44cfa0d9425414794829fc83b9a5f40f5d824103a39e1ec0c440f7a243f",
+          "sha256": "187cefe724c94a5e622936d05dfa61ec9e449d4528cef90af374be6dc459c811",
+          "sha1": "87b529a0f257f213104c238222315b2ad4c4efdd",
+          "md5": "0915c53a388c2811f9c0cf4d34228dce"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hrs-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-hrs-peripheral-android-0.1.0.aar",
+          "url": "ble-service-hrs-peripheral-android-0.1.0.aar",
+          "size": 6455,
+          "sha512": "4efb66e31d3977b610b73890a096050b4b58f638e4613d9e9e487ad6fd9e3831b287c44cfa0d9425414794829fc83b9a5f40f5d824103a39e1ec0c440f7a243f",
+          "sha256": "187cefe724c94a5e622936d05dfa61ec9e449d4528cef90af374be6dc459c811",
+          "sha1": "87b529a0f257f213104c238222315b2ad4c4efdd",
+          "md5": "0915c53a388c2811f9c0cf4d34228dce"
+        }
+      ]
+    }
+  ]
+}

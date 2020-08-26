@@ -1,0 +1,71 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-android",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "mkrq4h7cm5efncarhazctggxni"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-android-0.1.2.aar",
+          "url": "ble-profile-peripheral-android-0.1.2.aar",
+          "size": 2114,
+          "sha512": "68b5696306c036a55dc860ae05f1baa7faeabdb42312335c63b527803b8047f638ccf016a2fa3518cd9070470b0de52ee5fe89f646e997ad55b5cfab43c38b30",
+          "sha256": "f05c739486345da83257e742e7e1090a224f7524c3941bdb04631f0be8838c94",
+          "sha1": "844007b17a72d7eb1231a829a38b062437be1248",
+          "md5": "c3873c4c187f51ba53b5c8fb264b057e"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-android-0.1.2.aar",
+          "url": "ble-profile-peripheral-android-0.1.2.aar",
+          "size": 2114,
+          "sha512": "68b5696306c036a55dc860ae05f1baa7faeabdb42312335c63b527803b8047f638ccf016a2fa3518cd9070470b0de52ee5fe89f646e997ad55b5cfab43c38b30",
+          "sha256": "f05c739486345da83257e742e7e1090a224f7524c3941bdb04631f0be8838c94",
+          "sha1": "844007b17a72d7eb1231a829a38b062437be1248",
+          "md5": "c3873c4c187f51ba53b5c8fb264b057e"
+        }
+      ]
+    }
+  ]
+}

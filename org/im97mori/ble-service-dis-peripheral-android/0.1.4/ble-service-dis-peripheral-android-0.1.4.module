@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-dis-peripheral-android",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "mkrq4h7cm5efncarhazctggxni"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-dis-peripheral-android-0.1.4.aar",
+          "url": "ble-service-dis-peripheral-android-0.1.4.aar",
+          "size": 5825,
+          "sha512": "4190ff561ba63c734a64dd30796c44de2f1c064e41b8248097a421e4a04dd099ec3bdb05698006c101434b6e24af989aba3da23585d084de5dbbf3ff784ee1dd",
+          "sha256": "60e7d23f3405894e9510f8dcee021650e8ca09d00b57cea1232627597970f6b1",
+          "sha1": "ee8d61ac868efd8eb29235dad383609b59b9ed47",
+          "md5": "e379c0f67f1bc7c4f3662c99324d778a"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-dis-peripheral-android-0.1.4.aar",
+          "url": "ble-service-dis-peripheral-android-0.1.4.aar",
+          "size": 5825,
+          "sha512": "4190ff561ba63c734a64dd30796c44de2f1c064e41b8248097a421e4a04dd099ec3bdb05698006c101434b6e24af989aba3da23585d084de5dbbf3ff784ee1dd",
+          "sha256": "60e7d23f3405894e9510f8dcee021650e8ca09d00b57cea1232627597970f6b1",
+          "sha1": "ee8d61ac868efd8eb29235dad383609b59b9ed47",
+          "md5": "e379c0f67f1bc7c4f3662c99324d778a"
+        }
+      ]
+    }
+  ]
+}
