@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-blp-peripheral-android",
+    "version": "0.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "kwhi4jkvdrgozbrzbba6x42kvm"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-peripheral-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bls-peripheral-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-blp-peripheral-android-0.1.5.aar",
+          "url": "ble-profile-blp-peripheral-android-0.1.5.aar",
+          "size": 4247,
+          "sha512": "bcc7d412fa632257df04abeead3db758c317959e6c2f944dae5e000ffe83e77295ede296c6f22a9c7ff0342dc75b337a9ebbdea8f2f0ba5bfc8e8e7e00f8e749",
+          "sha256": "73e6f12e140ceaca18eddeeb7c16b88d7fec7fc8399d15acdf68e0ac8ccc7891",
+          "sha1": "f7d029713d47cdc383b3aa1a500c33d45ad44ff7",
+          "md5": "812550628ba47be7f4e58502e6f17d1e"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-peripheral-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bls-peripheral-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-blp-peripheral-android-0.1.5.aar",
+          "url": "ble-profile-blp-peripheral-android-0.1.5.aar",
+          "size": 4247,
+          "sha512": "bcc7d412fa632257df04abeead3db758c317959e6c2f944dae5e000ffe83e77295ede296c6f22a9c7ff0342dc75b337a9ebbdea8f2f0ba5bfc8e8e7e00f8e749",
+          "sha256": "73e6f12e140ceaca18eddeeb7c16b88d7fec7fc8399d15acdf68e0ac8ccc7891",
+          "sha1": "f7d029713d47cdc383b3aa1a500c33d45ad44ff7",
+          "md5": "812550628ba47be7f4e58502e6f17d1e"
+        }
+      ]
+    }
+  ]
+}

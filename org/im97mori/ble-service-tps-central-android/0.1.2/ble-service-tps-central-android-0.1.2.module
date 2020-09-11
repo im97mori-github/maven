@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-tps-central-android",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "kwhi4jkvdrgozbrzbba6x42kvm"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-tps-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-central-android-0.1.2.aar",
+          "url": "ble-service-tps-central-android-0.1.2.aar",
+          "size": 3036,
+          "sha512": "7fed2a6348172581cb162805b21f6a714a7ccec77043a33b5a29895e323a4224bb282f8f382b0e040b6669ab1335156db2e8ae268890b56c009552695043b001",
+          "sha256": "17e10d7f265f15d99f747d9adea98b656bd19bb78f35be27808d55caefcd0e92",
+          "sha1": "31661fc38c325e83f519be2cea96ebe1dadb3ef7",
+          "md5": "f619eb424b28a7757bd10b910a240158"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-tps-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-central-android-0.1.2.aar",
+          "url": "ble-service-tps-central-android-0.1.2.aar",
+          "size": 3036,
+          "sha512": "7fed2a6348172581cb162805b21f6a714a7ccec77043a33b5a29895e323a4224bb282f8f382b0e040b6669ab1335156db2e8ae268890b56c009552695043b001",
+          "sha256": "17e10d7f265f15d99f747d9adea98b656bd19bb78f35be27808d55caefcd0e92",
+          "sha1": "31661fc38c325e83f519be2cea96ebe1dadb3ef7",
+          "md5": "f619eb424b28a7757bd10b910a240158"
+        }
+      ]
+    }
+  ]
+}
