@@ -1,0 +1,71 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ias-android",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "zzwrv7bhbfgvlhoshhgo5ogf5y"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a06-android",
+          "version": {
+            "requires": "0.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ias-android-0.1.2.aar",
+          "url": "ble-service-ias-android-0.1.2.aar",
+          "size": 1024,
+          "sha512": "12a42e61089ed2cf50ce406d36e30d8daa086cef4ce654c6d1c2c26fc1d271d52122d1ed2226ffd66b0639260fa60a7bd3ffd76e68e83bae618d3d181cb6f748",
+          "sha256": "3ad9425b0986507888c164283cef81c93533ca28eabd122f5f72e0e614dfaf26",
+          "sha1": "f7047228571599e5af3f83097529fb798e3a6850",
+          "md5": "4a76324ee502a34bbc4f92eff4064a72"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a06-android",
+          "version": {
+            "requires": "0.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ias-android-0.1.2.aar",
+          "url": "ble-service-ias-android-0.1.2.aar",
+          "size": 1024,
+          "sha512": "12a42e61089ed2cf50ce406d36e30d8daa086cef4ce654c6d1c2c26fc1d271d52122d1ed2226ffd66b0639260fa60a7bd3ffd76e68e83bae618d3d181cb6f748",
+          "sha256": "3ad9425b0986507888c164283cef81c93533ca28eabd122f5f72e0e614dfaf26",
+          "sha1": "f7047228571599e5af3f83097529fb798e3a6850",
+          "md5": "4a76324ee502a34bbc4f92eff4064a72"
+        }
+      ]
+    }
+  ]
+}
