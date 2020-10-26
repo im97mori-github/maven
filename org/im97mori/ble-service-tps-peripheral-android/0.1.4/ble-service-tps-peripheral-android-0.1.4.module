@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-tps-peripheral-android",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "37p2fovnzbf6dakjarwobjlw5y"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-tps-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-peripheral-android-0.1.4.aar",
+          "url": "ble-service-tps-peripheral-android-0.1.4.aar",
+          "size": 3800,
+          "sha512": "53aa3943795aba2e2c10e84ef6a3c9af1a8be71ce5f6d6deb82cb0593e35c064d4ded2a6c69eb5c79fc6b55a266a188db9a4670dcbcc98781da3e1f70977614c",
+          "sha256": "49fbe96a10128aea7e4bb0f47ee0546552d017fb3b12a323154dd3c252d49559",
+          "sha1": "9b07b8ccd6812c86c82e22eb1d13c1e8c8dd8114",
+          "md5": "442b7f716ca7fd806959f40e631115ab"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-tps-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-peripheral-android-0.1.4.aar",
+          "url": "ble-service-tps-peripheral-android-0.1.4.aar",
+          "size": 3800,
+          "sha512": "53aa3943795aba2e2c10e84ef6a3c9af1a8be71ce5f6d6deb82cb0593e35c064d4ded2a6c69eb5c79fc6b55a266a188db9a4670dcbcc98781da3e1f70977614c",
+          "sha256": "49fbe96a10128aea7e4bb0f47ee0546552d017fb3b12a323154dd3c252d49559",
+          "sha1": "9b07b8ccd6812c86c82e22eb1d13c1e8c8dd8114",
+          "md5": "442b7f716ca7fd806959f40e631115ab"
+        }
+      ]
+    }
+  ]
+}
