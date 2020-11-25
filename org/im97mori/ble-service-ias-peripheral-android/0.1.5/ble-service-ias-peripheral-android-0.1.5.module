@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ias-peripheral-android",
+    "version": "0.1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "z6dqbrqplrdxrnoy47ggumszqi"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ias-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ias-peripheral-android-0.1.5.aar",
+          "url": "ble-service-ias-peripheral-android-0.1.5.aar",
+          "size": 4706,
+          "sha512": "3bf5db37baf0237d4be628da4318028815d28f9a728119f25bd3a7600856dad805cd3f349c6fe537524869b2072cda2d697e6f93017e7e3cbe9d6d9deb3550ad",
+          "sha256": "20e5702dcef41da8fa987cea5a23cec57bb124123e39c876a54e699a14786926",
+          "sha1": "bef603dbfcdee75493395032afac538647d5d2df",
+          "md5": "9fa4fc2615310fbbd1a29c12805fe39e"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ias-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ias-peripheral-android-0.1.5.aar",
+          "url": "ble-service-ias-peripheral-android-0.1.5.aar",
+          "size": 4706,
+          "sha512": "3bf5db37baf0237d4be628da4318028815d28f9a728119f25bd3a7600856dad805cd3f349c6fe537524869b2072cda2d697e6f93017e7e3cbe9d6d9deb3550ad",
+          "sha256": "20e5702dcef41da8fa987cea5a23cec57bb124123e39c876a54e699a14786926",
+          "sha1": "bef603dbfcdee75493395032afac538647d5d2df",
+          "md5": "9fa4fc2615310fbbd1a29c12805fe39e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-android",
+    "version": "0.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "z6dqbrqplrdxrnoy47ggumszqi"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-android-0.1.6.aar",
+          "url": "ble-profile-central-android-0.1.6.aar",
+          "size": 15921,
+          "sha512": "268df18de9b8a44f4c3225f1d77fe5648093a11422ccde5d4669100cb38abc242b7f9ef5914da899141b9913b20ddd7c4ecfb27ed26ff0e81f4213c06fd3b327",
+          "sha256": "243af41dba261b1b7bef3c2ad91105cdc0f136ac07a77cdddcc497edfa21e3da",
+          "sha1": "c812efa7ae94a229a3d38c9cc461acb2dd6ef64f",
+          "md5": "678e815d7a964f00b36b60f5f906e0b0"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-android-0.1.6.aar",
+          "url": "ble-profile-central-android-0.1.6.aar",
+          "size": 15921,
+          "sha512": "268df18de9b8a44f4c3225f1d77fe5648093a11422ccde5d4669100cb38abc242b7f9ef5914da899141b9913b20ddd7c4ecfb27ed26ff0e81f4213c06fd3b327",
+          "sha256": "243af41dba261b1b7bef3c2ad91105cdc0f136ac07a77cdddcc497edfa21e3da",
+          "sha1": "c812efa7ae94a229a3d38c9cc461acb2dd6ef64f",
+          "md5": "678e815d7a964f00b36b60f5f906e0b0"
+        }
+      ]
+    }
+  ]
+}

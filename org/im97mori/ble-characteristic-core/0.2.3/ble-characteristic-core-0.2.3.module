@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-characteristic-core",
+    "version": "0.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "zhxujrvoxjaihfxvsfrlhylxje"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2909",
+          "version": {
+            "requires": "0.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-core-0.2.3.jar",
+          "url": "ble-characteristic-core-0.2.3.jar",
+          "size": 26792,
+          "sha512": "fc533b1778b773a6786c401b391986ebd9e74122c6cfbf212a8316e42c86609981e5273cf104dee5667a008ee9b1169dafe4a34509ab9627a962925c2fbf5b84",
+          "sha256": "dfaabc77c6ee8f243bfea088a84c740ef6758c5bd8353150bc337232ab3dea48",
+          "sha1": "b0550b211741f72da74fd26f5e8f8e450f222f6b",
+          "md5": "35b13c5db1c9a429194adb1ec45339ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2909",
+          "version": {
+            "requires": "0.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-core-0.2.3.jar",
+          "url": "ble-characteristic-core-0.2.3.jar",
+          "size": 26792,
+          "sha512": "fc533b1778b773a6786c401b391986ebd9e74122c6cfbf212a8316e42c86609981e5273cf104dee5667a008ee9b1169dafe4a34509ab9627a962925c2fbf5b84",
+          "sha256": "dfaabc77c6ee8f243bfea088a84c740ef6758c5bd8353150bc337232ab3dea48",
+          "sha1": "b0550b211741f72da74fd26f5e8f8e450f222f6b",
+          "md5": "35b13c5db1c9a429194adb1ec45339ce"
+        }
+      ]
+    }
+  ]
+}

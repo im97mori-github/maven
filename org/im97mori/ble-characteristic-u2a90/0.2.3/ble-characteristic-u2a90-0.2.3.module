@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-characteristic-u2a90",
+    "version": "0.2.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "zhxujrvoxjaihfxvsfrlhylxje"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-core",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2b37",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2a90-0.2.3.jar",
+          "url": "ble-characteristic-u2a90-0.2.3.jar",
+          "size": 2287,
+          "sha512": "a5718b3e732f225af65f523193a40cb96772cdef61a7f0f461b4074f3b50c0391ce59b775eac0d78df74eabbebab5e495cf6c0ba7395bab15b0e77e57fafc56f",
+          "sha256": "a2e49931689d88f3dd35b1400945fe87447c808cde18caf88adfffc976650918",
+          "sha1": "1af838e3fa85049d8f00cd84eede3b3bf1accac8",
+          "md5": "53ddaf5b470c2fc431425806c54f93ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.3.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-core",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2b37",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2a90-0.2.3.jar",
+          "url": "ble-characteristic-u2a90-0.2.3.jar",
+          "size": 2287,
+          "sha512": "a5718b3e732f225af65f523193a40cb96772cdef61a7f0f461b4074f3b50c0391ce59b775eac0d78df74eabbebab5e495cf6c0ba7395bab15b0e77e57fafc56f",
+          "sha256": "a2e49931689d88f3dd35b1400945fe87447c808cde18caf88adfffc976650918",
+          "sha1": "1af838e3fa85049d8f00cd84eede3b3bf1accac8",
+          "md5": "53ddaf5b470c2fc431425806c54f93ab"
+        }
+      ]
+    }
+  ]
+}
