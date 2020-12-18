@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-dis-central-android",
+    "version": "0.1.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ne3pcejtrrhfvmmkle32bx6bti"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-dis-central-android-0.1.10.aar",
+          "url": "ble-service-dis-central-android-0.1.10.aar",
+          "size": 5745,
+          "sha512": "117bcd5789a77d20e00f1a73a1a50b421598d010068950490da70b564998224fa7fdaa16fbfc2bd650473243e8f8f5642933741d48e4230fb2ef72d46bd6311c",
+          "sha256": "c382a7b08b6cfca962ff2e60e517fd2c0649cc78bf9687ee8290243bec4dddfd",
+          "sha1": "0992967dab65374146e786980f8a25a868762a00",
+          "md5": "a82a6faf0cc44e8372992d057ea4a989"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-dis-central-android-0.1.10.aar",
+          "url": "ble-service-dis-central-android-0.1.10.aar",
+          "size": 5745,
+          "sha512": "117bcd5789a77d20e00f1a73a1a50b421598d010068950490da70b564998224fa7fdaa16fbfc2bd650473243e8f8f5642933741d48e4230fb2ef72d46bd6311c",
+          "sha256": "c382a7b08b6cfca962ff2e60e517fd2c0649cc78bf9687ee8290243bec4dddfd",
+          "sha1": "0992967dab65374146e786980f8a25a868762a00",
+          "md5": "a82a6faf0cc44e8372992d057ea4a989"
+        }
+      ]
+    }
+  ]
+}

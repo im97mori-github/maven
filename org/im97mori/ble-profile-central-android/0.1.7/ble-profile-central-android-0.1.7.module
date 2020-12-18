@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-android",
+    "version": "0.1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ne3pcejtrrhfvmmkle32bx6bti"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-android-0.1.7.aar",
+          "url": "ble-profile-central-android-0.1.7.aar",
+          "size": 15909,
+          "sha512": "8894afd3102a07ae512f59f83f107822ed2964f1fa6aa3cfec7463398ad60412583ca340762a335a295e82a759321e05e5d9ebb1742b71dfdc8d37c3a9149369",
+          "sha256": "f9c0dc792f3ee2c70eed49b86d3f622ffea67288c0f21d5207af65dd76dd9825",
+          "sha1": "bb39c45ad91b3a98cba479673116d41563a7a7af",
+          "md5": "29eee82468ad00f13143fa25c45cf15d"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-android-0.1.7.aar",
+          "url": "ble-profile-central-android-0.1.7.aar",
+          "size": 15909,
+          "sha512": "8894afd3102a07ae512f59f83f107822ed2964f1fa6aa3cfec7463398ad60412583ca340762a335a295e82a759321e05e5d9ebb1742b71dfdc8d37c3a9149369",
+          "sha256": "f9c0dc792f3ee2c70eed49b86d3f622ffea67288c0f21d5207af65dd76dd9825",
+          "sha1": "bb39c45ad91b3a98cba479673116d41563a7a7af",
+          "md5": "29eee82468ad00f13143fa25c45cf15d"
+        }
+      ]
+    }
+  ]
+}

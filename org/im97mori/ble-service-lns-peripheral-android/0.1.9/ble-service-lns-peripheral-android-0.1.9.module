@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-lns-peripheral-android",
+    "version": "0.1.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ne3pcejtrrhfvmmkle32bx6bti"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lns-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-lns-peripheral-android-0.1.9.aar",
+          "url": "ble-service-lns-peripheral-android-0.1.9.aar",
+          "size": 11602,
+          "sha512": "28989efb28b48b0b3ff3ecc1c011abaff00f4230ad0bbd00f02ad629f24f906d51029df563fb89bcc2ed41321da2204d34a6123c65c9d8916b3b31685edaec88",
+          "sha256": "932f86bec1bd45172d3e592ab86bd4fe053a2bd98d80952112c66482ce293e47",
+          "sha1": "2cd7f555396adf9769ea1091ad8b3fe48a736b48",
+          "md5": "b1ad604f7d0bacfa6640f98b7e504a8b"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lns-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-lns-peripheral-android-0.1.9.aar",
+          "url": "ble-service-lns-peripheral-android-0.1.9.aar",
+          "size": 11602,
+          "sha512": "28989efb28b48b0b3ff3ecc1c011abaff00f4230ad0bbd00f02ad629f24f906d51029df563fb89bcc2ed41321da2204d34a6123c65c9d8916b3b31685edaec88",
+          "sha256": "932f86bec1bd45172d3e592ab86bd4fe053a2bd98d80952112c66482ce293e47",
+          "sha1": "2cd7f555396adf9769ea1091ad8b3fe48a736b48",
+          "md5": "b1ad604f7d0bacfa6640f98b7e504a8b"
+        }
+      ]
+    }
+  ]
+}
