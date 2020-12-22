@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-cps-peripheral-android",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "bs3no43zwfeutmivy5vh5lgffe"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cps-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-cps-peripheral-android-0.1.1.aar",
+          "url": "ble-service-cps-peripheral-android-0.1.1.aar",
+          "size": 18330,
+          "sha512": "077da854704b90851979732c57fad8f9bbaaf00f1bedf1d1fa455efa38abc8b7bc14b7cd2e0f339a3f8c1f00708ef6296ce85b1552efdc38371a8d6a4122ed52",
+          "sha256": "4194065c4719d0d9e6fdab9eff9f2e148a606e446860cada397e36935e72a440",
+          "sha1": "082b077e31d11602cc0a7da95ccacd19c92f24fb",
+          "md5": "5badbb2670dcb4f51e021bed7cef4409"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cps-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-cps-peripheral-android-0.1.1.aar",
+          "url": "ble-service-cps-peripheral-android-0.1.1.aar",
+          "size": 18330,
+          "sha512": "077da854704b90851979732c57fad8f9bbaaf00f1bedf1d1fa455efa38abc8b7bc14b7cd2e0f339a3f8c1f00708ef6296ce85b1552efdc38371a8d6a4122ed52",
+          "sha256": "4194065c4719d0d9e6fdab9eff9f2e148a606e446860cada397e36935e72a440",
+          "sha1": "082b077e31d11602cc0a7da95ccacd19c92f24fb",
+          "md5": "5badbb2670dcb4f51e021bed7cef4409"
+        }
+      ]
+    }
+  ]
+}
