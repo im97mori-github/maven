@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-test-central",
+    "version": "0.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "o3bwqdsevncm5oph662yyt44ja"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-central",
+          "version": {
+            "requires": "0.5.23"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-central-0.0.2.aar",
+          "url": "ble-test-central-0.0.2.aar",
+          "size": 1850,
+          "sha512": "882cb86db8697482ea3b69c8d61c3f7f073e4ad0541a50c8245b8eb1be4704b816587adc5b0002d5b3a35e663836a076df023687d19a1b7e1065f5cd9af16d41",
+          "sha256": "aaae038a9b0852b08440485fdae02b388174f4436328a31a218c16c7ab15b63c",
+          "sha1": "8257c8a04769e44be2942bea07f320d939abeb55",
+          "md5": "d27b3335ac925abec91b6223903b9f77"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-central-0.0.2.aar",
+          "url": "ble-test-central-0.0.2.aar",
+          "size": 1850,
+          "sha512": "882cb86db8697482ea3b69c8d61c3f7f073e4ad0541a50c8245b8eb1be4704b816587adc5b0002d5b3a35e663836a076df023687d19a1b7e1065f5cd9af16d41",
+          "sha256": "aaae038a9b0852b08440485fdae02b388174f4436328a31a218c16c7ab15b63c",
+          "sha1": "8257c8a04769e44be2942bea07f320d939abeb55",
+          "md5": "d27b3335ac925abec91b6223903b9f77"
+        }
+      ]
+    }
+  ]
+}

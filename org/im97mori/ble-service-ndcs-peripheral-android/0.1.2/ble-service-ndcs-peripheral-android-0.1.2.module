@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ndcs-peripheral-android",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "o3bwqdsevncm5oph662yyt44ja"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-peripheral-android-0.1.2.aar",
+          "url": "ble-service-ndcs-peripheral-android-0.1.2.aar",
+          "size": 3752,
+          "sha512": "39fe649dd1da868639a6fe7c070cf5933fd2fb5ed5b73a8774faa392e4c7c7c6102a612f2d2905d1cfcbff3600d9665844f456d5bd7f7edabd0c4d03b5ff5887",
+          "sha256": "947ee63775bb429b3714fbda1f7a693b7f09b66100c70c3698a9a3b2474cac01",
+          "sha1": "acd1bff6299f85e68bc2ef8f2b8d14691291addf",
+          "md5": "24438df2be367f4342f7a1a5b8b95d6e"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-peripheral-android-0.1.2.aar",
+          "url": "ble-service-ndcs-peripheral-android-0.1.2.aar",
+          "size": 3752,
+          "sha512": "39fe649dd1da868639a6fe7c070cf5933fd2fb5ed5b73a8774faa392e4c7c7c6102a612f2d2905d1cfcbff3600d9665844f456d5bd7f7edabd0c4d03b5ff5887",
+          "sha256": "947ee63775bb429b3714fbda1f7a693b7f09b66100c70c3698a9a3b2474cac01",
+          "sha1": "acd1bff6299f85e68bc2ef8f2b8d14691291addf",
+          "md5": "24438df2be367f4342f7a1a5b8b95d6e"
+        }
+      ]
+    }
+  ]
+}

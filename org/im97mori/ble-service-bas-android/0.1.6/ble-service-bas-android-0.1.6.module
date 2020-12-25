@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-bas-android",
+    "version": "0.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "o3bwqdsevncm5oph662yyt44ja"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904-android",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a19-android",
+          "version": {
+            "requires": "0.2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bas-android-0.1.6.aar",
+          "url": "ble-service-bas-android-0.1.6.aar",
+          "size": 1204,
+          "sha512": "53ecbd21721402cc32090b8fad93c05de78d52c59a497458e9f9711db9d4ec8272198b7d474857a7bb6031163c2db1bcac8ae04b4a694230bcaf27d87b9cdc85",
+          "sha256": "ddb6de064dcce920b3e9cbcbc2a1cc0eeef3f50d46060e21ecf8de9bb2048bd6",
+          "sha1": "5715b23cf12b1c1e64ccc9aa09c6bf7c0699a324",
+          "md5": "d67b501ee4e98b4a7033398ce50fff6d"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904-android",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a19-android",
+          "version": {
+            "requires": "0.2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bas-android-0.1.6.aar",
+          "url": "ble-service-bas-android-0.1.6.aar",
+          "size": 1204,
+          "sha512": "53ecbd21721402cc32090b8fad93c05de78d52c59a497458e9f9711db9d4ec8272198b7d474857a7bb6031163c2db1bcac8ae04b4a694230bcaf27d87b9cdc85",
+          "sha256": "ddb6de064dcce920b3e9cbcbc2a1cc0eeef3f50d46060e21ecf8de9bb2048bd6",
+          "sha1": "5715b23cf12b1c1e64ccc9aa09c6bf7c0699a324",
+          "md5": "d67b501ee4e98b4a7033398ce50fff6d"
+        }
+      ]
+    }
+  ]
+}

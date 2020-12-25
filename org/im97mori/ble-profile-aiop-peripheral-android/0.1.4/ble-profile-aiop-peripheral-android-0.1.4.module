@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-aiop-peripheral-android",
+    "version": "0.1.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "o3bwqdsevncm5oph662yyt44ja"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-aios-peripheral-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-aiop-peripheral-android-0.1.4.aar",
+          "url": "ble-profile-aiop-peripheral-android-0.1.4.aar",
+          "size": 4043,
+          "sha512": "6c9f23cd210e7bd1518cbe38a1e4b5a5d45ed100231277cd97f899b7b7a70baa66d7501d37a3a1112ab7426fc1cd899edad4917648c33d7ba0ac9b3ce07467fb",
+          "sha256": "a1a54c19c9ee8d38b318d53286891069c32c25c3223b1bda08a780076988d6a1",
+          "sha1": "4f76ffcd5b19f652b4d8926901296e4f695f1726",
+          "md5": "e51e8ec80b4c54f56478712f3e3365ba"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-aios-peripheral-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-aiop-peripheral-android-0.1.4.aar",
+          "url": "ble-profile-aiop-peripheral-android-0.1.4.aar",
+          "size": 4043,
+          "sha512": "6c9f23cd210e7bd1518cbe38a1e4b5a5d45ed100231277cd97f899b7b7a70baa66d7501d37a3a1112ab7426fc1cd899edad4917648c33d7ba0ac9b3ce07467fb",
+          "sha256": "a1a54c19c9ee8d38b318d53286891069c32c25c3223b1bda08a780076988d6a1",
+          "sha1": "4f76ffcd5b19f652b4d8926901296e4f695f1726",
+          "md5": "e51e8ec80b4c54f56478712f3e3365ba"
+        }
+      ]
+    }
+  ]
+}

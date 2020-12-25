@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-bls-peripheral-android",
+    "version": "0.1.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "o3bwqdsevncm5oph662yyt44ja"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bls-android",
+          "version": {
+            "requires": "0.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bls-peripheral-android-0.1.12.aar",
+          "url": "ble-service-bls-peripheral-android-0.1.12.aar",
+          "size": 4436,
+          "sha512": "8237909f621e801ad70d70632cf890cbdf3a075478f9b717534756354ffaab885d588bedc9181c91ed8f735bdb83db85f0460807754a938ac4f059c815630fb9",
+          "sha256": "ab4ec1e84f6c994571b8007730d42569002ffb91b04dc17dd2b0ee3068b6f9fa",
+          "sha1": "bd892d9272e3cf49990d290134d3d5229d445403",
+          "md5": "5b68b8cf26ba16defcc958708a96f7a1"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bls-android",
+          "version": {
+            "requires": "0.1.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bls-peripheral-android-0.1.12.aar",
+          "url": "ble-service-bls-peripheral-android-0.1.12.aar",
+          "size": 4436,
+          "sha512": "8237909f621e801ad70d70632cf890cbdf3a075478f9b717534756354ffaab885d588bedc9181c91ed8f735bdb83db85f0460807754a938ac4f059c815630fb9",
+          "sha256": "ab4ec1e84f6c994571b8007730d42569002ffb91b04dc17dd2b0ee3068b6f9fa",
+          "sha1": "bd892d9272e3cf49990d290134d3d5229d445403",
+          "md5": "5b68b8cf26ba16defcc958708a96f7a1"
+        }
+      ]
+    }
+  ]
+}
