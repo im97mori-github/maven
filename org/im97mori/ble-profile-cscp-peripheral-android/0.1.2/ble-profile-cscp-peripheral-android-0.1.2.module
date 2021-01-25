@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-cscp-peripheral-android",
+    "version": "0.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "x6nyasohnvdrtpp4affpidlfoi"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cscs-peripheral-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-peripheral-android",
+          "version": {
+            "requires": "0.1.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-cscp-peripheral-android-0.1.2.aar",
+          "url": "ble-profile-cscp-peripheral-android-0.1.2.aar",
+          "size": 4778,
+          "sha512": "89ad02b45359332d7bafd08aac34687c21e35d1e1ef09ddd8b27888cbe3402aa3f7df15b9490b648b2a563fced4f9a70251f39fd0654c3235a99510de98bcab5",
+          "sha256": "8d102fac562df42db524f9958e5f47892eb73ed653975bf7f86d296e2dc2dd2b",
+          "sha1": "6cb1f8c5b842718117aa864edff4c0a32cd10eeb",
+          "md5": "84db6d61d3298a0cc5cb92893e92d844"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cscs-peripheral-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-dis-peripheral-android",
+          "version": {
+            "requires": "0.1.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-cscp-peripheral-android-0.1.2.aar",
+          "url": "ble-profile-cscp-peripheral-android-0.1.2.aar",
+          "size": 4778,
+          "sha512": "89ad02b45359332d7bafd08aac34687c21e35d1e1ef09ddd8b27888cbe3402aa3f7df15b9490b648b2a563fced4f9a70251f39fd0654c3235a99510de98bcab5",
+          "sha256": "8d102fac562df42db524f9958e5f47892eb73ed653975bf7f86d296e2dc2dd2b",
+          "sha1": "6cb1f8c5b842718117aa864edff4c0a32cd10eeb",
+          "md5": "84db6d61d3298a0cc5cb92893e92d844"
+        }
+      ]
+    }
+  ]
+}
