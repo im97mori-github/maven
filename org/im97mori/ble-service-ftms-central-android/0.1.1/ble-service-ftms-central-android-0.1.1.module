@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ftms-central-android",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "xray4c7snfb4pa73mi5j7qohly"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ftms-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ftms-central-android-0.1.1.aar",
+          "url": "ble-service-ftms-central-android-0.1.1.aar",
+          "size": 12649,
+          "sha512": "42f5e5b3c996e304819cf09040d9c3fb7bc2c8b8086c947a606f907fad6b0384995dd96c3e75a97b29e7deb47ae4499d17b4b10eedd0aa2d79cea07f5090a16e",
+          "sha256": "7326792b6999b24c41c8dccfc30b2a192844bd4292a04bc44a0513f5bd4b28bd",
+          "sha1": "973da30f49b7296d726d28b948824bd2bd1305da",
+          "md5": "8eef0b047c69ac0d6137949ea3040761"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ftms-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ftms-central-android-0.1.1.aar",
+          "url": "ble-service-ftms-central-android-0.1.1.aar",
+          "size": 12649,
+          "sha512": "42f5e5b3c996e304819cf09040d9c3fb7bc2c8b8086c947a606f907fad6b0384995dd96c3e75a97b29e7deb47ae4499d17b4b10eedd0aa2d79cea07f5090a16e",
+          "sha256": "7326792b6999b24c41c8dccfc30b2a192844bd4292a04bc44a0513f5bd4b28bd",
+          "sha1": "973da30f49b7296d726d28b948824bd2bd1305da",
+          "md5": "8eef0b047c69ac0d6137949ea3040761"
+        }
+      ]
+    }
+  ]
+}

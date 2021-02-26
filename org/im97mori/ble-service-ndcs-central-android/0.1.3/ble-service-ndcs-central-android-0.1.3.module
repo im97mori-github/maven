@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ndcs-central-android",
+    "version": "0.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "xray4c7snfb4pa73mi5j7qohly"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-central-android-0.1.3.aar",
+          "url": "ble-service-ndcs-central-android-0.1.3.aar",
+          "size": 3249,
+          "sha512": "fd76fb3e02896e86d0b6464476e8b4ed2d7aa0cc2bf2754c0b3427df6d59a7f6e019e124abc23f8ddaba8d2057a1dbf64c7f5524ef4de19911eb3764319a08a2",
+          "sha256": "96d4caed00be8716fc0cf9afa5b6bb45e016385f7c34fd7adff399b739d11ccc",
+          "sha1": "fd08705684fb8879ab260699472076f67c2800ad",
+          "md5": "864eb33d6da5eabc865e68fe5b27af6a"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-central-android-0.1.3.aar",
+          "url": "ble-service-ndcs-central-android-0.1.3.aar",
+          "size": 3249,
+          "sha512": "fd76fb3e02896e86d0b6464476e8b4ed2d7aa0cc2bf2754c0b3427df6d59a7f6e019e124abc23f8ddaba8d2057a1dbf64c7f5524ef4de19911eb3764319a08a2",
+          "sha256": "96d4caed00be8716fc0cf9afa5b6bb45e016385f7c34fd7adff399b739d11ccc",
+          "sha1": "fd08705684fb8879ab260699472076f67c2800ad",
+          "md5": "864eb33d6da5eabc865e68fe5b27af6a"
+        }
+      ]
+    }
+  ]
+}

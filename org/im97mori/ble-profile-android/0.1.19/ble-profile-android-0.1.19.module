@@ -1,0 +1,505 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-android",
+    "version": "0.1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "xray4c7snfb4pa73mi5j7qohly"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-blp-peripheral-android",
+          "version": {
+            "requires": "0.1.14"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-blp-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-lnp-peripheral-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-lnp-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-fmp-peripheral-android",
+          "version": {
+            "requires": "0.1.11"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-fmp-central-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pxp-peripheral-android",
+          "version": {
+            "requires": "0.1.11"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pxp-central-android",
+          "version": {
+            "requires": "0.1.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-hrp-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-hrp-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-htp-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-htp-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-wsp-peripheral-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-wsp-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-aiop-peripheral-android",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-aiop-central-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-anp-peripheral-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-anp-central-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-tip-peripheral-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-tip-central-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cpp-peripheral-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cpp-central-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cscp-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cscp-central-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-rscp-peripheral-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-rscp-central-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pasp-peripheral-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pasp-central-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-ftmp-peripheral-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-ftmp-central-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-esp-peripheral-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-esp-central-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-android-0.1.19.aar",
+          "url": "ble-profile-android-0.1.19.aar",
+          "size": 1195,
+          "sha512": "3ff51281512a62f96e5dc80d2352a30087721f6d505c5602481d662a46bb90cb9117833eb9f14556404dcc72ac27bfba697b6ae5fa0089bf3eb41db60e5d9851",
+          "sha256": "1b82a3f97b21de6982bbd841a848d8d37b539a1c37e5a75bb7b834a7e14a5ae8",
+          "sha1": "16ff743c14083d03edae49dcb9f1c923afb74e8c",
+          "md5": "3d5bed1792f609448e254eba767dfa1c"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-blp-peripheral-android",
+          "version": {
+            "requires": "0.1.14"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-blp-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-lnp-peripheral-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-lnp-central-android",
+          "version": {
+            "requires": "0.1.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-fmp-peripheral-android",
+          "version": {
+            "requires": "0.1.11"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-fmp-central-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pxp-peripheral-android",
+          "version": {
+            "requires": "0.1.11"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pxp-central-android",
+          "version": {
+            "requires": "0.1.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-hrp-peripheral-android",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-hrp-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-htp-peripheral-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-htp-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-wsp-peripheral-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-wsp-central-android",
+          "version": {
+            "requires": "0.1.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-aiop-peripheral-android",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-aiop-central-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-anp-peripheral-android",
+          "version": {
+            "requires": "0.1.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-anp-central-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-tip-peripheral-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-tip-central-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cpp-peripheral-android",
+          "version": {
+            "requires": "0.1.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cpp-central-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cscp-peripheral-android",
+          "version": {
+            "requires": "0.1.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-cscp-central-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-rscp-peripheral-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-rscp-central-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pasp-peripheral-android",
+          "version": {
+            "requires": "0.1.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-pasp-central-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-ftmp-peripheral-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-ftmp-central-android",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-esp-peripheral-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-esp-central-android",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-android-0.1.19.aar",
+          "url": "ble-profile-android-0.1.19.aar",
+          "size": 1195,
+          "sha512": "3ff51281512a62f96e5dc80d2352a30087721f6d505c5602481d662a46bb90cb9117833eb9f14556404dcc72ac27bfba697b6ae5fa0089bf3eb41db60e5d9851",
+          "sha256": "1b82a3f97b21de6982bbd841a848d8d37b539a1c37e5a75bb7b834a7e14a5ae8",
+          "sha1": "16ff743c14083d03edae49dcb9f1c923afb74e8c",
+          "md5": "3d5bed1792f609448e254eba767dfa1c"
+        }
+      ]
+    }
+  ]
+}
