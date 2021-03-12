@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-test-central",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "kcavfl3jx5emrog66zfgdweqoy"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-central",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-central-0.0.4.aar",
+          "url": "ble-test-central-0.0.4.aar",
+          "size": 1850,
+          "sha512": "a9438fa6230c83e36ec999aec0820a8d6f95f87b43be5a5bbfff2c14b27e6f1963d0d81587a5362c074242a4b90b7352867bfdaf4e0075a11a5722fa76eb5153",
+          "sha256": "e5f777ddf1778453b4f4ead3ce4016848bce13ece89a7eae26c2e6a29fb8473d",
+          "sha1": "2b4eb4694a58f021fe2b0f4a6cc27bfe09298ed9",
+          "md5": "6f2afcefe3abbf8eaaa73ca4a056ea17"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-central-0.0.4.aar",
+          "url": "ble-test-central-0.0.4.aar",
+          "size": 1850,
+          "sha512": "a9438fa6230c83e36ec999aec0820a8d6f95f87b43be5a5bbfff2c14b27e6f1963d0d81587a5362c074242a4b90b7352867bfdaf4e0075a11a5722fa76eb5153",
+          "sha256": "e5f777ddf1778453b4f4ead3ce4016848bce13ece89a7eae26c2e6a29fb8473d",
+          "sha1": "2b4eb4694a58f021fe2b0f4a6cc27bfe09298ed9",
+          "md5": "6f2afcefe3abbf8eaaa73ca4a056ea17"
+        }
+      ]
+    }
+  ]
+}
