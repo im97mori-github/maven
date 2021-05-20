@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core",
+    "version": "0.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "ufyqgw2bwjavffyv4q7eapomny"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.snksoft",
+          "module": "crc",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-0.3.5.jar",
+          "url": "ble-core-0.3.5.jar",
+          "size": 75252,
+          "sha512": "dd74316e407cfd8685f8ac6c36b27347e9fe0574bd355e4431d767924ff639d56db046c60bfc49df86af04912d95f416bdca0b9021b4c97eae45989be41b3185",
+          "sha256": "5dfcae4c6a7fa6cc3cfda6f1a201eec5f903e75959f4b8535a8c392c56ce1be9",
+          "sha1": "5558303accd0e04872850fb254107f6e01b5e2f3",
+          "md5": "18ce3ea9557e96e47fa7a4c5721eed9d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.snksoft",
+          "module": "crc",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-0.3.5.jar",
+          "url": "ble-core-0.3.5.jar",
+          "size": 75252,
+          "sha512": "dd74316e407cfd8685f8ac6c36b27347e9fe0574bd355e4431d767924ff639d56db046c60bfc49df86af04912d95f416bdca0b9021b4c97eae45989be41b3185",
+          "sha256": "5dfcae4c6a7fa6cc3cfda6f1a201eec5f903e75959f4b8535a8c392c56ce1be9",
+          "sha1": "5558303accd0e04872850fb254107f6e01b5e2f3",
+          "md5": "18ce3ea9557e96e47fa7a4c5721eed9d"
+        }
+      ]
+    }
+  ]
+}

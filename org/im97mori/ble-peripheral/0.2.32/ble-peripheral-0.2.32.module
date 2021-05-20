@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-peripheral",
+    "version": "0.2.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "qgm5345lfvewjajsd7sfgyhu7u"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.2.32.aar",
+          "url": "ble-peripheral-0.2.32.aar",
+          "size": 41121,
+          "sha512": "51b3123fb43a6c77577147658354d7542fc8cba3786283a7595ce38b81da602eb12218645a3923f215f3065b5bcee3669bd03460a4eb9b01c815238dfa22cea2",
+          "sha256": "b8429fe3acbf64a7aaa89670e35a6ba1eded1510947c36dc2bd8e8e389e45a7b",
+          "sha1": "3b8d463fc2840a87539c65bb5636eec139703779",
+          "md5": "1210f84888f74094235b63145d428539"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.1.9"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.1.10"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.2.32.aar",
+          "url": "ble-peripheral-0.2.32.aar",
+          "size": 41121,
+          "sha512": "51b3123fb43a6c77577147658354d7542fc8cba3786283a7595ce38b81da602eb12218645a3923f215f3065b5bcee3669bd03460a4eb9b01c815238dfa22cea2",
+          "sha256": "b8429fe3acbf64a7aaa89670e35a6ba1eded1510947c36dc2bd8e8e389e45a7b",
+          "sha1": "3b8d463fc2840a87539c65bb5636eec139703779",
+          "md5": "1210f84888f74094235b63145d428539"
+        }
+      ]
+    }
+  ]
+}
