@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-descriptor-u2900",
+    "version": "0.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-0.4.1.jar",
+          "url": "ble-descriptor-u2900-0.4.1.jar",
+          "size": 2263,
+          "sha512": "aff2e62537990828c937f38961525314be732401bce22949b3af1fcf5c9a62c8b79a8157e6685e1b135e9f312373ca60289e756051d2950eb7bb8ed5c849b793",
+          "sha256": "7286f1833e72fb2060c358f38db129bdfac118e0f38dab3bef3cdc483a1f8b27",
+          "sha1": "969f00a43abef3af71513224d5a88d0c4a04a0d7",
+          "md5": "75fb9b327796585e372d8f5f4da08196"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-0.4.1.jar",
+          "url": "ble-descriptor-u2900-0.4.1.jar",
+          "size": 2263,
+          "sha512": "aff2e62537990828c937f38961525314be732401bce22949b3af1fcf5c9a62c8b79a8157e6685e1b135e9f312373ca60289e756051d2950eb7bb8ed5c849b793",
+          "sha256": "7286f1833e72fb2060c358f38db129bdfac118e0f38dab3bef3cdc483a1f8b27",
+          "sha1": "969f00a43abef3af71513224d5a88d0c4a04a0d7",
+          "md5": "75fb9b327796585e372d8f5f4da08196"
+        }
+      ]
+    }
+  ]
+}
