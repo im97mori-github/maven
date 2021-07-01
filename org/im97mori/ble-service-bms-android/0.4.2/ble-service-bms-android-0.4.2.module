@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-bms-android",
+    "version": "0.4.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "gpzmini6r5dspflf7xc6fjjaba"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa4-android",
+          "version": {
+            "requires": "0.4.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa5-android",
+          "version": {
+            "requires": "0.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.4.2.aar",
+          "url": "ble-service-bms-android-0.4.2.aar",
+          "size": 1185,
+          "sha512": "350fead734d3780c2576a21f6e849155a58d9759e5e76eb64d0e799a8aea9ba31f40eb14c6acbd209e33722186e62bf1e9f36afb792cbe7bba5ed216714bf019",
+          "sha256": "391fb6cd663d81fe8cc0b761525a9a5890332df8d8ebe521d25931f6749bbd63",
+          "sha1": "fe2ab915cbe9a6f574881eef1a0980b665870a85",
+          "md5": "7f9930ffaac41bb58b2b6a6b2afce782"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa4-android",
+          "version": {
+            "requires": "0.4.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa5-android",
+          "version": {
+            "requires": "0.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.4.2.aar",
+          "url": "ble-service-bms-android-0.4.2.aar",
+          "size": 1185,
+          "sha512": "350fead734d3780c2576a21f6e849155a58d9759e5e76eb64d0e799a8aea9ba31f40eb14c6acbd209e33722186e62bf1e9f36afb792cbe7bba5ed216714bf019",
+          "sha256": "391fb6cd663d81fe8cc0b761525a9a5890332df8d8ebe521d25931f6749bbd63",
+          "sha1": "fe2ab915cbe9a6f574881eef1a0980b665870a85",
+          "md5": "7f9930ffaac41bb58b2b6a6b2afce782"
+        }
+      ]
+    }
+  ]
+}
