@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-characteristic-u2b9f",
+    "version": "0.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2b9f-0.4.3.jar",
+          "url": "ble-characteristic-u2b9f-0.4.3.jar",
+          "size": 1465,
+          "sha512": "c4ffac141d71b1f4f17a15779873aae6c3b353eed1c0df84a88bf6ae04ab0e1bfd59607d5229969f829c43c1a7dccc80b214263f3d2946bb58e539ff160019ef",
+          "sha256": "8966406476e1a69d5a03c33543c692582196a3675648b887a06fa35957ad0187",
+          "sha1": "57626c598ebfafdf78fe932e1fbb5f447f318408",
+          "md5": "593632417412c195135ee99472c534d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2b9f-0.4.3.jar",
+          "url": "ble-characteristic-u2b9f-0.4.3.jar",
+          "size": 1465,
+          "sha512": "c4ffac141d71b1f4f17a15779873aae6c3b353eed1c0df84a88bf6ae04ab0e1bfd59607d5229969f829c43c1a7dccc80b214263f3d2946bb58e539ff160019ef",
+          "sha256": "8966406476e1a69d5a03c33543c692582196a3675648b887a06fa35957ad0187",
+          "sha1": "57626c598ebfafdf78fe932e1fbb5f447f318408",
+          "md5": "593632417412c195135ee99472c534d9"
+        }
+      ]
+    }
+  ]
+}

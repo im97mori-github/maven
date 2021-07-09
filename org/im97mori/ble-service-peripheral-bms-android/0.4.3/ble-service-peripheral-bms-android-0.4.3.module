@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-bms-android",
+    "version": "0.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "65dk36codbhptk2x3a7et6bxjm"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.4.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bms-android",
+          "version": {
+            "requires": "0.4.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-bms-android-0.4.3.aar",
+          "url": "ble-service-peripheral-bms-android-0.4.3.aar",
+          "size": 11765,
+          "sha512": "85a168a8a07f86bf5f0844538f2e5737bf0b3d993dc3b9badb79cc7e7ce7030ae16c719bba13f35638e6fdba14ff5bc40970ceab6a4b4855bba89c693d099536",
+          "sha256": "8bae171eed3d558c7380ae8ce9f1c7ffba0611f1011aa4a5e026d665e14046f5",
+          "sha1": "98e63dc430ecca1a4cf703e25e85953366eccb1b",
+          "md5": "06b8c41d2c2947db5a19fe245a4a7eec"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.4.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bms-android",
+          "version": {
+            "requires": "0.4.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-bms-android-0.4.3.aar",
+          "url": "ble-service-peripheral-bms-android-0.4.3.aar",
+          "size": 11765,
+          "sha512": "85a168a8a07f86bf5f0844538f2e5737bf0b3d993dc3b9badb79cc7e7ce7030ae16c719bba13f35638e6fdba14ff5bc40970ceab6a4b4855bba89c693d099536",
+          "sha256": "8bae171eed3d558c7380ae8ce9f1c7ffba0611f1011aa4a5e026d665e14046f5",
+          "sha1": "98e63dc430ecca1a4cf703e25e85953366eccb1b",
+          "md5": "06b8c41d2c2947db5a19fe245a4a7eec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-descriptor-u290a",
+    "version": "0.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u290a-0.4.3.jar",
+          "url": "ble-descriptor-u290a-0.4.3.jar",
+          "size": 2701,
+          "sha512": "2743ad5c10be83c5484a05364d9662de319833db44cc347456625f2b1a8ebc703c7d83f37bd6d7456ee0b7527513f0740b90ee80831913b43e8e3df7abf8064e",
+          "sha256": "d17aad6c715816a3b196a681f07592c8e2bae93769d786bd907c70149fb960a7",
+          "sha1": "b4bd4c997a86cdb7b0046742e9c2d63404cda359",
+          "md5": "234e0ae5cda037b596cadf947ffad372"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u290a-0.4.3.jar",
+          "url": "ble-descriptor-u290a-0.4.3.jar",
+          "size": 2701,
+          "sha512": "2743ad5c10be83c5484a05364d9662de319833db44cc347456625f2b1a8ebc703c7d83f37bd6d7456ee0b7527513f0740b90ee80831913b43e8e3df7abf8064e",
+          "sha256": "d17aad6c715816a3b196a681f07592c8e2bae93769d786bd907c70149fb960a7",
+          "sha1": "b4bd4c997a86cdb7b0046742e9c2d63404cda359",
+          "md5": "234e0ae5cda037b596cadf947ffad372"
+        }
+      ]
+    }
+  ]
+}
