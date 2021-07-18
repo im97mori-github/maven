@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core",
+    "version": "0.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants",
+          "version": {
+            "requires": "0.4.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-0.4.4.jar",
+          "url": "ble-core-0.4.4.jar",
+          "size": 261,
+          "sha512": "8f8290edd9e5c955e8827322d458aca14f5eb5b409d265ae4cfc500b4321a68790638e1d8dd520b5156c550540225ebceeb2751e1e8ba1991f85c30fa8fa118c",
+          "sha256": "4e63fe15de28e233f0bf002e457aed21901c747539e87b6b16d1f376dc57e6cc",
+          "sha1": "00e1c94a3924f012bd91622ca88f67a4ab83c554",
+          "md5": "d851a1a931897d65f21f402dcc321f69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants",
+          "version": {
+            "requires": "0.4.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-0.4.4.jar",
+          "url": "ble-core-0.4.4.jar",
+          "size": 261,
+          "sha512": "8f8290edd9e5c955e8827322d458aca14f5eb5b409d265ae4cfc500b4321a68790638e1d8dd520b5156c550540225ebceeb2751e1e8ba1991f85c30fa8fa118c",
+          "sha256": "4e63fe15de28e233f0bf002e457aed21901c747539e87b6b16d1f376dc57e6cc",
+          "sha1": "00e1c94a3924f012bd91622ca88f67a4ab83c554",
+          "md5": "d851a1a931897d65f21f402dcc321f69"
+        }
+      ]
+    }
+  ]
+}

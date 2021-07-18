@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-characteristic-u2a1e",
+    "version": "0.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-core",
+          "version": {
+            "requires": "0.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2a1e-0.4.4.jar",
+          "url": "ble-characteristic-u2a1e-0.4.4.jar",
+          "size": 3040,
+          "sha512": "1687253a7113803501373ce7ba7887a75747e3bdfb9893f56a3a4e1543e549880900f5b47fab773c061488fc3e6307c2a01ee381a6bcbdc242cd353fe2c54e22",
+          "sha256": "2ed026c38ada820d252ea66bd935031bc0494267abc83d7c3afef9f499ed82bc",
+          "sha1": "c9f9b0df6235967a7df9ad373bf2ee14ab876a5d",
+          "md5": "40ce99126bb8b7e18c3c137eae121db6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.4.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-core",
+          "version": {
+            "requires": "0.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2a1e-0.4.4.jar",
+          "url": "ble-characteristic-u2a1e-0.4.4.jar",
+          "size": 3040,
+          "sha512": "1687253a7113803501373ce7ba7887a75747e3bdfb9893f56a3a4e1543e549880900f5b47fab773c061488fc3e6307c2a01ee381a6bcbdc242cd353fe2c54e22",
+          "sha256": "2ed026c38ada820d252ea66bd935031bc0494267abc83d7c3afef9f499ed82bc",
+          "sha1": "c9f9b0df6235967a7df9ad373bf2ee14ab876a5d",
+          "md5": "40ce99126bb8b7e18c3c137eae121db6"
+        }
+      ]
+    }
+  ]
+}
