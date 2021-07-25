@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-hrp-android",
+    "version": "0.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "clzwkqu3gjhqdcff5nyjro6boi"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-hrs-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-hrp-android-0.4.5.aar",
+          "url": "ble-profile-central-hrp-android-0.4.5.aar",
+          "size": 5808,
+          "sha512": "2bad8eaf0c4f4494d7f1672737b17a3d4b716014e26f9dec4b90b10f16172d2b4185cbcf4afe068e8c955de278880c8d7c461b28316702bcb4d10fd39a1e2687",
+          "sha256": "edb25bfd5a18eae2721ef5ed7ff49ab174cb2baaf185d12af622863d2c42fc2b",
+          "sha1": "9578d2922a9baebab32b1c16ef5af64b45ca6a46",
+          "md5": "ce1eb0be903c43e765eb27ed1ea52ee6"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-hrs-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-hrp-android-0.4.5.aar",
+          "url": "ble-profile-central-hrp-android-0.4.5.aar",
+          "size": 5808,
+          "sha512": "2bad8eaf0c4f4494d7f1672737b17a3d4b716014e26f9dec4b90b10f16172d2b4185cbcf4afe068e8c955de278880c8d7c461b28316702bcb4d10fd39a1e2687",
+          "sha256": "edb25bfd5a18eae2721ef5ed7ff49ab174cb2baaf185d12af622863d2c42fc2b",
+          "sha1": "9578d2922a9baebab32b1c16ef5af64b45ca6a46",
+          "md5": "ce1eb0be903c43e765eb27ed1ea52ee6"
+        }
+      ]
+    }
+  ]
+}

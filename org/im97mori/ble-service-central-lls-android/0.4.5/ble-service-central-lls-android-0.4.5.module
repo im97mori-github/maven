@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-lls-android",
+    "version": "0.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "clzwkqu3gjhqdcff5nyjro6boi"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lls-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-lls-android-0.4.5.aar",
+          "url": "ble-service-central-lls-android-0.4.5.aar",
+          "size": 3668,
+          "sha512": "47079a4e079ea294b454ddb0a3f03a22015ef471f809864310538370f38fe97a26121191e1952e7cfbba72b4d86a46d3f7f0db109e35f371197bfa5936934a64",
+          "sha256": "88498343209dd0f72886de1440a7cda8f1955090259082e8ed1d36add1692889",
+          "sha1": "d79c7c55a04c758d00649e99f9012c629f9cba45",
+          "md5": "5c608c766b603c09f00a429358785b86"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lls-android",
+          "version": {
+            "requires": "0.4.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-lls-android-0.4.5.aar",
+          "url": "ble-service-central-lls-android-0.4.5.aar",
+          "size": 3668,
+          "sha512": "47079a4e079ea294b454ddb0a3f03a22015ef471f809864310538370f38fe97a26121191e1952e7cfbba72b4d86a46d3f7f0db109e35f371197bfa5936934a64",
+          "sha256": "88498343209dd0f72886de1440a7cda8f1955090259082e8ed1d36add1692889",
+          "sha1": "d79c7c55a04c758d00649e99f9012c629f9cba45",
+          "md5": "5c608c766b603c09f00a429358785b86"
+        }
+      ]
+    }
+  ]
+}
