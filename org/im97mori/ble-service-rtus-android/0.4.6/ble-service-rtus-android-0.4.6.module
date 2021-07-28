@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-rtus-android",
+    "version": "0.4.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "tw7yksuo3jch5jyqfw3o6ilmt4"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a16-android",
+          "version": {
+            "requires": "0.4.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a17-android",
+          "version": {
+            "requires": "0.4.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.4.6.aar",
+          "url": "ble-service-rtus-android-0.4.6.aar",
+          "size": 1187,
+          "sha512": "616eedbdac2a6b12879bd5931d3ac5dd0269bc0754b40181b6c2e4c51a73f5a69148b47f223d14780726337224a412e8cc87dc48af8fe1380d7141e045a45176",
+          "sha256": "0745dd7beb3ceb7ed2646293d41466fff526432e339fc86b6118498193eafccd",
+          "sha1": "3c5d9033a0ece760bc8d8c76480221e9793fdd8a",
+          "md5": "51fdd32c7e21bef31412264a509e0fd6"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a16-android",
+          "version": {
+            "requires": "0.4.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a17-android",
+          "version": {
+            "requires": "0.4.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.4.6.aar",
+          "url": "ble-service-rtus-android-0.4.6.aar",
+          "size": 1187,
+          "sha512": "616eedbdac2a6b12879bd5931d3ac5dd0269bc0754b40181b6c2e4c51a73f5a69148b47f223d14780726337224a412e8cc87dc48af8fe1380d7141e045a45176",
+          "sha256": "0745dd7beb3ceb7ed2646293d41466fff526432e339fc86b6118498193eafccd",
+          "sha1": "3c5d9033a0ece760bc8d8c76480221e9793fdd8a",
+          "md5": "51fdd32c7e21bef31412264a509e0fd6"
+        }
+      ]
+    }
+  ]
+}

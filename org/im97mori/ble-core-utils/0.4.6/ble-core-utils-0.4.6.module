@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core-utils",
+    "version": "0.4.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.snksoft",
+          "module": "crc",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-utils-0.4.6.jar",
+          "url": "ble-core-utils-0.4.6.jar",
+          "size": 9023,
+          "sha512": "0140d782d3d0288c11e31bbc8ddf651750e7fe5b1d07bd47d4c0c93735248e88c8194f915d85163b44967634789c2266d1f57c633f94dd352bed8130d536c2c8",
+          "sha256": "4445a09456e991e6a806500c972d704822a173a9d19061cdcba3e88b5404ff52",
+          "sha1": "65be4bf950421f6693e2ee89310c935b130332e2",
+          "md5": "1219b243c360f0fec336ee669bba6a9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.snksoft",
+          "module": "crc",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-utils-0.4.6.jar",
+          "url": "ble-core-utils-0.4.6.jar",
+          "size": 9023,
+          "sha512": "0140d782d3d0288c11e31bbc8ddf651750e7fe5b1d07bd47d4c0c93735248e88c8194f915d85163b44967634789c2266d1f57c633f94dd352bed8130d536c2c8",
+          "sha256": "4445a09456e991e6a806500c972d704822a173a9d19061cdcba3e88b5404ff52",
+          "sha1": "65be4bf950421f6693e2ee89310c935b130332e2",
+          "md5": "1219b243c360f0fec336ee669bba6a9a"
+        }
+      ]
+    }
+  ]
+}
