@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-cscs-android",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cscs-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-cscs-android-0.5.1.aar",
+          "url": "ble-service-central-cscs-android-0.5.1.aar",
+          "size": 7115,
+          "sha512": "1e789a28f1808cd6612b442f36826a32ff0cdb4ade14447ae47cda6eb9be0017f7530b9d724b56201314d44052a8583fc89316338962ff52c40a5a17b75d21e5",
+          "sha256": "d24579f67b3d3f74d20eca7180ff67bdf8c0b4d4c29a5daed36097c55995d087",
+          "sha1": "6b1381558b3b93910ca48b1491fc8153da8483c2",
+          "md5": "1edc685cdff80a7d25eefc12076af6a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cscs-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-cscs-android-0.5.1.aar",
+          "url": "ble-service-central-cscs-android-0.5.1.aar",
+          "size": 7115,
+          "sha512": "1e789a28f1808cd6612b442f36826a32ff0cdb4ade14447ae47cda6eb9be0017f7530b9d724b56201314d44052a8583fc89316338962ff52c40a5a17b75d21e5",
+          "sha256": "d24579f67b3d3f74d20eca7180ff67bdf8c0b4d4c29a5daed36097c55995d087",
+          "sha1": "6b1381558b3b93910ca48b1491fc8153da8483c2",
+          "md5": "1edc685cdff80a7d25eefc12076af6a9"
+        }
+      ]
+    }
+  ]
+}

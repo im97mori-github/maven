@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-ftmp-android",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-ftms-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-uds-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-ftmp-android-0.5.1.aar",
+          "url": "ble-profile-central-ftmp-android-0.5.1.aar",
+          "size": 9354,
+          "sha512": "eb85cb3b25819f0b07b357080629aade5ae23fd04402595987368c7eb32fab49dfae45c5dde905a4c79782a47183a6c71f9d156b37c6f8e28f8f4b9587e9bf21",
+          "sha256": "92bfc83fc38d8cd82b2f1b839563ce2c3bf7fb13fca0f35342105c82b613c47b",
+          "sha1": "9bfc7858f68313af902b0c6be49507ae78365916",
+          "md5": "89c6aa588fc58575e550393ee9dbf507"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-ftms-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-uds-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-ftmp-android-0.5.1.aar",
+          "url": "ble-profile-central-ftmp-android-0.5.1.aar",
+          "size": 9354,
+          "sha512": "eb85cb3b25819f0b07b357080629aade5ae23fd04402595987368c7eb32fab49dfae45c5dde905a4c79782a47183a6c71f9d156b37c6f8e28f8f4b9587e9bf21",
+          "sha256": "92bfc83fc38d8cd82b2f1b839563ce2c3bf7fb13fca0f35342105c82b613c47b",
+          "sha1": "9bfc7858f68313af902b0c6be49507ae78365916",
+          "md5": "89c6aa588fc58575e550393ee9dbf507"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-descriptor-u2906",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2906-0.5.1.jar",
+          "url": "ble-descriptor-u2906-0.5.1.jar",
+          "size": 2136,
+          "sha512": "4b0152391ff9a2bbb2475203fbe299adce9b05d28298bed5f29ec3326b144d10592c0a07e6a375db737f89d6e37501c7465f842afbb32f8b0f65687df5279b9e",
+          "sha256": "25e1fac7db1dc7176bdd18670d3182659e57ab61e20c5f3eea46cfe1625fc705",
+          "sha1": "c4129b286dabfb7c3768c89981d59b1056503f5e",
+          "md5": "0e9a9286cad74e4fad095ce26548a9bb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2906-0.5.1.jar",
+          "url": "ble-descriptor-u2906-0.5.1.jar",
+          "size": 2136,
+          "sha512": "4b0152391ff9a2bbb2475203fbe299adce9b05d28298bed5f29ec3326b144d10592c0a07e6a375db737f89d6e37501c7465f842afbb32f8b0f65687df5279b9e",
+          "sha256": "25e1fac7db1dc7176bdd18670d3182659e57ab61e20c5f3eea46cfe1625fc705",
+          "sha1": "c4129b286dabfb7c3768c89981d59b1056503f5e",
+          "md5": "0e9a9286cad74e4fad095ce26548a9bb"
+        }
+      ]
+    }
+  ]
+}

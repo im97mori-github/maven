@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-test",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-0.5.1.aar",
+          "url": "ble-test-0.5.1.aar",
+          "size": 4398,
+          "sha512": "573cba2478b51dc771ee92d59cafea87fdd52936930f6446a1b06e46c0f62f05c836b647cc877eb39ed94094460ed898e8085b049a4fb0c4e583c20572d6e9c8",
+          "sha256": "0bfcbd222f93bbeff9cdd030c9ef548d3472163b421d0b93bfa145c3c3dc081c",
+          "sha1": "861f8cfcc98f2755b4e56fe83761a4d266454118",
+          "md5": "7ca6f58532de34c3859ea6ff9a9c589c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-0.5.1.aar",
+          "url": "ble-test-0.5.1.aar",
+          "size": 4398,
+          "sha512": "573cba2478b51dc771ee92d59cafea87fdd52936930f6446a1b06e46c0f62f05c836b647cc877eb39ed94094460ed898e8085b049a4fb0c4e583c20572d6e9c8",
+          "sha256": "0bfcbd222f93bbeff9cdd030c9ef548d3472163b421d0b93bfa145c3c3dc081c",
+          "sha1": "861f8cfcc98f2755b4e56fe83761a4d266454118",
+          "md5": "7ca6f58532de34c3859ea6ff9a9c589c"
+        }
+      ]
+    }
+  ]
+}

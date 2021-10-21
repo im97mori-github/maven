@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ndcs-android",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a11-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.5.1.aar",
+          "url": "ble-service-ndcs-android-0.5.1.aar",
+          "size": 1204,
+          "sha512": "4bfd7d4d356abd7deea4527f6a691ef2a3c4fa1550f67ff5f707b0ba082b167b0de4684ef70795c88a8dd5b02704fc0c196cd9ec82ab51c793468a84b1b0f5da",
+          "sha256": "c3b28632c3fe2cd9ddfb889b288a6e6425931aac29a2189e90a72a640c02c21c",
+          "sha1": "08c00001330d126cc1cba95ce2ab61605789b3f4",
+          "md5": "97f0d56dd2ea3137795132c9debc7bb4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a11-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.5.1.aar",
+          "url": "ble-service-ndcs-android-0.5.1.aar",
+          "size": 1204,
+          "sha512": "4bfd7d4d356abd7deea4527f6a691ef2a3c4fa1550f67ff5f707b0ba082b167b0de4684ef70795c88a8dd5b02704fc0c196cd9ec82ab51c793468a84b1b0f5da",
+          "sha256": "c3b28632c3fe2cd9ddfb889b288a6e6425931aac29a2189e90a72a640c02c21c",
+          "sha1": "08c00001330d126cc1cba95ce2ab61605789b3f4",
+          "md5": "97f0d56dd2ea3137795132c9debc7bb4"
+        }
+      ]
+    }
+  ]
+}

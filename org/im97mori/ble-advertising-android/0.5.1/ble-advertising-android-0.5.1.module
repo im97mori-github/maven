@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-advertising-android",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-advertising-android-0.5.1.aar",
+          "url": "ble-advertising-android-0.5.1.aar",
+          "size": 101829,
+          "sha512": "58e7e86ff2637794f1ee11e1bb5a74dfb84d32842f67d78a7d948f276f36ecb1ff966cc9f8b6b053ae28cf19b81834f3321730387d66951ffdf6e58e71763f69",
+          "sha256": "dc98831dca043ecc5dad527903c0bab041978a80985f80ba9aa605871cca396f",
+          "sha1": "306e5256aa10a26d9ccb216ba802cb31c3603eb0",
+          "md5": "304ed56249f8be33f9418b6d1bae0293"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-advertising-android-0.5.1.aar",
+          "url": "ble-advertising-android-0.5.1.aar",
+          "size": 101829,
+          "sha512": "58e7e86ff2637794f1ee11e1bb5a74dfb84d32842f67d78a7d948f276f36ecb1ff966cc9f8b6b053ae28cf19b81834f3321730387d66951ffdf6e58e71763f69",
+          "sha256": "dc98831dca043ecc5dad527903c0bab041978a80985f80ba9aa605871cca396f",
+          "sha1": "306e5256aa10a26d9ccb216ba802cb31c3603eb0",
+          "md5": "304ed56249f8be33f9418b6d1bae0293"
+        }
+      ]
+    }
+  ]
+}

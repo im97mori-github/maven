@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-rscp-android",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-rscs-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-rscp-android-0.5.1.aar",
+          "url": "ble-profile-peripheral-rscp-android-0.5.1.aar",
+          "size": 4788,
+          "sha512": "ac5d41371715f1c59f6c56e5643b89a342865124428dca3947ad953d614575c04fe89db02fd76789fc5ac20df6b95f4e0a0fff61af9f27b7524db977d5cff62a",
+          "sha256": "05452e5578310adafa94886a12aa06e0af8c9e36509f365fe66f989f17065cad",
+          "sha1": "306dfa057ca70924c915bf19087dfdfba529dd4b",
+          "md5": "3d74ff851595ddd87641264c83e1170d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-rscs-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-rscp-android-0.5.1.aar",
+          "url": "ble-profile-peripheral-rscp-android-0.5.1.aar",
+          "size": 4788,
+          "sha512": "ac5d41371715f1c59f6c56e5643b89a342865124428dca3947ad953d614575c04fe89db02fd76789fc5ac20df6b95f4e0a0fff61af9f27b7524db977d5cff62a",
+          "sha256": "05452e5578310adafa94886a12aa06e0af8c9e36509f365fe66f989f17065cad",
+          "sha1": "306dfa057ca70924c915bf19087dfdfba529dd4b",
+          "md5": "3d74ff851595ddd87641264c83e1170d"
+        }
+      ]
+    }
+  ]
+}
