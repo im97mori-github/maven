@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-cps-android",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cps-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-cps-android-0.6.0.aar",
+          "url": "ble-service-central-cps-android-0.6.0.aar",
+          "size": 7590,
+          "sha512": "0908c796e09baf77fb87e4b4cdbd2d20cd100400462ab0d06e84b88d8a26ef0a3e42e5cc88083768f1e8239ce8d1461072fba841fd5c93d8cbb57ee1bde47d24",
+          "sha256": "8bd9e0568ef2cfac9925242647bd053baeca77ff3ef7d8625708cd97eadf996f",
+          "sha1": "da56b8a4c97b3adb5d95c78c0db4a5f9e19a896b",
+          "md5": "a2623e9729562ee514238e4bcfc3c74e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cps-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-cps-android-0.6.0.aar",
+          "url": "ble-service-central-cps-android-0.6.0.aar",
+          "size": 7590,
+          "sha512": "0908c796e09baf77fb87e4b4cdbd2d20cd100400462ab0d06e84b88d8a26ef0a3e42e5cc88083768f1e8239ce8d1461072fba841fd5c93d8cbb57ee1bde47d24",
+          "sha256": "8bd9e0568ef2cfac9925242647bd053baeca77ff3ef7d8625708cd97eadf996f",
+          "sha1": "da56b8a4c97b3adb5d95c78c0db4a5f9e19a896b",
+          "md5": "a2623e9729562ee514238e4bcfc3c74e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-cps-android",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cps-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-cps-android-0.6.0.aar",
+          "url": "ble-service-peripheral-cps-android-0.6.0.aar",
+          "size": 18278,
+          "sha512": "20fcef72ec07291a6cc66a1710c7283fa0738834504b181b4b495d8d8343f2b588d4248699f32e2640ed95484011c8ea70e8e7a95509c1b715f21fffd80d6907",
+          "sha256": "3478fb262d78ded02cb99b47b255ff582715ffddaf6bb6a9f3e1305605b89d45",
+          "sha1": "ada8d601bfbb25338707d27501b22efbd1a88afb",
+          "md5": "9ed415239994f881d86f6ab3649296f2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-cps-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-cps-android-0.6.0.aar",
+          "url": "ble-service-peripheral-cps-android-0.6.0.aar",
+          "size": 18278,
+          "sha512": "20fcef72ec07291a6cc66a1710c7283fa0738834504b181b4b495d8d8343f2b588d4248699f32e2640ed95484011c8ea70e8e7a95509c1b715f21fffd80d6907",
+          "sha256": "3478fb262d78ded02cb99b47b255ff582715ffddaf6bb6a9f3e1305605b89d45",
+          "sha1": "ada8d601bfbb25338707d27501b22efbd1a88afb",
+          "md5": "9ed415239994f881d86f6ab3649296f2"
+        }
+      ]
+    }
+  ]
+}

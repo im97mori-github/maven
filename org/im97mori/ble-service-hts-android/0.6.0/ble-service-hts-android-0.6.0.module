@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-hts-android",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2906-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a1c-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a1d-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a1e-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a21-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-hts-android-0.6.0.aar",
+          "url": "ble-service-hts-android-0.6.0.aar",
+          "size": 1201,
+          "sha512": "20e9ef683334eb1ef4c8e3993b138efced341e1176321bf6826ded412c89a3e1fde497e819441f198a951dc457426c85dca33988fc7c9320faf4abf2ad54d8d8",
+          "sha256": "a5afd31aa57634924aa67812a2ac4e0a476bfc39ffc07e3303de57cd23e6bba1",
+          "sha1": "85ca02f5ec6f48a0f8d1bea27629fd063e3c76b4",
+          "md5": "4a39c82e36a150bdfbc332e7bbb143a2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2906-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a1c-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a1d-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a1e-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a21-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-hts-android-0.6.0.aar",
+          "url": "ble-service-hts-android-0.6.0.aar",
+          "size": 1201,
+          "sha512": "20e9ef683334eb1ef4c8e3993b138efced341e1176321bf6826ded412c89a3e1fde497e819441f198a951dc457426c85dca33988fc7c9320faf4abf2ad54d8d8",
+          "sha256": "a5afd31aa57634924aa67812a2ac4e0a476bfc39ffc07e3303de57cd23e6bba1",
+          "sha1": "85ca02f5ec6f48a0f8d1bea27629fd063e3c76b4",
+          "md5": "4a39c82e36a150bdfbc332e7bbb143a2"
+        }
+      ]
+    }
+  ]
+}

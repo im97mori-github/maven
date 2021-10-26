@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-peripheral",
+    "version": "0.3.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.2.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.3.9.aar",
+          "url": "ble-peripheral-0.3.9.aar",
+          "size": 40043,
+          "sha512": "3afe385c8531748ee46bc2cd48179d4f6afcdd4dcec3d92c00666da8a1c613999dd4a5671a0bdffc9492896dffb39846cf24f450ea12a4a37df1aeb0c25e0b86",
+          "sha256": "7f4f67b042585c9025937506d330bbd9bb3a3c9cf1d7c01c8e2332cc8b1258fe",
+          "sha1": "bbc3b8f66bd401429a5f12ce7021d5b9aac2dd81",
+          "md5": "1011a9b442aa04ce631ebf889a2a1dc6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.2.9"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.3.9.aar",
+          "url": "ble-peripheral-0.3.9.aar",
+          "size": 40043,
+          "sha512": "3afe385c8531748ee46bc2cd48179d4f6afcdd4dcec3d92c00666da8a1c613999dd4a5671a0bdffc9492896dffb39846cf24f450ea12a4a37df1aeb0c25e0b86",
+          "sha256": "7f4f67b042585c9025937506d330bbd9bb3a3c9cf1d7c01c8e2332cc8b1258fe",
+          "sha1": "bbc3b8f66bd401429a5f12ce7021d5b9aac2dd81",
+          "md5": "1011a9b442aa04ce631ebf889a2a1dc6"
+        }
+      ]
+    }
+  ]
+}
