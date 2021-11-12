@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-tps-android",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a07-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-android-0.6.1.aar",
+          "url": "ble-service-tps-android-0.6.1.aar",
+          "size": 1202,
+          "sha512": "bfb755e6a3ca834b3f2b9deda781dc5a575566ef466a27e2bdd0f50a1ca9054db38eb11289672b43a40defac19a1291cae414997d1dbe78806d61c1bfda86a08",
+          "sha256": "38fcc5a08f0241988f2879bc7b20d56914d365c334f134522713752b2f61e6d1",
+          "sha1": "85c82fa7688f9ed81e7304f28f5453a2d004a3fe",
+          "md5": "833c018e6ecba5891632c9f8f813da8a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a07-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-android-0.6.1.aar",
+          "url": "ble-service-tps-android-0.6.1.aar",
+          "size": 1202,
+          "sha512": "bfb755e6a3ca834b3f2b9deda781dc5a575566ef466a27e2bdd0f50a1ca9054db38eb11289672b43a40defac19a1291cae414997d1dbe78806d61c1bfda86a08",
+          "sha256": "38fcc5a08f0241988f2879bc7b20d56914d365c334f134522713752b2f61e6d1",
+          "sha1": "85c82fa7688f9ed81e7304f28f5453a2d004a3fe",
+          "md5": "833c018e6ecba5891632c9f8f813da8a"
+        }
+      ]
+    }
+  ]
+}

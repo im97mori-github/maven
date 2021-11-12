@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-central",
+    "version": "0.7.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.2.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.7.10.aar",
+          "url": "ble-central-0.7.10.aar",
+          "size": 67108,
+          "sha512": "d19090438440f9dac952f2c8b97188ff5759c80e367d98a7c9bead22c5ef81127ed25fa2b121af35e269273adff399986a17d91e2d2e2d707fba6c9ee64d4302",
+          "sha256": "e32bbf5513db54088df26699d4bac7fceeb5b846f21583dc8601439c48eacaac",
+          "sha1": "433832bc7b56d2d466cefaeb56af126a0ec4f33e",
+          "md5": "0740eacab719b5d8a5616b18c544b932"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.2.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.7.10.aar",
+          "url": "ble-central-0.7.10.aar",
+          "size": 67108,
+          "sha512": "d19090438440f9dac952f2c8b97188ff5759c80e367d98a7c9bead22c5ef81127ed25fa2b121af35e269273adff399986a17d91e2d2e2d707fba6c9ee64d4302",
+          "sha256": "e32bbf5513db54088df26699d4bac7fceeb5b846f21583dc8601439c48eacaac",
+          "sha1": "433832bc7b56d2d466cefaeb56af126a0ec4f33e",
+          "md5": "0740eacab719b5d8a5616b18c544b932"
+        }
+      ]
+    }
+  ]
+}

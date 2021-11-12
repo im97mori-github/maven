@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core-constants-android",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-constants-android-0.6.1.aar",
+          "url": "ble-core-constants-android-0.6.1.aar",
+          "size": 1206,
+          "sha512": "76cc1a0ec22b08f290fc1b45be6add34d68c33343d8fac11571adb432e0e1a552aef048801f6ea337620b1b3122c2d8c10af1eb6c540a41d732ae450f4c87105",
+          "sha256": "b49393231ed42debd4948ccf023008336e6eb5faff5735dc2c7dac1a6b215862",
+          "sha1": "4d7f43da40083a79436da44ae48af5526ce76ab9",
+          "md5": "bb47955038b60cabc90aded670294b4f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-constants-android-0.6.1.aar",
+          "url": "ble-core-constants-android-0.6.1.aar",
+          "size": 1206,
+          "sha512": "76cc1a0ec22b08f290fc1b45be6add34d68c33343d8fac11571adb432e0e1a552aef048801f6ea337620b1b3122c2d8c10af1eb6c540a41d732ae450f4c87105",
+          "sha256": "b49393231ed42debd4948ccf023008336e6eb5faff5735dc2c7dac1a6b215862",
+          "sha1": "4d7f43da40083a79436da44ae48af5526ce76ab9",
+          "md5": "bb47955038b60cabc90aded670294b4f"
+        }
+      ]
+    }
+  ]
+}

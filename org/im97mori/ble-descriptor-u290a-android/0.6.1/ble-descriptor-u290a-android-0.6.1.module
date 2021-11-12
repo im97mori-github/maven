@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-descriptor-u290a-android",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u290a",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u290a-android-0.6.1.aar",
+          "url": "ble-descriptor-u290a-android-0.6.1.aar",
+          "size": 3150,
+          "sha512": "e6c8f13ff6726c3e59e3a2aa1dbc9ae19661e2c866b5271129cc9341bb9fa8a459c7843579b5f18ea36e9a0e95dfe589f15a8a767eee4fe2b4d75d3ce29bd194",
+          "sha256": "bfc6cd6b267d5bae04ec43dfbaa6029220090610e17a9a4e213335b4bd863c80",
+          "sha1": "a9a5af92c981626dd97b0aa51d9102722a80b181",
+          "md5": "7f1ad985d525a9806d82b818ca42f60d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u290a",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u290a-android-0.6.1.aar",
+          "url": "ble-descriptor-u290a-android-0.6.1.aar",
+          "size": 3150,
+          "sha512": "e6c8f13ff6726c3e59e3a2aa1dbc9ae19661e2c866b5271129cc9341bb9fa8a459c7843579b5f18ea36e9a0e95dfe589f15a8a767eee4fe2b4d75d3ce29bd194",
+          "sha256": "bfc6cd6b267d5bae04ec43dfbaa6029220090610e17a9a4e213335b4bd863c80",
+          "sha1": "a9a5af92c981626dd97b0aa51d9102722a80b181",
+          "md5": "7f1ad985d525a9806d82b818ca42f60d"
+        }
+      ]
+    }
+  ]
+}

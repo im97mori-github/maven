@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core-constants-errorcode-android",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-constants-errorcode-android-0.6.1.aar",
+          "url": "ble-core-constants-errorcode-android-0.6.1.aar",
+          "size": 1569,
+          "sha512": "191fe1d6d4ff4338de7afc92a6fac38798f9bcd820e5158d5f46fb5f0df7d3c3c7412135e0ceb4e01157f8672fb49ee9994b23bf2e1ef51d1bde904ad53eadfe",
+          "sha256": "5fb0871d1588167bde5724bcd68d1f861d22a66f0579e1b3f74b0df612f93700",
+          "sha1": "1f0200d8c86badf5003abcbedb9a91e03e443ace",
+          "md5": "dcc7f05c1e8f057e03649a2e43e8737b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-constants-errorcode-android-0.6.1.aar",
+          "url": "ble-core-constants-errorcode-android-0.6.1.aar",
+          "size": 1569,
+          "sha512": "191fe1d6d4ff4338de7afc92a6fac38798f9bcd820e5158d5f46fb5f0df7d3c3c7412135e0ceb4e01157f8672fb49ee9994b23bf2e1ef51d1bde904ad53eadfe",
+          "sha256": "5fb0871d1588167bde5724bcd68d1f861d22a66f0579e1b3f74b0df612f93700",
+          "sha1": "1f0200d8c86badf5003abcbedb9a91e03e443ace",
+          "md5": "dcc7f05c1e8f057e03649a2e43e8737b"
+        }
+      ]
+    }
+  ]
+}
