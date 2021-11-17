@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-tps-android",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-tps-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-tps-android-0.6.2.aar",
+          "url": "ble-service-central-tps-android-0.6.2.aar",
+          "size": 3184,
+          "sha512": "06580669afaeee4fc98c68b8875eefedac3568606961473b57ea72c40a0c6145f1987857fcc3680df9aea5ea8b97004f58500f714dafc0428c9dfab1ee49310c",
+          "sha256": "b33df87245b5e44a603b1cbacb195809bfa29a0de89bb8146e3a096e77994297",
+          "sha1": "3ded67fb3418175ad6e8dd297c6b2d8cccfc5a9a",
+          "md5": "3dda5d034e2d74c650bc60c9e5903c91"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-tps-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-tps-android-0.6.2.aar",
+          "url": "ble-service-central-tps-android-0.6.2.aar",
+          "size": 3184,
+          "sha512": "06580669afaeee4fc98c68b8875eefedac3568606961473b57ea72c40a0c6145f1987857fcc3680df9aea5ea8b97004f58500f714dafc0428c9dfab1ee49310c",
+          "sha256": "b33df87245b5e44a603b1cbacb195809bfa29a0de89bb8146e3a096e77994297",
+          "sha1": "3ded67fb3418175ad6e8dd297c6b2d8cccfc5a9a",
+          "md5": "3dda5d034e2d74c650bc60c9e5903c91"
+        }
+      ]
+    }
+  ]
+}

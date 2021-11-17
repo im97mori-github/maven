@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-java",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-java-0.6.2.jar",
+          "url": "ble-java-0.6.2.jar",
+          "size": 261,
+          "sha512": "b9af92f22f3322e4b0b0d095d5f646696c8a70423de3baeca46ced4459a6da531a8a67da2c99a02d78aa6569c5e68dede921f3a739f1efb048c7d382e22415d7",
+          "sha256": "3e6dc8886e7e1f68c9be5dd3b702cf40ac927bb0ea528b13d0e646a4897bdccc",
+          "sha1": "3786d482a883aef81c618bd467f89c7a4ddd9653",
+          "md5": "730c20098925193e75585506254a5153"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 15,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-java-0.6.2.jar",
+          "url": "ble-java-0.6.2.jar",
+          "size": 261,
+          "sha512": "b9af92f22f3322e4b0b0d095d5f646696c8a70423de3baeca46ced4459a6da531a8a67da2c99a02d78aa6569c5e68dede921f3a739f1efb048c7d382e22415d7",
+          "sha256": "3e6dc8886e7e1f68c9be5dd3b702cf40ac927bb0ea528b13d0e646a4897bdccc",
+          "sha1": "3786d482a883aef81c618bd467f89c7a4ddd9653",
+          "md5": "730c20098925193e75585506254a5153"
+        }
+      ]
+    }
+  ]
+}

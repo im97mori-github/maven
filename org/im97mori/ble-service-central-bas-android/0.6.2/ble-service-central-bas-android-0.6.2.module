@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-bas-android",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bas-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-bas-android-0.6.2.aar",
+          "url": "ble-service-central-bas-android-0.6.2.aar",
+          "size": 6743,
+          "sha512": "059f3481896f4864f45935e067a049ad1849f3388eb01d1dc475b827f3d7e0faf865de51330f6b7e086ab1adb84748228d6d0f7dffdbdb38f714d0a496637b14",
+          "sha256": "d762f9259c9f427ce4bc004861bcbbe07d88f63fb2ddc55e376a1fced1ff3ab5",
+          "sha1": "fd3cd4c5d14b478191ae97d4fa89652bd1efb0c2",
+          "md5": "4db320d6b70ef3506ab5a216fa14caa2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bas-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-bas-android-0.6.2.aar",
+          "url": "ble-service-central-bas-android-0.6.2.aar",
+          "size": 6743,
+          "sha512": "059f3481896f4864f45935e067a049ad1849f3388eb01d1dc475b827f3d7e0faf865de51330f6b7e086ab1adb84748228d6d0f7dffdbdb38f714d0a496637b14",
+          "sha256": "d762f9259c9f427ce4bc004861bcbbe07d88f63fb2ddc55e376a1fced1ff3ab5",
+          "sha1": "fd3cd4c5d14b478191ae97d4fa89652bd1efb0c2",
+          "md5": "4db320d6b70ef3506ab5a216fa14caa2"
+        }
+      ]
+    }
+  ]
+}

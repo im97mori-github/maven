@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-rtus-android",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a16-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a17-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.6.2.aar",
+          "url": "ble-service-rtus-android-0.6.2.aar",
+          "size": 1204,
+          "sha512": "aceba223f2dd35870a152fa214bd3211e23e1f9b666ec34d544fae81791e5f6eebde0eeee19299cdac4f37d0f86c0b0b0cc72607ea65f5c472fe696f70d3bf5d",
+          "sha256": "8a21af24915dde08228c79f983b143bb043db3b882054a8febca80afc9a9962f",
+          "sha1": "9d58ce32834a2e04df8fa922415fd6ca7d38adf5",
+          "md5": "5559c4afba0f267e92947710e25aee55"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a16-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a17-android",
+          "version": {
+            "requires": "0.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.6.2.aar",
+          "url": "ble-service-rtus-android-0.6.2.aar",
+          "size": 1204,
+          "sha512": "aceba223f2dd35870a152fa214bd3211e23e1f9b666ec34d544fae81791e5f6eebde0eeee19299cdac4f37d0f86c0b0b0cc72607ea65f5c472fe696f70d3bf5d",
+          "sha256": "8a21af24915dde08228c79f983b143bb043db3b882054a8febca80afc9a9962f",
+          "sha1": "9d58ce32834a2e04df8fa922415fd6ca7d38adf5",
+          "md5": "5559c4afba0f267e92947710e25aee55"
+        }
+      ]
+    }
+  ]
+}
