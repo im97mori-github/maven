@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-cscp-android",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-cscs-android",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-cscp-android-0.8.0.aar",
+          "url": "ble-profile-peripheral-cscp-android-0.8.0.aar",
+          "size": 4759,
+          "sha512": "50758254efc1f120b5b01adab5ee663c32c4a22fe70c5f5d2255f65f9833fb27ea11707804ac190180bbdcdd4cdbfbed3b03f18ce9c1872a135908d14afb6b34",
+          "sha256": "d59685cc72bcc54b1bbeee49d98bcccd25d238cba5c92e60347657df4a0258e0",
+          "sha1": "14bd3f34c3e16b5f5b37a9cc0b52bd706635ebd3",
+          "md5": "2769231c205b07659ffdd704190718ae"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-cscs-android",
+          "version": {
+            "requires": "0.8.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-cscp-android-0.8.0.aar",
+          "url": "ble-profile-peripheral-cscp-android-0.8.0.aar",
+          "size": 4759,
+          "sha512": "50758254efc1f120b5b01adab5ee663c32c4a22fe70c5f5d2255f65f9833fb27ea11707804ac190180bbdcdd4cdbfbed3b03f18ce9c1872a135908d14afb6b34",
+          "sha256": "d59685cc72bcc54b1bbeee49d98bcccd25d238cba5c92e60347657df4a0258e0",
+          "sha1": "14bd3f34c3e16b5f5b37a9cc0b52bd706635ebd3",
+          "md5": "2769231c205b07659ffdd704190718ae"
+        }
+      ]
+    }
+  ]
+}
