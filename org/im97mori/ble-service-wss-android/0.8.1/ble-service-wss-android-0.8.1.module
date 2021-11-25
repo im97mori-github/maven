@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-wss-android",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a9d-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a9e-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-wss-android-0.8.1.aar",
+          "url": "ble-service-wss-android-0.8.1.aar",
+          "size": 1203,
+          "sha512": "d2b7aef86faebd3376071e56c066e6b159f63c68fda0776d6f635af8998a1eadeb334a8731800f9230279ba721264ff8f2ef0c029ec08ef6200fcc2e538538c1",
+          "sha256": "51e3da0e6146f9f0050d539fade96782aeedf8de9ddc3b70b0ec854271a7ba6f",
+          "sha1": "d567cf9f9861abcf0edfe3be0f2189360d349fb0",
+          "md5": "2edbae68a79acf465f4440b3c694b6b7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a9d-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a9e-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-wss-android-0.8.1.aar",
+          "url": "ble-service-wss-android-0.8.1.aar",
+          "size": 1203,
+          "sha512": "d2b7aef86faebd3376071e56c066e6b159f63c68fda0776d6f635af8998a1eadeb334a8731800f9230279ba721264ff8f2ef0c029ec08ef6200fcc2e538538c1",
+          "sha256": "51e3da0e6146f9f0050d539fade96782aeedf8de9ddc3b70b0ec854271a7ba6f",
+          "sha1": "d567cf9f9861abcf0edfe3be0f2189360d349fb0",
+          "md5": "2edbae68a79acf465f4440b3c694b6b7"
+        }
+      ]
+    }
+  ]
+}

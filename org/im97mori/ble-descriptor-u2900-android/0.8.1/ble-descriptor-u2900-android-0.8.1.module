@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-descriptor-u2900-android",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2900",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-android-0.8.1.aar",
+          "url": "ble-descriptor-u2900-android-0.8.1.aar",
+          "size": 3156,
+          "sha512": "c78b54e5d614156b1ec4ec97ec3d5d54667d5b41d961aa4943e0221f21edf4fbbf299a19d14cb1dca96b1e57815a3b0bc498e0c4e9e59608e9e605002e4710bd",
+          "sha256": "79b5490b1d120fb5f593c8ec90a8490d014aea81b9a56ed5b81876af59260d68",
+          "sha1": "57f7e09c5ff1c35b643cc98a2ecf227247765bc2",
+          "md5": "849eef0b64feff5d28540c31788bf218"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2900",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-android-0.8.1.aar",
+          "url": "ble-descriptor-u2900-android-0.8.1.aar",
+          "size": 3156,
+          "sha512": "c78b54e5d614156b1ec4ec97ec3d5d54667d5b41d961aa4943e0221f21edf4fbbf299a19d14cb1dca96b1e57815a3b0bc498e0c4e9e59608e9e605002e4710bd",
+          "sha256": "79b5490b1d120fb5f593c8ec90a8490d014aea81b9a56ed5b81876af59260d68",
+          "sha1": "57f7e09c5ff1c35b643cc98a2ecf227247765bc2",
+          "md5": "849eef0b64feff5d28540c31788bf218"
+        }
+      ]
+    }
+  ]
+}

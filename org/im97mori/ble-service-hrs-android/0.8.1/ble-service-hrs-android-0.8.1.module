@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-hrs-android",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a37-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a38-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a39-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-hrs-android-0.8.1.aar",
+          "url": "ble-service-hrs-android-0.8.1.aar",
+          "size": 1203,
+          "sha512": "1f3df4a0509b70325ad5af05b2d40d4eeb76327f82b674e5023bcc294e41c547b53ddf1541edb5e4b8e99da63c46c311ccabef1117fd95678eda94fd645d2119",
+          "sha256": "01ad4ee6a67d6bb0673a21308f226e29d5b206b9a98f5d8ad139b137bfeaa0c5",
+          "sha1": "ac2f9ede149464f15ac7efaaa2219a87cd5a014d",
+          "md5": "307d1b49d662aec50bd8e9cf747a0602"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a37-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a38-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a39-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-hrs-android-0.8.1.aar",
+          "url": "ble-service-hrs-android-0.8.1.aar",
+          "size": 1203,
+          "sha512": "1f3df4a0509b70325ad5af05b2d40d4eeb76327f82b674e5023bcc294e41c547b53ddf1541edb5e4b8e99da63c46c311ccabef1117fd95678eda94fd645d2119",
+          "sha256": "01ad4ee6a67d6bb0673a21308f226e29d5b206b9a98f5d8ad139b137bfeaa0c5",
+          "sha1": "ac2f9ede149464f15ac7efaaa2219a87cd5a014d",
+          "md5": "307d1b49d662aec50bd8e9cf747a0602"
+        }
+      ]
+    }
+  ]
+}

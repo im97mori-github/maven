@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-central",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.8.1.aar",
+          "url": "ble-central-0.8.1.aar",
+          "size": 72219,
+          "sha512": "2db15536e03ab24030bcb6ee1fbb10fa99461b14929cdfd73f673feb39f0814c07c9256a27cd7d344923da41d680671e54cd2cf8ac0f7f16364609466655ed3f",
+          "sha256": "9655994fc1f49488c3316973d2eeba07cc48fd974e95923414b4cc219da732c8",
+          "sha1": "436a6cde2ba599c9cf88496d88b03122d3994cb5",
+          "md5": "ecd61adb59afa82c623822fb1f121789"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.1"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.8.1.aar",
+          "url": "ble-central-0.8.1.aar",
+          "size": 72219,
+          "sha512": "2db15536e03ab24030bcb6ee1fbb10fa99461b14929cdfd73f673feb39f0814c07c9256a27cd7d344923da41d680671e54cd2cf8ac0f7f16364609466655ed3f",
+          "sha256": "9655994fc1f49488c3316973d2eeba07cc48fd974e95923414b4cc219da732c8",
+          "sha1": "436a6cde2ba599c9cf88496d88b03122d3994cb5",
+          "md5": "ecd61adb59afa82c623822fb1f121789"
+        }
+      ]
+    }
+  ]
+}
