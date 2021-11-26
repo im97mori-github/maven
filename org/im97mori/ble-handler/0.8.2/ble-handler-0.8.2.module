@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-handler",
+    "version": "0.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "stacklog",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-handler-0.8.2.aar",
+          "url": "ble-handler-0.8.2.aar",
+          "size": 5037,
+          "sha512": "85978f664353702e7a4eb90f1364c1ba136cdbd01e6d0344549b63264a4ca0700599bc4e72f709258fbcdc9117808ab333063d76e076070c2fc9b97f947e376d",
+          "sha256": "a319bf87ce2358de04bb3bea9f6a92d0d5bbe923e0d6ee8cfa4ef140895c28e4",
+          "sha1": "9ff90e407d1995914b883fb6c6898aab4c5d3d42",
+          "md5": "cdbecabf065d655c61cb37c49193a21a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "stacklog",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-handler-0.8.2.aar",
+          "url": "ble-handler-0.8.2.aar",
+          "size": 5037,
+          "sha512": "85978f664353702e7a4eb90f1364c1ba136cdbd01e6d0344549b63264a4ca0700599bc4e72f709258fbcdc9117808ab333063d76e076070c2fc9b97f947e376d",
+          "sha256": "a319bf87ce2358de04bb3bea9f6a92d0d5bbe923e0d6ee8cfa4ef140895c28e4",
+          "sha1": "9ff90e407d1995914b883fb6c6898aab4c5d3d42",
+          "md5": "cdbecabf065d655c61cb37c49193a21a"
+        }
+      ]
+    }
+  ]
+}

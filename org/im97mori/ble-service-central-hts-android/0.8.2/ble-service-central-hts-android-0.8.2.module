@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-hts-android",
+    "version": "0.8.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hts-android",
+          "version": {
+            "requires": "0.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-hts-android-0.8.2.aar",
+          "url": "ble-service-central-hts-android-0.8.2.aar",
+          "size": 7987,
+          "sha512": "f4c57d2828448c194e3facd5120e4e3dd2d66072ee3c8c9cbb30f33bbab7ea92c2e971de286036855ed253dd89596b0cc29ba9279a8745c9a84a1caf6a473c02",
+          "sha256": "d75eb2e0dc42060051fbfae76a905e50b5c4bf6fe59ac3213f92558f315bd687",
+          "sha1": "d6475acf93daea53a5ec1bcad8c4ddd6378df2ec",
+          "md5": "02a43fef42a2d157dc25a4f4dda7c8c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.2"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hts-android",
+          "version": {
+            "requires": "0.8.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-hts-android-0.8.2.aar",
+          "url": "ble-service-central-hts-android-0.8.2.aar",
+          "size": 7987,
+          "sha512": "f4c57d2828448c194e3facd5120e4e3dd2d66072ee3c8c9cbb30f33bbab7ea92c2e971de286036855ed253dd89596b0cc29ba9279a8745c9a84a1caf6a473c02",
+          "sha256": "d75eb2e0dc42060051fbfae76a905e50b5c4bf6fe59ac3213f92558f315bd687",
+          "sha1": "d6475acf93daea53a5ec1bcad8c4ddd6378df2ec",
+          "md5": "02a43fef42a2d157dc25a4f4dda7c8c9"
+        }
+      ]
+    }
+  ]
+}
