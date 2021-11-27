@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-wss-android",
+    "version": "0.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-wss-android",
+          "version": {
+            "requires": "0.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-wss-android-0.8.3.aar",
+          "url": "ble-service-peripheral-wss-android-0.8.3.aar",
+          "size": 4560,
+          "sha512": "eddfc34ba55ec1bc776ba3efd3412adfd5482dab3401e662d8625001c401cd201b27988b4c37506e2b05b443cce9b0b846743bd5258c82765cb30a1ba3cb30cb",
+          "sha256": "5da927caa281bb80e098c6d4dbcfb3885ec5511c537ed1655573fdb7da21f647",
+          "sha1": "fbf53a27dd087b3ed5f95292b12d597ae1fa0c1a",
+          "md5": "068834bfd89e9aa5c1257ff23f26d17b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.3"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-wss-android",
+          "version": {
+            "requires": "0.8.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-wss-android-0.8.3.aar",
+          "url": "ble-service-peripheral-wss-android-0.8.3.aar",
+          "size": 4560,
+          "sha512": "eddfc34ba55ec1bc776ba3efd3412adfd5482dab3401e662d8625001c401cd201b27988b4c37506e2b05b443cce9b0b846743bd5258c82765cb30a1ba3cb30cb",
+          "sha256": "5da927caa281bb80e098c6d4dbcfb3885ec5511c537ed1655573fdb7da21f647",
+          "sha1": "fbf53a27dd087b3ed5f95292b12d597ae1fa0c1a",
+          "md5": "068834bfd89e9aa5c1257ff23f26d17b"
+        }
+      ]
+    }
+  ]
+}
