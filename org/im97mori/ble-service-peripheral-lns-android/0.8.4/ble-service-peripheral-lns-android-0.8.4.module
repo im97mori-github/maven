@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-lns-android",
+    "version": "0.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lns-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-lns-android-0.8.4.aar",
+          "url": "ble-service-peripheral-lns-android-0.8.4.aar",
+          "size": 10651,
+          "sha512": "886469aaf3fce5dab8199056d67c42e08fd75636d4e981b9d53cddba2b6874d0717f5666c5057117d5ad0ffcaf4058c2e8ee5f6b4409215d460e63926e66b091",
+          "sha256": "a12db46c7d054bae5bf116c76b6251ba64873cfa0e18e4e195587625e448e1f6",
+          "sha1": "af684766c731954f0154693730d2920865ccc996",
+          "md5": "aea973b5e1efd12add06def3d62d8ab2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lns-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-lns-android-0.8.4.aar",
+          "url": "ble-service-peripheral-lns-android-0.8.4.aar",
+          "size": 10651,
+          "sha512": "886469aaf3fce5dab8199056d67c42e08fd75636d4e981b9d53cddba2b6874d0717f5666c5057117d5ad0ffcaf4058c2e8ee5f6b4409215d460e63926e66b091",
+          "sha256": "a12db46c7d054bae5bf116c76b6251ba64873cfa0e18e4e195587625e448e1f6",
+          "sha1": "af684766c731954f0154693730d2920865ccc996",
+          "md5": "aea973b5e1efd12add06def3d62d8ab2"
+        }
+      ]
+    }
+  ]
+}

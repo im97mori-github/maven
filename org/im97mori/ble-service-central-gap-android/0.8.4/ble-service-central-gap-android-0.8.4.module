@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-gap-android",
+    "version": "0.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-gap-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-gap-android-0.8.4.aar",
+          "url": "ble-service-central-gap-android-0.8.4.aar",
+          "size": 6526,
+          "sha512": "9cc51451a306a2c49c34e240e98f5a949ac7cad40de9dd999295c3c4d30d58bf0aa81e85bd11c76382171177560cffc6eae4c491c203cf6d05c6fb9c263e9aaa",
+          "sha256": "e9efae5199516d81551a5a18ffb195ef458dc4086744cde6d4e9108d2ccb815c",
+          "sha1": "324d986f90b02e14f6dd66ce1748dfc6e41b26d5",
+          "md5": "a31181df8dc23c15b6fd8afe6608466d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-gap-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-gap-android-0.8.4.aar",
+          "url": "ble-service-central-gap-android-0.8.4.aar",
+          "size": 6526,
+          "sha512": "9cc51451a306a2c49c34e240e98f5a949ac7cad40de9dd999295c3c4d30d58bf0aa81e85bd11c76382171177560cffc6eae4c491c203cf6d05c6fb9c263e9aaa",
+          "sha256": "e9efae5199516d81551a5a18ffb195ef458dc4086744cde6d4e9108d2ccb815c",
+          "sha1": "324d986f90b02e14f6dd66ce1748dfc6e41b26d5",
+          "md5": "a31181df8dc23c15b6fd8afe6608466d"
+        }
+      ]
+    }
+  ]
+}

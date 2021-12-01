@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-uds-android",
+    "version": "0.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-uds-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-uds-android-0.8.4.aar",
+          "url": "ble-service-peripheral-uds-android-0.8.4.aar",
+          "size": 26042,
+          "sha512": "44989e717828aba43437de9a73075cf4a542dbae4f87fd73ad29c649b678fc83c13a1e656e73bbd311f55dcbde03ac9076661bf504663f3e26b9971c98c79d40",
+          "sha256": "8da0bd5fc2828a496d5b8f83edccd4878642cd46de7f25c7d2bf075b45730ad5",
+          "sha1": "96e0e8479dfc11d04ac4636e2f63d52ff83187cc",
+          "md5": "7b10b9eed1d01336305dcb17e4e97a82"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-uds-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-uds-android-0.8.4.aar",
+          "url": "ble-service-peripheral-uds-android-0.8.4.aar",
+          "size": 26042,
+          "sha512": "44989e717828aba43437de9a73075cf4a542dbae4f87fd73ad29c649b678fc83c13a1e656e73bbd311f55dcbde03ac9076661bf504663f3e26b9971c98c79d40",
+          "sha256": "8da0bd5fc2828a496d5b8f83edccd4878642cd46de7f25c7d2bf075b45730ad5",
+          "sha1": "96e0e8479dfc11d04ac4636e2f63d52ff83187cc",
+          "md5": "7b10b9eed1d01336305dcb17e4e97a82"
+        }
+      ]
+    }
+  ]
+}

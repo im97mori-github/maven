@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-bcs-android",
+    "version": "0.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bcs-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-bcs-android-0.8.4.aar",
+          "url": "ble-service-central-bcs-android-0.8.4.aar",
+          "size": 5104,
+          "sha512": "6263bb6abd7013d471ccec5c1fff5e701225c22c314cb77c8e9774f36e6cd42add5f8f1ae02de98209e069b8ad590c6b9c94a3d1ee668e9bbae0f8c3fc3b580e",
+          "sha256": "3b7cb529bb8c19def51362d446c8a1697fb30a33ce079ff17e267dd8b23db323",
+          "sha1": "ff50c0b887fff881e1cbe997b91afb9a2a809051",
+          "md5": "7840938d0bd10adf234ef3090b53e68f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bcs-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-bcs-android-0.8.4.aar",
+          "url": "ble-service-central-bcs-android-0.8.4.aar",
+          "size": 5104,
+          "sha512": "6263bb6abd7013d471ccec5c1fff5e701225c22c314cb77c8e9774f36e6cd42add5f8f1ae02de98209e069b8ad590c6b9c94a3d1ee668e9bbae0f8c3fc3b580e",
+          "sha256": "3b7cb529bb8c19def51362d446c8a1697fb30a33ce079ff17e267dd8b23db323",
+          "sha1": "ff50c0b887fff881e1cbe997b91afb9a2a809051",
+          "md5": "7840938d0bd10adf234ef3090b53e68f"
+        }
+      ]
+    }
+  ]
+}

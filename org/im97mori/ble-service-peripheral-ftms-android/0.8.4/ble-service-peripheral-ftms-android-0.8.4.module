@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-ftms-android",
+    "version": "0.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ftms-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-ftms-android-0.8.4.aar",
+          "url": "ble-service-peripheral-ftms-android-0.8.4.aar",
+          "size": 26146,
+          "sha512": "588a1e3138091ad4ff16d1129f6b00e2b497f730927639c8d007e8c4ad72e50b16000815a36bf6a2a30eb3594f8e29a7d47f98ba80a8bb07e1c62edf364622b8",
+          "sha256": "ccee0f2f2934b6ec448199f3a0239ee96752a4fd0067415e157b9a2ed1349117",
+          "sha1": "5cbbfd968cad67b7e9f4c05f2b5f75de2040b129",
+          "md5": "99ce4ac6307860cd22520de79d6608ea"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ftms-android",
+          "version": {
+            "requires": "0.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-ftms-android-0.8.4.aar",
+          "url": "ble-service-peripheral-ftms-android-0.8.4.aar",
+          "size": 26146,
+          "sha512": "588a1e3138091ad4ff16d1129f6b00e2b497f730927639c8d007e8c4ad72e50b16000815a36bf6a2a30eb3594f8e29a7d47f98ba80a8bb07e1c62edf364622b8",
+          "sha256": "ccee0f2f2934b6ec448199f3a0239ee96752a4fd0067415e157b9a2ed1349117",
+          "sha1": "5cbbfd968cad67b7e9f4c05f2b5f75de2040b129",
+          "md5": "99ce4ac6307860cd22520de79d6608ea"
+        }
+      ]
+    }
+  ]
+}
