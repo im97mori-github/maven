@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-java",
+    "version": "0.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-java-0.8.5.jar",
+          "url": "ble-java-0.8.5.jar",
+          "size": 261,
+          "sha512": "dd76f6ae999fa8039e19ea6147bcce6bff6ffb966f8950f5b799da6229290150986ed0c5656ac659aaf8d0fa63aa7dd6391ca6121d7a56a448524dc07481df45",
+          "sha256": "5a87155f8523dbec282fb29aacb4b6999bbe38533e5357b10b15de2098f7bc4d",
+          "sha1": "11a8e721d8f84131b768b89870b696d32716f98e",
+          "md5": "80fd6a6db0c567121797f9a1d224f061"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-java-0.8.5.jar",
+          "url": "ble-java-0.8.5.jar",
+          "size": 261,
+          "sha512": "dd76f6ae999fa8039e19ea6147bcce6bff6ffb966f8950f5b799da6229290150986ed0c5656ac659aaf8d0fa63aa7dd6391ca6121d7a56a448524dc07481df45",
+          "sha256": "5a87155f8523dbec282fb29aacb4b6999bbe38533e5357b10b15de2098f7bc4d",
+          "sha1": "11a8e721d8f84131b768b89870b696d32716f98e",
+          "md5": "80fd6a6db0c567121797f9a1d224f061"
+        }
+      ]
+    }
+  ]
+}

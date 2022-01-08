@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-characteristic-u2aeb-android",
+    "version": "0.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-characteristic",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-core",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aeb",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2aeb-android-0.8.5.aar",
+          "url": "ble-characteristic-u2aeb-android-0.8.5.aar",
+          "size": 3036,
+          "sha512": "c82bc79725930446a191dbb6ce4c3dc7eab814ea9594599ecfeb4884bbefdcf1a036d34dad9ef3cc989359f395638f087638eac55b6959a86f87241bb52836de",
+          "sha256": "4477e34126dd18216e5ece548384cc2bdf7163be8491a19b599485a19432208d",
+          "sha1": "d36c873b676fb70a75c13bf26ec19829cf168342",
+          "md5": "bf36c6d4cb236defa0847847ce5b645a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-characteristic",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-core",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aeb",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-u2aeb-android-0.8.5.aar",
+          "url": "ble-characteristic-u2aeb-android-0.8.5.aar",
+          "size": 3036,
+          "sha512": "c82bc79725930446a191dbb6ce4c3dc7eab814ea9594599ecfeb4884bbefdcf1a036d34dad9ef3cc989359f395638f087638eac55b6959a86f87241bb52836de",
+          "sha256": "4477e34126dd18216e5ece548384cc2bdf7163be8491a19b599485a19432208d",
+          "sha1": "d36c873b676fb70a75c13bf26ec19829cf168342",
+          "md5": "bf36c6d4cb236defa0847847ce5b645a"
+        }
+      ]
+    }
+  ]
+}

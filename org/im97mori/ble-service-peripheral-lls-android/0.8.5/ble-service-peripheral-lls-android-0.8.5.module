@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-lls-android",
+    "version": "0.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lls-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-lls-android-0.8.5.aar",
+          "url": "ble-service-peripheral-lls-android-0.8.5.aar",
+          "size": 4737,
+          "sha512": "384d66aa415b3299a4418b444f6eb76eeac5862ee833a5994df10ec03b679ce9889072bf8aba7ca21dca578aaae5af5a8908a4e21ac4be8c8c853a66a60148a8",
+          "sha256": "44af4cbafd9b8cd52cb1f47ab36368b4bb7a0e7a9e67188a543fd1ba2822778c",
+          "sha1": "f01f982450b43f162e1e3353c33822b973a7aea1",
+          "md5": "e703d430f88dfcfe929a40f48214ce9f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lls-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-lls-android-0.8.5.aar",
+          "url": "ble-service-peripheral-lls-android-0.8.5.aar",
+          "size": 4737,
+          "sha512": "384d66aa415b3299a4418b444f6eb76eeac5862ee833a5994df10ec03b679ce9889072bf8aba7ca21dca578aaae5af5a8908a4e21ac4be8c8c853a66a60148a8",
+          "sha256": "44af4cbafd9b8cd52cb1f47ab36368b4bb7a0e7a9e67188a543fd1ba2822778c",
+          "sha1": "f01f982450b43f162e1e3353c33822b973a7aea1",
+          "md5": "e703d430f88dfcfe929a40f48214ce9f"
+        }
+      ]
+    }
+  ]
+}

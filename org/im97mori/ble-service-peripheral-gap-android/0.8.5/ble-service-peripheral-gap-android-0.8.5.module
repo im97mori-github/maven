@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-gap-android",
+    "version": "0.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-gap-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-gap-android-0.8.5.aar",
+          "url": "ble-service-peripheral-gap-android-0.8.5.aar",
+          "size": 6477,
+          "sha512": "b4e767e5dfff3d56c5d8518f0e765a50a008c38f1907fc0df59a1a74176e56325065e8a17bff6a77842e119a5e237bf0b24233dd238132913b7231e5aec55d94",
+          "sha256": "2dfcd5c6cb50d2600ce6b5f7ced1804b7bcabcd040d349927773e54279c7c009",
+          "sha1": "bf3a9a00b1b6a6987de62e2a581b5efa8ca13780",
+          "md5": "2d559affcaff4b1be4ff0fbe16b4e1fa"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-gap-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-gap-android-0.8.5.aar",
+          "url": "ble-service-peripheral-gap-android-0.8.5.aar",
+          "size": 6477,
+          "sha512": "b4e767e5dfff3d56c5d8518f0e765a50a008c38f1907fc0df59a1a74176e56325065e8a17bff6a77842e119a5e237bf0b24233dd238132913b7231e5aec55d94",
+          "sha256": "2dfcd5c6cb50d2600ce6b5f7ced1804b7bcabcd040d349927773e54279c7c009",
+          "sha1": "bf3a9a00b1b6a6987de62e2a581b5efa8ca13780",
+          "md5": "2d559affcaff4b1be4ff0fbe16b4e1fa"
+        }
+      ]
+    }
+  ]
+}

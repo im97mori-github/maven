@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-pasp-android",
+    "version": "0.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-pass-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-pasp-android-0.8.5.aar",
+          "url": "ble-profile-peripheral-pasp-android-0.8.5.aar",
+          "size": 3996,
+          "sha512": "66a8943319880636344ae5875e62d9c221f364034116f858c8a7a7316f0fc1a73837106a2e9886f12b14c7454ccac3cb55afaf21650464306a7e60869fe93d43",
+          "sha256": "2ae0f32f260426378b8fb4a26125da24b630dff8b91c2b0130ee9d3b25b3ad28",
+          "sha1": "c65c6d158433c84249622dcba5d415a66ba00ef1",
+          "md5": "43adc95701aa2249e7a99b7f77eaec63"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-pass-android",
+          "version": {
+            "requires": "0.8.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-pasp-android-0.8.5.aar",
+          "url": "ble-profile-peripheral-pasp-android-0.8.5.aar",
+          "size": 3996,
+          "sha512": "66a8943319880636344ae5875e62d9c221f364034116f858c8a7a7316f0fc1a73837106a2e9886f12b14c7454ccac3cb55afaf21650464306a7e60869fe93d43",
+          "sha256": "2ae0f32f260426378b8fb4a26125da24b630dff8b91c2b0130ee9d3b25b3ad28",
+          "sha1": "c65c6d158433c84249622dcba5d415a66ba00ef1",
+          "md5": "43adc95701aa2249e7a99b7f77eaec63"
+        }
+      ]
+    }
+  ]
+}
