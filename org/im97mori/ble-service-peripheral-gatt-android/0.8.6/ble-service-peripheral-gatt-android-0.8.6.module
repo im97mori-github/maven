@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-gatt-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-gatt-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-gatt-android-0.8.6.aar",
+          "url": "ble-service-peripheral-gatt-android-0.8.6.aar",
+          "size": 5108,
+          "sha512": "3cb30bcf0b0bb794c3bc4947c19fcb27f884ed48e1be0702d5d8877899b17a160dd8e7237ceab16855dd894759c4a7be5b9999f5d168b94cce239bc629214215",
+          "sha256": "c9c83445299202b7b2b150dca961a1071cd5dc2f96ef133987301760017c9fda",
+          "sha1": "daaa8c0d58d964f96242cf91f6c307b2edd6949c",
+          "md5": "49126fb02eb813b97497147191d82b92"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-gatt-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-gatt-android-0.8.6.aar",
+          "url": "ble-service-peripheral-gatt-android-0.8.6.aar",
+          "size": 5108,
+          "sha512": "3cb30bcf0b0bb794c3bc4947c19fcb27f884ed48e1be0702d5d8877899b17a160dd8e7237ceab16855dd894759c4a7be5b9999f5d168b94cce239bc629214215",
+          "sha256": "c9c83445299202b7b2b150dca961a1071cd5dc2f96ef133987301760017c9fda",
+          "sha1": "daaa8c0d58d964f96242cf91f6c307b2edd6949c",
+          "md5": "49126fb02eb813b97497147191d82b92"
+        }
+      ]
+    }
+  ]
+}

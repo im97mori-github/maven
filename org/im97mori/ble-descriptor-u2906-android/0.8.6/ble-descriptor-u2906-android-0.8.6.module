@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-descriptor-u2906-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2906",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2906-android-0.8.6.aar",
+          "url": "ble-descriptor-u2906-android-0.8.6.aar",
+          "size": 3086,
+          "sha512": "56468b9701fb486303f4a4418e9ed848e9f49ed06ea54a15586f51e201f117ed18cd6babb6a5c41fff789e3a2f91ea152c31937fd83232e1edcd052490dc5e85",
+          "sha256": "bd01cdf76d59827687688711fab13adc1f3d676317fa228f84480ec945aef60c",
+          "sha1": "af174f3744a82b04450dc68ed34ab559990117de",
+          "md5": "b2df3f70b3af3f3b7c18242d7a8b9e0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2906",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2906-android-0.8.6.aar",
+          "url": "ble-descriptor-u2906-android-0.8.6.aar",
+          "size": 3086,
+          "sha512": "56468b9701fb486303f4a4418e9ed848e9f49ed06ea54a15586f51e201f117ed18cd6babb6a5c41fff789e3a2f91ea152c31937fd83232e1edcd052490dc5e85",
+          "sha256": "bd01cdf76d59827687688711fab13adc1f3d676317fa228f84480ec945aef60c",
+          "sha1": "af174f3744a82b04450dc68ed34ab559990117de",
+          "md5": "b2df3f70b3af3f3b7c18242d7a8b9e0a"
+        }
+      ]
+    }
+  ]
+}

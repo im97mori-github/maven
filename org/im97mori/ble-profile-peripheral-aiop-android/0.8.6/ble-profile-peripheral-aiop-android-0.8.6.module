@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-aiop-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-aios-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-aiop-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-aiop-android-0.8.6.aar",
+          "size": 6503,
+          "sha512": "176b7037f730fcd602af539c351037490d4036a5090e12224d6520bf0b675e98cfe1d02e64de990e53388e8aeca68486c97133e872c3d35095a8be973ba1e588",
+          "sha256": "c16592d0b27e17bbd04853fc944a891670694d66d0fd946ee76ad5ac6118e3c9",
+          "sha1": "133ed83a2991150e84238eb2c25daeb35f2bdc5d",
+          "md5": "afbe1e2f58465c86a811837535d0470d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-aios-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-aiop-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-aiop-android-0.8.6.aar",
+          "size": 6503,
+          "sha512": "176b7037f730fcd602af539c351037490d4036a5090e12224d6520bf0b675e98cfe1d02e64de990e53388e8aeca68486c97133e872c3d35095a8be973ba1e588",
+          "sha256": "c16592d0b27e17bbd04853fc944a891670694d66d0fd946ee76ad5ac6118e3c9",
+          "sha1": "133ed83a2991150e84238eb2c25daeb35f2bdc5d",
+          "md5": "afbe1e2f58465c86a811837535d0470d"
+        }
+      ]
+    }
+  ]
+}

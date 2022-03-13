@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-gap-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a05-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2b2a-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2b29-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-gap-android-0.8.6.aar",
+          "url": "ble-service-gap-android-0.8.6.aar",
+          "size": 1224,
+          "sha512": "1a799408ec99ac202d809438cadbb88c33f6fc6655076cff56c78f6eb6534ab1d3bc6bd0019c3cc3083d09500ef4a3639523b2602b11d031be42096a59a5979f",
+          "sha256": "a0ec507a56279f08407910b2d8397cab019574b45203b271a76c7bb1f631c4f9",
+          "sha1": "186d832248af53c3af1cd63d925104095c5097cc",
+          "md5": "3f0471dd086665ff66d216c14b011455"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a05-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2b2a-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2b29-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-gap-android-0.8.6.aar",
+          "url": "ble-service-gap-android-0.8.6.aar",
+          "size": 1224,
+          "sha512": "1a799408ec99ac202d809438cadbb88c33f6fc6655076cff56c78f6eb6534ab1d3bc6bd0019c3cc3083d09500ef4a3639523b2602b11d031be42096a59a5979f",
+          "sha256": "a0ec507a56279f08407910b2d8397cab019574b45203b271a76c7bb1f631c4f9",
+          "sha1": "186d832248af53c3af1cd63d925104095c5097cc",
+          "md5": "3f0471dd086665ff66d216c14b011455"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-cpp-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-cps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-bas-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-cpp-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-cpp-android-0.8.6.aar",
+          "size": 8947,
+          "sha512": "28a917661c2f9b674c1be59823bf93e879844eafba515637180090bf37081859cbd51639bc5891163212ce74551b685aba92a84d56cbc867f9032361a617e28d",
+          "sha256": "163775de5ed2046bb367057e2526e5e9fb101a2b72791f16215527dd8b64fa44",
+          "sha1": "e6da2321ecd1dc6ddaf5c0b10bc3e108df45d4a6",
+          "md5": "74ae101ac9c85d5cb64f49a4a415e191"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-cps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-bas-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-cpp-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-cpp-android-0.8.6.aar",
+          "size": 8947,
+          "sha512": "28a917661c2f9b674c1be59823bf93e879844eafba515637180090bf37081859cbd51639bc5891163212ce74551b685aba92a84d56cbc867f9032361a617e28d",
+          "sha256": "163775de5ed2046bb367057e2526e5e9fb101a2b72791f16215527dd8b64fa44",
+          "sha1": "e6da2321ecd1dc6ddaf5c0b10bc3e108df45d4a6",
+          "md5": "74ae101ac9c85d5cb64f49a4a415e191"
+        }
+      ]
+    }
+  ]
+}

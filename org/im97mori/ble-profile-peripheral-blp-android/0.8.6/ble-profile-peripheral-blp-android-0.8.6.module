@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-blp-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-bls-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-blp-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-blp-android-0.8.6.aar",
+          "size": 5281,
+          "sha512": "457a7b4944603f2c9907a230bb469769e02b55132a91a3917011940a3220386d4027d19b05e79292fbd892c8775e51f574828f2bf01ab5f8fc07e1a88d2a39bb",
+          "sha256": "aa375312d97fa70706e277900c249a22f71085decaa1ae02f3a0177e1ca41e47",
+          "sha1": "b6f37b8a70dda0c6094679d3bdfba7e58222abea",
+          "md5": "c4227cb9aefa9015c08c857aa4cc7e11"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-bls-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-blp-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-blp-android-0.8.6.aar",
+          "size": 5281,
+          "sha512": "457a7b4944603f2c9907a230bb469769e02b55132a91a3917011940a3220386d4027d19b05e79292fbd892c8775e51f574828f2bf01ab5f8fc07e1a88d2a39bb",
+          "sha256": "aa375312d97fa70706e277900c249a22f71085decaa1ae02f3a0177e1ca41e47",
+          "sha1": "b6f37b8a70dda0c6094679d3bdfba7e58222abea",
+          "md5": "c4227cb9aefa9015c08c857aa4cc7e11"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-hrs-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hrs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-hrs-android-0.8.6.aar",
+          "url": "ble-service-central-hrs-android-0.8.6.aar",
+          "size": 6170,
+          "sha512": "e00cd1528a51460a52a5efe71d6370044835af74d57112d381af5f6af5dfce793a76b475368d554406d447d0033f3a4e62047725aae1aac96f83aeda0b5d21c2",
+          "sha256": "6fa80550682f18f798ab994ed03ebb1f66bffc6c454c3079a5aa8738ce2a3abe",
+          "sha1": "f7bf46e1d01b1607271de3c7818ac48111c5a688",
+          "md5": "1b0c45bdc4d391b755901625fd42cb9f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hrs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-hrs-android-0.8.6.aar",
+          "url": "ble-service-central-hrs-android-0.8.6.aar",
+          "size": 6170,
+          "sha512": "e00cd1528a51460a52a5efe71d6370044835af74d57112d381af5f6af5dfce793a76b475368d554406d447d0033f3a4e62047725aae1aac96f83aeda0b5d21c2",
+          "sha256": "6fa80550682f18f798ab994ed03ebb1f66bffc6c454c3079a5aa8738ce2a3abe",
+          "sha1": "f7bf46e1d01b1607271de3c7818ac48111c5a688",
+          "md5": "1b0c45bdc4d391b755901625fd42cb9f"
+        }
+      ]
+    }
+  ]
+}

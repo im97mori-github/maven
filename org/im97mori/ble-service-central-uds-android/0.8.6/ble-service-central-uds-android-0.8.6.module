@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-uds-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-uds-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-uds-android-0.8.6.aar",
+          "url": "ble-service-central-uds-android-0.8.6.aar",
+          "size": 18494,
+          "sha512": "ecb07567dff610ccdf0d7f38b7420e9dcc513f11a6a5716c1af86eec89b1c93a3743bfd1ba8f247058ce39ba53484df3d76217cd4d5b1b83985246b378f00736",
+          "sha256": "4c29ff9f5947e7db5d5eaa69c54d3319653f3f49bfbd9a8c19c1d8c45f748d8a",
+          "sha1": "96f69efd57e2e74c2ee17b6f99ba124be1e889c5",
+          "md5": "63e242cbee023e88ede290feef10c4e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-uds-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-uds-android-0.8.6.aar",
+          "url": "ble-service-central-uds-android-0.8.6.aar",
+          "size": 18494,
+          "sha512": "ecb07567dff610ccdf0d7f38b7420e9dcc513f11a6a5716c1af86eec89b1c93a3743bfd1ba8f247058ce39ba53484df3d76217cd4d5b1b83985246b378f00736",
+          "sha256": "4c29ff9f5947e7db5d5eaa69c54d3319653f3f49bfbd9a8c19c1d8c45f748d8a",
+          "sha1": "96f69efd57e2e74c2ee17b6f99ba124be1e889c5",
+          "md5": "63e242cbee023e88ede290feef10c4e2"
+        }
+      ]
+    }
+  ]
+}

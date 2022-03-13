@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-tps-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a07-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-android-0.8.6.aar",
+          "url": "ble-service-tps-android-0.8.6.aar",
+          "size": 1224,
+          "sha512": "80621b5e33471ee36167a83c9154e648cee267ed0a71a56955cb5925fd273ff854156f7d086afa745ac8db2347c322da6edd60f847f962158fabb805dbe0c2bd",
+          "sha256": "a5fb71ef1fc6918711f2bdaf781717e5a1528b0cd2ec2e7581d6627c38cd01b0",
+          "sha1": "b568429c0683fe3a85db1c4472dae4aa8f5afdaf",
+          "md5": "9ec52b6094e71328d116771e011d032f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a07-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-tps-android-0.8.6.aar",
+          "url": "ble-service-tps-android-0.8.6.aar",
+          "size": 1224,
+          "sha512": "80621b5e33471ee36167a83c9154e648cee267ed0a71a56955cb5925fd273ff854156f7d086afa745ac8db2347c322da6edd60f847f962158fabb805dbe0c2bd",
+          "sha256": "a5fb71ef1fc6918711f2bdaf781717e5a1528b0cd2ec2e7581d6627c38cd01b0",
+          "sha1": "b568429c0683fe3a85db1c4472dae4aa8f5afdaf",
+          "md5": "9ec52b6094e71328d116771e011d032f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-ftmp-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-ftms-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-uds-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-ftmp-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-ftmp-android-0.8.6.aar",
+          "size": 14563,
+          "sha512": "73fdd2df423644e01210fa8ad76f20e7adda7b9a3f7cfb63f8a1736b0e1f8ac8b9d86aa0d16755a76f290422b479e7e0969fe8eb9a1ab386a1e6191d7c79829f",
+          "sha256": "1c9d2148d160f2b26083ef91011ecdc839e641798916308f619e98e069aa103b",
+          "sha1": "a8c9b97ffc063fdebb773b071ebb07726ecfbabf",
+          "md5": "b68bdd3b6b5a8fa492b80a92d6ee46ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-ftms-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-uds-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-ftmp-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-ftmp-android-0.8.6.aar",
+          "size": 14563,
+          "sha512": "73fdd2df423644e01210fa8ad76f20e7adda7b9a3f7cfb63f8a1736b0e1f8ac8b9d86aa0d16755a76f290422b479e7e0969fe8eb9a1ab386a1e6191d7c79829f",
+          "sha256": "1c9d2148d160f2b26083ef91011ecdc839e641798916308f619e98e069aa103b",
+          "sha1": "a8c9b97ffc063fdebb773b071ebb07726ecfbabf",
+          "md5": "b68bdd3b6b5a8fa492b80a92d6ee46ec"
+        }
+      ]
+    }
+  ]
+}

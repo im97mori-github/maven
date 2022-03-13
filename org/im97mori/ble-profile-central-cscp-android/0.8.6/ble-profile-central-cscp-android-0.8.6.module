@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-cscp-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-cscs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-cscp-android-0.8.6.aar",
+          "url": "ble-profile-central-cscp-android-0.8.6.aar",
+          "size": 7325,
+          "sha512": "b1e37836f1725c240f8660c4a059820e912e4aa0fba3dc953affef1932b24024eec6d909dbc08399381d11b05aca461bcca9b4ab7409d12f8fad500580ffa6cf",
+          "sha256": "9cb323d0b92230fa91363132abfa9349220658f86aecb24d5404f545900c0583",
+          "sha1": "443e255d9071c399f56599c2fbd67a2dd1341587",
+          "md5": "c42b1a79088b5ae4b69a1ad28528fe12"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-cscs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-cscp-android-0.8.6.aar",
+          "url": "ble-profile-central-cscp-android-0.8.6.aar",
+          "size": 7325,
+          "sha512": "b1e37836f1725c240f8660c4a059820e912e4aa0fba3dc953affef1932b24024eec6d909dbc08399381d11b05aca461bcca9b4ab7409d12f8fad500580ffa6cf",
+          "sha256": "9cb323d0b92230fa91363132abfa9349220658f86aecb24d5404f545900c0583",
+          "sha1": "443e255d9071c399f56599c2fbd67a2dd1341587",
+          "md5": "c42b1a79088b5ae4b69a1ad28528fe12"
+        }
+      ]
+    }
+  ]
+}

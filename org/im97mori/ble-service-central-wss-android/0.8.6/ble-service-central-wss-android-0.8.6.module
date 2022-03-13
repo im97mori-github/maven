@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-wss-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-wss-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-wss-android-0.8.6.aar",
+          "url": "ble-service-central-wss-android-0.8.6.aar",
+          "size": 5026,
+          "sha512": "898cf6f88724630f854eec98a4164fd1e9fe1d9d91a6d54f6c83016ecc200c4614c6fe61d4b205bebdfdc71c07e6d160ce65aad3feb416a9dc9f1485928e9b30",
+          "sha256": "4b68f77f4a2bc59161d682839989f6a8a07df23d61ebdba620f95638f467765c",
+          "sha1": "ece963349c55c3bfd0af196bc157a0da6c9affc2",
+          "md5": "e704ff03714c23da1ac0521f0d976e2b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-wss-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-wss-android-0.8.6.aar",
+          "url": "ble-service-central-wss-android-0.8.6.aar",
+          "size": 5026,
+          "sha512": "898cf6f88724630f854eec98a4164fd1e9fe1d9d91a6d54f6c83016ecc200c4614c6fe61d4b205bebdfdc71c07e6d160ce65aad3feb416a9dc9f1485928e9b30",
+          "sha256": "4b68f77f4a2bc59161d682839989f6a8a07df23d61ebdba620f95638f467765c",
+          "sha1": "ece963349c55c3bfd0af196bc157a0da6c9affc2",
+          "md5": "e704ff03714c23da1ac0521f0d976e2b"
+        }
+      ]
+    }
+  ]
+}

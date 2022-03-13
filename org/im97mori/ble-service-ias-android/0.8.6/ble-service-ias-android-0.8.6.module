@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ias-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a06-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ias-android-0.8.6.aar",
+          "url": "ble-service-ias-android-0.8.6.aar",
+          "size": 1223,
+          "sha512": "82b1ca1923ebaeb6d51e62f2960cc6a5000eb0187c3d5013f0db41bf71f85ca726272ca6be0bba1f9b8cceecf699ccc83f618f8e8db427d3c2d18743e4c22700",
+          "sha256": "96694cc70c073be273fde396698e9ada97e284f654c4c9126df99959bb5cf855",
+          "sha1": "c644a8776dfc7a79740afb819f4dc2e199bd56be",
+          "md5": "95bc4b315ea22588f9b20b806e6c9466"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a06-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ias-android-0.8.6.aar",
+          "url": "ble-service-ias-android-0.8.6.aar",
+          "size": 1223,
+          "sha512": "82b1ca1923ebaeb6d51e62f2960cc6a5000eb0187c3d5013f0db41bf71f85ca726272ca6be0bba1f9b8cceecf699ccc83f618f8e8db427d3c2d18743e4c22700",
+          "sha256": "96694cc70c073be273fde396698e9ada97e284f654c4c9126df99959bb5cf855",
+          "sha1": "c644a8776dfc7a79740afb819f4dc2e199bd56be",
+          "md5": "95bc4b315ea22588f9b20b806e6c9466"
+        }
+      ]
+    }
+  ]
+}

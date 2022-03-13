@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-scps-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-scps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-scps-android-0.8.6.aar",
+          "url": "ble-service-peripheral-scps-android-0.8.6.aar",
+          "size": 4250,
+          "sha512": "f5c7d69daa100aacf990215ca09f905a43dfb038f15985355922d622dde0ed8f748b061f456560760625e9c17c05268d1ed8d98987072016b63e8a5762053899",
+          "sha256": "1901d7227908900aaa8017feabd1783afc0f0b688e02bd36b5e97153d90dc9f6",
+          "sha1": "3a860ce272bdf7552a17bbcf97f1d07a906ad786",
+          "md5": "4d0a4150b86574eac36fe49c509aa43f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-scps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-scps-android-0.8.6.aar",
+          "url": "ble-service-peripheral-scps-android-0.8.6.aar",
+          "size": 4250,
+          "sha512": "f5c7d69daa100aacf990215ca09f905a43dfb038f15985355922d622dde0ed8f748b061f456560760625e9c17c05268d1ed8d98987072016b63e8a5762053899",
+          "sha256": "1901d7227908900aaa8017feabd1783afc0f0b688e02bd36b5e97153d90dc9f6",
+          "sha1": "3a860ce272bdf7552a17bbcf97f1d07a906ad786",
+          "md5": "4d0a4150b86574eac36fe49c509aa43f"
+        }
+      ]
+    }
+  ]
+}

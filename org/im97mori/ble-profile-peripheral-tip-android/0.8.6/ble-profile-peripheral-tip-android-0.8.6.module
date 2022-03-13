@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-tip-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-cts-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-ndcs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-rtus-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-tip-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-tip-android-0.8.6.aar",
+          "size": 7424,
+          "sha512": "2be23b67f95a01e640f39c121bbc92b8651f4626474c6eec3cc9ad511c0d3bdac081662e57f8662c3c227a986648cb0806fe96ff97006317d974ad23dbb67437",
+          "sha256": "7c34a6dfd05620d30229a310284e9043ff16329be0d21f10d7aa6b1abd8f985c",
+          "sha1": "a59a374ee126296a31883a6c1490014bcc696039",
+          "md5": "7e620c4374800a218fe7a780477fc06e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-cts-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-ndcs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-rtus-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-tip-android-0.8.6.aar",
+          "url": "ble-profile-peripheral-tip-android-0.8.6.aar",
+          "size": 7424,
+          "sha512": "2be23b67f95a01e640f39c121bbc92b8651f4626474c6eec3cc9ad511c0d3bdac081662e57f8662c3c227a986648cb0806fe96ff97006317d974ad23dbb67437",
+          "sha256": "7c34a6dfd05620d30229a310284e9043ff16329be0d21f10d7aa6b1abd8f985c",
+          "sha1": "a59a374ee126296a31883a6c1490014bcc696039",
+          "md5": "7e620c4374800a218fe7a780477fc06e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-ias-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ias-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-ias-android-0.8.6.aar",
+          "url": "ble-service-central-ias-android-0.8.6.aar",
+          "size": 3282,
+          "sha512": "069d01b5ea86fc0da0bc61edaef9d337d0362d3545570a76b6d0d3ecd317ce2bc7e60fe2de372a79a013a6dbbfdb032c9dca44cf6e7df274112fe8a19a657bce",
+          "sha256": "549b93cf80733d3a9e3fa36421b2b837986a141fad793144dae75463b86ac0cd",
+          "sha1": "b1dbff48ac720f72aed13629d58e084e8eb53a6f",
+          "md5": "47c18091f1f8dfdd11102cf5211a8317"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ias-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-ias-android-0.8.6.aar",
+          "url": "ble-service-central-ias-android-0.8.6.aar",
+          "size": 3282,
+          "sha512": "069d01b5ea86fc0da0bc61edaef9d337d0362d3545570a76b6d0d3ecd317ce2bc7e60fe2de372a79a013a6dbbfdb032c9dca44cf6e7df274112fe8a19a657bce",
+          "sha256": "549b93cf80733d3a9e3fa36421b2b837986a141fad793144dae75463b86ac0cd",
+          "sha1": "b1dbff48ac720f72aed13629d58e084e8eb53a6f",
+          "md5": "47c18091f1f8dfdd11102cf5211a8317"
+        }
+      ]
+    }
+  ]
+}

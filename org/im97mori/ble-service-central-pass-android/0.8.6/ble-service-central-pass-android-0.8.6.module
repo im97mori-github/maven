@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-pass-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-pass-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-pass-android-0.8.6.aar",
+          "url": "ble-service-central-pass-android-0.8.6.aar",
+          "size": 6198,
+          "sha512": "c519f69f403aef177f7e24a0a32342de879cde22ee1b67d16732f5bbb9a5c2f185d17339e75fb6abf9f46dd876c0e70c213def9ffd9ddc6bf4175b1d73721f7c",
+          "sha256": "75f15a92090f1e8cd76fc7e55da87ecdcca63e6eee003ddf6091e272fc7b23c0",
+          "sha1": "a1f291d4e3d2a8dc8fdee103786a362994d20226",
+          "md5": "f2a9fde16db645c4c5b9b720a5a7581f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-pass-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-pass-android-0.8.6.aar",
+          "url": "ble-service-central-pass-android-0.8.6.aar",
+          "size": 6198,
+          "sha512": "c519f69f403aef177f7e24a0a32342de879cde22ee1b67d16732f5bbb9a5c2f185d17339e75fb6abf9f46dd876c0e70c213def9ffd9ddc6bf4175b1d73721f7c",
+          "sha256": "75f15a92090f1e8cd76fc7e55da87ecdcca63e6eee003ddf6091e272fc7b23c0",
+          "sha1": "a1f291d4e3d2a8dc8fdee103786a362994d20226",
+          "md5": "f2a9fde16db645c4c5b9b720a5a7581f"
+        }
+      ]
+    }
+  ]
+}

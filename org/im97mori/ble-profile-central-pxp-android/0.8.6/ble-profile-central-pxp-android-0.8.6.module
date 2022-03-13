@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-pxp-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-lls-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-ias-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-tps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-pxp-android-0.8.6.aar",
+          "url": "ble-profile-central-pxp-android-0.8.6.aar",
+          "size": 7941,
+          "sha512": "41b8b5a31b3ca124ca045d639ac0fd84d32bfbd0cbef4a90b7ac531643dfebbfb9057351d8250aa8d98c2d43a9499316d5d076637fc22c55fd50dbfba774f703",
+          "sha256": "7676dec5104b196b8855a1cd7dba253e3c1c63cd20c3456ac486dff5d54da8b2",
+          "sha1": "25d7429c73e320c4353136ee5391b7b5439e81e0",
+          "md5": "60d470173fefb419b5f194b06a7c3832"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-lls-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-ias-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-tps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-pxp-android-0.8.6.aar",
+          "url": "ble-profile-central-pxp-android-0.8.6.aar",
+          "size": 7941,
+          "sha512": "41b8b5a31b3ca124ca045d639ac0fd84d32bfbd0cbef4a90b7ac531643dfebbfb9057351d8250aa8d98c2d43a9499316d5d076637fc22c55fd50dbfba774f703",
+          "sha256": "7676dec5104b196b8855a1cd7dba253e3c1c63cd20c3456ac486dff5d54da8b2",
+          "sha1": "25d7429c73e320c4353136ee5391b7b5439e81e0",
+          "md5": "60d470173fefb419b5f194b06a7c3832"
+        }
+      ]
+    }
+  ]
+}

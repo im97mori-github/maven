@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-rscs-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rscs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-rscs-android-0.8.6.aar",
+          "url": "ble-service-central-rscs-android-0.8.6.aar",
+          "size": 7138,
+          "sha512": "0aed6386f0a5178adb00f13ab2b1de538fceb80746e7243c794b2e857ba03dc88a7f802baf9645154f0d6eac7f3b8c8f7843825b1a3593a9232b99928142e148",
+          "sha256": "42c210734f073b3ac6b5be0806ea5a30605f801c6f5dec5050273c3548be1abf",
+          "sha1": "8a06f34ea4aa03dd61ccea72a5927c4877a9d8fb",
+          "md5": "f5e015857ce2bb4d3622846f3c8bc2c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rscs-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-rscs-android-0.8.6.aar",
+          "url": "ble-service-central-rscs-android-0.8.6.aar",
+          "size": 7138,
+          "sha512": "0aed6386f0a5178adb00f13ab2b1de538fceb80746e7243c794b2e857ba03dc88a7f802baf9645154f0d6eac7f3b8c8f7843825b1a3593a9232b99928142e148",
+          "sha256": "42c210734f073b3ac6b5be0806ea5a30605f801c6f5dec5050273c3548be1abf",
+          "sha1": "8a06f34ea4aa03dd61ccea72a5927c4877a9d8fb",
+          "md5": "f5e015857ce2bb4d3622846f3c8bc2c9"
+        }
+      ]
+    }
+  ]
+}

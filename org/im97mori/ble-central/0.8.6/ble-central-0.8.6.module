@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-central",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.8.6.aar",
+          "url": "ble-central-0.8.6.aar",
+          "size": 72266,
+          "sha512": "58e1de1d1e77c79b07f01c1ec4c1a51fa53a6aa74aaea152b7c0da63efccb05d571ea11d8b0e80ce4838f2aeb2e50b51ecd4b88785401cb58ead5e3e7635f41c",
+          "sha256": "990bcbfbf8fa36b554104d7aed38a8dcdd2306beb73d6defb3e81b5d97dc8ef6",
+          "sha1": "4b4c0716e033ede6e35f296a57c8074c00862db9",
+          "md5": "a2ce7f6075af63ae8470a08bc13cef6d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.8.6.aar",
+          "url": "ble-central-0.8.6.aar",
+          "size": 72266,
+          "sha512": "58e1de1d1e77c79b07f01c1ec4c1a51fa53a6aa74aaea152b7c0da63efccb05d571ea11d8b0e80ce4838f2aeb2e50b51ecd4b88785401cb58ead5e3e7635f41c",
+          "sha256": "990bcbfbf8fa36b554104d7aed38a8dcdd2306beb73d6defb3e81b5d97dc8ef6",
+          "sha1": "4b4c0716e033ede6e35f296a57c8074c00862db9",
+          "md5": "a2ce7f6075af63ae8470a08bc13cef6d"
+        }
+      ]
+    }
+  ]
+}

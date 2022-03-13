@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-scpp-android",
+    "version": "0.8.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-scps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-scpp-android-0.8.6.aar",
+          "url": "ble-profile-central-scpp-android-0.8.6.aar",
+          "size": 6007,
+          "sha512": "1162d0730dd30ea02b754f9b1c063c68afc4c500af23afb4c2b78b5b2225a4bab4639de8f3ccb54b5a6884583af58ad8e0d345d1558836286887e3eec4c6dc58",
+          "sha256": "64e9fb7766894edde3d01afb3d2701a286ac292274b70cff6919252e0ca98886",
+          "sha1": "606268874bc94959b86149304473bb04d0b6ad51",
+          "md5": "2bdc0876e4529cb7b6eae43b9f89ef98"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-scps-android",
+          "version": {
+            "requires": "0.8.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-scpp-android-0.8.6.aar",
+          "url": "ble-profile-central-scpp-android-0.8.6.aar",
+          "size": 6007,
+          "sha512": "1162d0730dd30ea02b754f9b1c063c68afc4c500af23afb4c2b78b5b2225a4bab4639de8f3ccb54b5a6884583af58ad8e0d345d1558836286887e3eec4c6dc58",
+          "sha256": "64e9fb7766894edde3d01afb3d2701a286ac292274b70cff6919252e0ca98886",
+          "sha1": "606268874bc94959b86149304473bb04d0b6ad51",
+          "md5": "2bdc0876e4529cb7b6eae43b9f89ef98"
+        }
+      ]
+    }
+  ]
+}
