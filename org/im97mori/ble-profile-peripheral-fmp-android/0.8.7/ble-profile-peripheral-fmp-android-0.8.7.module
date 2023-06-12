@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-peripheral-fmp-android",
+    "version": "0.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-ias-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-fmp-android-0.8.7.aar",
+          "url": "ble-profile-peripheral-fmp-android-0.8.7.aar",
+          "size": 3622,
+          "sha512": "de3b310f7688f9749002643b124551ae7da21b1d93fbd1e56c062c3f60d9eef0a75d8c8cec661edf7c3af7fc5435a1d7bb89183bdc41df0b721385006cfac432",
+          "sha256": "f76f222c97035bbfc2b483bfce8b748c1c9e654047729f4d874853f0ef53c050",
+          "sha1": "5c8fbbf8e72183b030e225e4f4e415396dfac756",
+          "md5": "e844277502b02f128009240a95d4ae3d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-peripheral-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-ias-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-peripheral-fmp-android-0.8.7.aar",
+          "url": "ble-profile-peripheral-fmp-android-0.8.7.aar",
+          "size": 3622,
+          "sha512": "de3b310f7688f9749002643b124551ae7da21b1d93fbd1e56c062c3f60d9eef0a75d8c8cec661edf7c3af7fc5435a1d7bb89183bdc41df0b721385006cfac432",
+          "sha256": "f76f222c97035bbfc2b483bfce8b748c1c9e654047729f4d874853f0ef53c050",
+          "sha1": "5c8fbbf8e72183b030e225e4f4e415396dfac756",
+          "md5": "e844277502b02f128009240a95d4ae3d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-peripheral-fmp-android-0.8.7-sources.jar",
+          "url": "ble-profile-peripheral-fmp-android-0.8.7-sources.jar",
+          "size": 2465,
+          "sha512": "35e25b1ff4e7509dd6cdea98b17611563e95a07ac76b178533e0fb24f62dfe241790906582ef3837637a3e0cd1db00b598b611a5d2944174abf8acffac7799d8",
+          "sha256": "a84d02a9df1fb1d4f23ec2e865860458c96d271459c79f7c13b91e88d4c0c7c4",
+          "sha1": "02800b35a6f3652320572cedceba413d48fd2677",
+          "md5": "53d6456c61467794e6c9f5dd193e088f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-peripheral-fmp-android-0.8.7-javadoc.jar",
+          "url": "ble-profile-peripheral-fmp-android-0.8.7-javadoc.jar",
+          "size": 279607,
+          "sha512": "537e3392a44f49a443c8fd532efeaef778692aa7957335850f40fc20228f7bebe2a67e00ba62bb88746bca3ed3db697eb77b185372d4bffa1ede40a5b3504a82",
+          "sha256": "7ff82c8f601d4f0f7cb3989e46c2f0a262d1c3eb5a0c1871f3088cfbc6023c44",
+          "sha1": "2c6c82cf45aa5cf3678091d840af6e1dcd88e362",
+          "md5": "f5d4e732b2a027061ed85fe14552207f"
+        }
+      ]
+    }
+  ]
+}

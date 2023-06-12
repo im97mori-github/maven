@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-descriptor-u2900",
+    "version": "0.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-0.8.7.jar",
+          "url": "ble-descriptor-u2900-0.8.7.jar",
+          "size": 2263,
+          "sha512": "e6a1a567865053aa50cb8c4755fd53e29a5a5b860b2963669f0c42af7c821c46679888341252ec3c3daa076d27f4b3ba7878c8e019672ae27eb31e8d771084c5",
+          "sha256": "bd73ea6c6fefac36a1353039d1baab769c67963550eaa321d604a094100dda45",
+          "sha1": "07ef10dd98f36d2e3929c13fd6ab58730afb2caa",
+          "md5": "461c9f9bcdfbcb723a52294a3ed3ab18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-0.8.7.jar",
+          "url": "ble-descriptor-u2900-0.8.7.jar",
+          "size": 2263,
+          "sha512": "e6a1a567865053aa50cb8c4755fd53e29a5a5b860b2963669f0c42af7c821c46679888341252ec3c3daa076d27f4b3ba7878c8e019672ae27eb31e8d771084c5",
+          "sha256": "bd73ea6c6fefac36a1353039d1baab769c67963550eaa321d604a094100dda45",
+          "sha1": "07ef10dd98f36d2e3929c13fd6ab58730afb2caa",
+          "md5": "461c9f9bcdfbcb723a52294a3ed3ab18"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-0.8.7-javadoc.jar",
+          "url": "ble-descriptor-u2900-0.8.7-javadoc.jar",
+          "size": 110376,
+          "sha512": "68c1af49ef5d1d73aa047ae6a5b38835c81faebbabe31efca8d696ef4da3704e543c35aafa517d03d6e56582cfc9debb49e1279c7d65a71a669bef8420ad4ae6",
+          "sha256": "a34f4f25fcd0d71aef32657756c6883c03b7fffe071ee8c0ad52ba498ec5dab8",
+          "sha1": "4d5160bc7c0a0c51722a33896168e6773b7f16f4",
+          "md5": "c74913b32d129c4537fa718b11aa489c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-descriptor-u2900-0.8.7-sources.jar",
+          "url": "ble-descriptor-u2900-0.8.7-sources.jar",
+          "size": 2155,
+          "sha512": "4e13a4dc2587fb238cf7b6558ea05f148d620f3ad1a326730362132ef47cac8881781f6372ec3a3ef1efa90b3871fc6913cd3d83454c8511713abfc8cb03b1c1",
+          "sha256": "f584157abce79bc1c9be6666645d0e9ed8cdba6c5ac14cca43e583652fec93cc",
+          "sha1": "571bdbc5c7ca87de8abd29ffd0d1f875ff2d5f75",
+          "md5": "5321dea48fe76bbc9c872e51cacb3346"
+        }
+      ]
+    }
+  ]
+}

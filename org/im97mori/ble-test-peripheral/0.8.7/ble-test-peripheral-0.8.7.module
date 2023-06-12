@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-test-peripheral",
+    "version": "0.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-peripheral-0.8.7.aar",
+          "url": "ble-test-peripheral-0.8.7.aar",
+          "size": 3576,
+          "sha512": "082ad6a6ed1438002ab5dbbd48c99058402bda4e720e05f7940e43bc3caacece80f068186281c873ebc23574c729f9f2edf073caa9857d8851e586b7fd8038dd",
+          "sha256": "ebaab48c2a948d63143a6c933cf9b8433c79de2deca0124dfc8ce009f89acf33",
+          "sha1": "50c7944aae68432e1213d0c69c8348c7639798af",
+          "md5": "adee1c702934453a5c6c6eec12faabe7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-peripheral-0.8.7.aar",
+          "url": "ble-test-peripheral-0.8.7.aar",
+          "size": 3576,
+          "sha512": "082ad6a6ed1438002ab5dbbd48c99058402bda4e720e05f7940e43bc3caacece80f068186281c873ebc23574c729f9f2edf073caa9857d8851e586b7fd8038dd",
+          "sha256": "ebaab48c2a948d63143a6c933cf9b8433c79de2deca0124dfc8ce009f89acf33",
+          "sha1": "50c7944aae68432e1213d0c69c8348c7639798af",
+          "md5": "adee1c702934453a5c6c6eec12faabe7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-test-peripheral-0.8.7-sources.jar",
+          "url": "ble-test-peripheral-0.8.7-sources.jar",
+          "size": 2692,
+          "sha512": "4e08b262b69d3f80dcd1408e0cb6a7a3c035495245de8e52ec61bc20e547316297b03fc01486062422a938ee9f70cfe15ec742e4b60203de9cd3fea34486d26c",
+          "sha256": "00fa5f13022899dbba927e9999b593e3bb1cb51111e680b4ef581e608ebddd11",
+          "sha1": "b6d4dedf829bcff20e64911e8308662ce0858e7c",
+          "md5": "ec317b5a189cc57c592d533b9a8d03d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-test-peripheral-0.8.7-javadoc.jar",
+          "url": "ble-test-peripheral-0.8.7-javadoc.jar",
+          "size": 283861,
+          "sha512": "c11ea497db346caa6f143e02bf891113c4d9ff7c8da69599f8ce2e8b51f473c373853ce75110411051986caf9ae6532ea0dbcda72ed5f9c1d39affc1f7820f61",
+          "sha256": "fbc25e69520e6bf7e1c345f4625234e76136bbf0cbf47a5f46f15212be21de8b",
+          "sha1": "1c52849113632d394a9f7211a773178af22c87f0",
+          "md5": "28e9a67c560668269e8900159d2c006c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core-utils-android",
+    "version": "0.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "stacklog",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.7.aar",
+          "url": "ble-core-utils-android-0.8.7.aar",
+          "size": 3389,
+          "sha512": "d5a32e77701a969df6629c3a4154b00790e2ba873648819051f82682b8f9484663ff8bed56a670e4bbf558fe51a80b4a39d948d141306c24306b9675b289b6d7",
+          "sha256": "24497dc5d1dd5a3a09a6f8c3558f217b507f95bac31eb58d2b824ed43cc1fe82",
+          "sha1": "140df467b043fbb92fb089949fe382395417a901",
+          "md5": "7b5ca924f7f2d22b98a848fb9a752429"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "stacklog",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.7.aar",
+          "url": "ble-core-utils-android-0.8.7.aar",
+          "size": 3389,
+          "sha512": "d5a32e77701a969df6629c3a4154b00790e2ba873648819051f82682b8f9484663ff8bed56a670e4bbf558fe51a80b4a39d948d141306c24306b9675b289b6d7",
+          "sha256": "24497dc5d1dd5a3a09a6f8c3558f217b507f95bac31eb58d2b824ed43cc1fe82",
+          "sha1": "140df467b043fbb92fb089949fe382395417a901",
+          "md5": "7b5ca924f7f2d22b98a848fb9a752429"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.7-sources.jar",
+          "url": "ble-core-utils-android-0.8.7-sources.jar",
+          "size": 2857,
+          "sha512": "f39141136bc853f8e57deb97650981401f92310bd4c7747313e9e01f6d6fa375da7f3a8c841e0102191993118f54e93bd391bd8444f93a41e4b6f3273a14e130",
+          "sha256": "fd1623603fda8ecb6ce03c093e3ae0c6d6204fae0768e98cfac8c52c748e0ed0",
+          "sha1": "198241ab6cb6fd24b3f916cda4604d692842ea5d",
+          "md5": "2ed4fc2b9805c022535cdf7df2d4672a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.7-javadoc.jar",
+          "url": "ble-core-utils-android-0.8.7-javadoc.jar",
+          "size": 279254,
+          "sha512": "ecceafb7bbc833f0830b6879476ad0fa43757c0762cc4812a1f653ff30bd8adac2c0985e0182a75eff1fd764951864cef87a932c96d0d910c00b214faad1d37a",
+          "sha256": "186ef0e117a7e41c4e017cc3b918f30cbeff0f27c23384c943ca33acfafcc973",
+          "sha1": "8d9158807aa0cb6af4c932db2e3c2b226ea7134c",
+          "md5": "c89ad112e44a4e9df1461fbc730bfe2c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-lns-android",
+    "version": "0.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lns-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-lns-android-0.8.7.aar",
+          "url": "ble-service-central-lns-android-0.8.7.aar",
+          "size": 7869,
+          "sha512": "8bd40987dd0bfe05bcc460945e8cebe4820eb1f0df96695e56bea2b2ce50d0baf0b6525d72a1eccb3688e7192e5588fd5eb4ba27e09f3b90d2de0a2b70a812fd",
+          "sha256": "2105a2cbec2cbafcdd99e7873e3e751339ad51e9bd39712bc98d001d1d08a688",
+          "sha1": "214a208f9a308725f9e6c855858da01a5971368c",
+          "md5": "ecfed7128ec4c72263bf1e85ee0f9df1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-lns-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-lns-android-0.8.7.aar",
+          "url": "ble-service-central-lns-android-0.8.7.aar",
+          "size": 7869,
+          "sha512": "8bd40987dd0bfe05bcc460945e8cebe4820eb1f0df96695e56bea2b2ce50d0baf0b6525d72a1eccb3688e7192e5588fd5eb4ba27e09f3b90d2de0a2b70a812fd",
+          "sha256": "2105a2cbec2cbafcdd99e7873e3e751339ad51e9bd39712bc98d001d1d08a688",
+          "sha1": "214a208f9a308725f9e6c855858da01a5971368c",
+          "md5": "ecfed7128ec4c72263bf1e85ee0f9df1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-lns-android-0.8.7-sources.jar",
+          "url": "ble-service-central-lns-android-0.8.7-sources.jar",
+          "size": 6644,
+          "sha512": "f37c392633b02cb226e21c13e3972b2356a9f9b7fc43292e78adf59cbf6571d1a40468153a85f4dfdd46d626f33db3436a4537b77f2d07dc3f11f1c3ae86942b",
+          "sha256": "ee5d37bac9fbb1d735b224ee893bb925f87cb77ae637a8c9ed2a734da0b286c5",
+          "sha1": "c8637d2b7ff5ee9e026dc6a959506d894806dae5",
+          "md5": "9af2cdf3942e4ba0149772ce0f731207"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-lns-android-0.8.7-javadoc.jar",
+          "url": "ble-service-central-lns-android-0.8.7-javadoc.jar",
+          "size": 288731,
+          "sha512": "153a1a51ba32e355fefff5a90e881fadf7e4476e27726ebe16dfad2c29b03c6307b8f7cfa8fcc9b752c1e3707267c46477a26d7f1611e323f0d463cdd58cbd83",
+          "sha256": "970d0ef643619751d45fe3f3988fdba176ef4920c27a10e0f525d7c45ea18766",
+          "sha1": "60f778479bd74c50e5e14fe6322ee9be3db1ace8",
+          "md5": "30450899a5526b9b40de51e480c501ce"
+        }
+      ]
+    }
+  ]
+}

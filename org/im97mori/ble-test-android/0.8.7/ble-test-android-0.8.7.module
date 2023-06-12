@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-test-android",
+    "version": "0.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-android-0.8.7.aar",
+          "url": "ble-test-android-0.8.7.aar",
+          "size": 5163,
+          "sha512": "cdf27e906a1a9839f8befaea09bf8649da4fad57afe8efc645180959a991be4d4cf415e34eeeb8192f0444ac1869d2cb94aa1ec9422c45aef9c427050d2e81ed",
+          "sha256": "fd5c27c02aa3d01c4850aa09825b04f3b47ce3fc750cd9258ac231ceba371a26",
+          "sha1": "762eb889f6c408b61f82263d395826296fca1f03",
+          "md5": "a0c4a752667de20a5a16269b7bc03c3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-android-0.8.7.aar",
+          "url": "ble-test-android-0.8.7.aar",
+          "size": 5163,
+          "sha512": "cdf27e906a1a9839f8befaea09bf8649da4fad57afe8efc645180959a991be4d4cf415e34eeeb8192f0444ac1869d2cb94aa1ec9422c45aef9c427050d2e81ed",
+          "sha256": "fd5c27c02aa3d01c4850aa09825b04f3b47ce3fc750cd9258ac231ceba371a26",
+          "sha1": "762eb889f6c408b61f82263d395826296fca1f03",
+          "md5": "a0c4a752667de20a5a16269b7bc03c3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-test-android-0.8.7-sources.jar",
+          "url": "ble-test-android-0.8.7-sources.jar",
+          "size": 2987,
+          "sha512": "6d5014e2c5b5829d1b946b8c6b9515b2c59075fee60b3ee71af32ee5fc126d3a4ae34f6b72737b9d78b39bd0f52f71155af15b6b99517b2688a0eb6ea20b06b9",
+          "sha256": "c2aafc14404f674b3daad20ec74eca4d2eb595f0f5b93ec80f3158595c742f80",
+          "sha1": "6a2b4aab5254fe3cc604efb2f48dca1b23467653",
+          "md5": "a4ac247802910b9a41fd22ba6b7d3fef"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-test-android-0.8.7-javadoc.jar",
+          "url": "ble-test-android-0.8.7-javadoc.jar",
+          "size": 267773,
+          "sha512": "ff7a298f15479f4456dae257af1a38265470a144cf7a0626100f2888c9859f8069d040005874d34588f57b2da85738bd4f8f8e71b97a7c6e0e1fc1f737b9ccb0",
+          "sha256": "7298390a1e55f31d961abf4cce96cbaaacd94e9983320f47c6e50897f0bab5d3",
+          "sha1": "48615c705b9a2c9660b9d00642c58d86cbe71985",
+          "md5": "37b72af0b36ddca748c5cd1b0b5b8f75"
+        }
+      ]
+    }
+  ]
+}

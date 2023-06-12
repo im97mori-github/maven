@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "true",
+    "version": "0.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "true-0.8.7.aar",
+          "url": "true-0.8.7.aar",
+          "size": 111641,
+          "sha512": "2691236251a4c4317a52c003329fc21ff1ffb1846dface95c7bc6910b0c7d46fec18d42f3738bd283e04dd42ed7eee7bb482dbf0be09223fb589304c6c1ae2c9",
+          "sha256": "c4db44041c54ce8e9b9fd508b0d9c0e082d27bc3ac37b416a4ffd2670690240f",
+          "sha1": "1c84ee1de8fcc44b4a0c736c75d09b21b532877b",
+          "md5": "2e5c66b5c00c588db3bbcc1340d18aca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.7"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "true-0.8.7.aar",
+          "url": "true-0.8.7.aar",
+          "size": 111641,
+          "sha512": "2691236251a4c4317a52c003329fc21ff1ffb1846dface95c7bc6910b0c7d46fec18d42f3738bd283e04dd42ed7eee7bb482dbf0be09223fb589304c6c1ae2c9",
+          "sha256": "c4db44041c54ce8e9b9fd508b0d9c0e082d27bc3ac37b416a4ffd2670690240f",
+          "sha1": "1c84ee1de8fcc44b4a0c736c75d09b21b532877b",
+          "md5": "2e5c66b5c00c588db3bbcc1340d18aca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "true-0.8.7-sources.jar",
+          "url": "true-0.8.7-sources.jar",
+          "size": 75003,
+          "sha512": "787551ad3b741b3d3dcd0acd6d476fa559bcd40c0a9300a5a2b6b021976d7f04fb55ad691c84672e294bf1a8f914d0800a0508b20f8b89a850e1bb8ea78d2d82",
+          "sha256": "cb4c80d6a2ebb5e9be8427abdfae2e36814bb3d9967e36df06332f23a3d5f8eb",
+          "sha1": "9a363ea0b94c3782eb2a0c102761fb578418f31b",
+          "md5": "8eee3e55666fe1318cbb2da2661b2604"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "true-0.8.7-javadoc.jar",
+          "url": "true-0.8.7-javadoc.jar",
+          "size": 579469,
+          "sha512": "529a22db42b50c4e3163a127f37949d08338f47742a8cfa3c20fcb28f256f62e8b22a17d997a351257925b2bc78648a3d7716f2d18fd69911de888e3e54d3839",
+          "sha256": "69848f59fd7c6c272ce6b9673ec1e974457cb0531e85d83c3479c807322e85cd",
+          "sha1": "14c7ae2594015bad17c4da5969c5a81093176009",
+          "md5": "230c471b7057b55067ee895f2247dd38"
+        }
+      ]
+    }
+  ]
+}
