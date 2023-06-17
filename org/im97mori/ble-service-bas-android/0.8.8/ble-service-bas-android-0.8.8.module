@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-bas-android",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a19-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bas-android-0.8.8.aar",
+          "url": "ble-service-bas-android-0.8.8.aar",
+          "size": 1297,
+          "sha512": "ab90f2ee89d82b717d8ffa62125c0e9054483df4dd15123ce5b4398e2e0c2d604c0879ef6062be2b8753d42cf788fa1134c076d35337190ab51a32e1d1e05930",
+          "sha256": "79a5d9b8f47355edc10c2fda5ed2d8b655e79b7b109f06d33543bd941386a792",
+          "sha1": "bd9eb583aa4831757878b1c50a25a114194656c5",
+          "md5": "f0286b9838e52e7cf9f0fd4c72a50bf4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a19-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bas-android-0.8.8.aar",
+          "url": "ble-service-bas-android-0.8.8.aar",
+          "size": 1297,
+          "sha512": "ab90f2ee89d82b717d8ffa62125c0e9054483df4dd15123ce5b4398e2e0c2d604c0879ef6062be2b8753d42cf788fa1134c076d35337190ab51a32e1d1e05930",
+          "sha256": "79a5d9b8f47355edc10c2fda5ed2d8b655e79b7b109f06d33543bd941386a792",
+          "sha1": "bd9eb583aa4831757878b1c50a25a114194656c5",
+          "md5": "f0286b9838e52e7cf9f0fd4c72a50bf4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-bas-android-0.8.8-sources.jar",
+          "url": "ble-service-bas-android-0.8.8-sources.jar",
+          "size": 1193,
+          "sha512": "7224dce9cfa2fd508d67dcae057000e66957643836a9232c8c3b781561c3b8223d12347814a6645840415fe2da3c707631b3e4e8a0c0f131b7c273af0fce4944",
+          "sha256": "cab05206665ebe491550afade4c4587feec6edcb1d7f1956de303a322e822968",
+          "sha1": "49410b22d6348e9c40adffff606373f77f177af9",
+          "md5": "3fad11d2c7525591b12cea1b2c7bba3c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-bas-android-0.8.8-javadoc.jar",
+          "url": "ble-service-bas-android-0.8.8-javadoc.jar",
+          "size": 259946,
+          "sha512": "831cbfcd28fdf100ee99c5be2a2d1649e4b4a4fc5bab1342cf117df6a1cf687559bd571a6042727e5436c4ec0083ef537277defcc5c89e9ee618c694e6bcf839",
+          "sha256": "646b299581f57c712bf1c0f5479467f813ec4c7a84b67f5d5e554e16dc5eaaf5",
+          "sha1": "f9dabd0d183a288e165c67b13bc8a1dcaa2292c8",
+          "md5": "fe4137cb908d1e78245627d4f79565bf"
+        }
+      ]
+    }
+  ]
+}

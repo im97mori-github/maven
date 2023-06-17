@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ndcs-android",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a11-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.8.8.aar",
+          "url": "ble-service-ndcs-android-0.8.8.aar",
+          "size": 1302,
+          "sha512": "1e0e105f93c5a9f742649949d198e549a4341ca7d939641f18073b5f009ddb178d2c4f8772a3216d16a4bb18556d7b30e74173741168e453227fa63a3ad8c41e",
+          "sha256": "c8c7277256cb90cca20d894bdc1bdb6ed887c5d82028300ee513c9a60981c136",
+          "sha1": "09e07110faa783493e887512490942f73c8c66ca",
+          "md5": "ddb0f5136ae51589917df9e098786e26"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a11-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.8.8.aar",
+          "url": "ble-service-ndcs-android-0.8.8.aar",
+          "size": 1302,
+          "sha512": "1e0e105f93c5a9f742649949d198e549a4341ca7d939641f18073b5f009ddb178d2c4f8772a3216d16a4bb18556d7b30e74173741168e453227fa63a3ad8c41e",
+          "sha256": "c8c7277256cb90cca20d894bdc1bdb6ed887c5d82028300ee513c9a60981c136",
+          "sha1": "09e07110faa783493e887512490942f73c8c66ca",
+          "md5": "ddb0f5136ae51589917df9e098786e26"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.8.8-sources.jar",
+          "url": "ble-service-ndcs-android-0.8.8-sources.jar",
+          "size": 1198,
+          "sha512": "e3e6e74a39a539dd359605c1cb0f814bab41136e1ea154d3b8b068f7595dfbf305e6c66183e0085b41e8fb1d22cdf266e6b9b2efe17eeaac5fc0c1d093d75c1e",
+          "sha256": "55826047d15aa00f03dfb2f7b35fc3ccad8b0487975d014dd4720016867ac4a4",
+          "sha1": "05e073695a9f55b314d70b20db2d1a961ee37d81",
+          "md5": "dda9738a27f5e536246ddba0f1549a41"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.8.8-javadoc.jar",
+          "url": "ble-service-ndcs-android-0.8.8-javadoc.jar",
+          "size": 259962,
+          "sha512": "12eee6279d1d37cc1bf3032932d0e3425ef60239995abcabd80f4f12b96cc2ce0dcbd8918b34f8b63a5a22d094b45272dd6585736839f7a92b23b28f71b0c10b",
+          "sha256": "da5c4a6d4bfea1dee73c64a9585e14a2e9419dfab94f08d4c4df0b4672c17923",
+          "sha1": "94c8014690f86e80c4be240df2312abc5616a36b",
+          "md5": "b600b7967febb444ed9eca3053769b4e"
+        }
+      ]
+    }
+  ]
+}

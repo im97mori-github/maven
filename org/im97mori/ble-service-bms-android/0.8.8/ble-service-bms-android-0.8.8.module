@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-bms-android",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa4-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa5-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.8.8.aar",
+          "url": "ble-service-bms-android-0.8.8.aar",
+          "size": 1299,
+          "sha512": "e52eeff2bad1bb69e560ba7f00cc9a136b53e405dcb4fa871d1ce360411e74c0a4407809bb69eb84ac1a7cb3cfd1b45cedcbeb056302584295e3fffd8442085e",
+          "sha256": "963d26aa5b1bcfef29345f3c8d333833943fc0a9319a19ff09465bb6457f3067",
+          "sha1": "2cd28bcb78852153b25c613a3a0236ceabd035bf",
+          "md5": "4a35cbe1b79ae7798fa4abc3f5ae15c1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa4-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa5-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.8.8.aar",
+          "url": "ble-service-bms-android-0.8.8.aar",
+          "size": 1299,
+          "sha512": "e52eeff2bad1bb69e560ba7f00cc9a136b53e405dcb4fa871d1ce360411e74c0a4407809bb69eb84ac1a7cb3cfd1b45cedcbeb056302584295e3fffd8442085e",
+          "sha256": "963d26aa5b1bcfef29345f3c8d333833943fc0a9319a19ff09465bb6457f3067",
+          "sha1": "2cd28bcb78852153b25c613a3a0236ceabd035bf",
+          "md5": "4a35cbe1b79ae7798fa4abc3f5ae15c1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.8.8-sources.jar",
+          "url": "ble-service-bms-android-0.8.8-sources.jar",
+          "size": 1193,
+          "sha512": "9a55ff2a66395c3f84ff43cb1c7f0bab3d32d52e92b5c81f5f8cd4634ea07629e080b41c141425710da62a85512876d06d5f8fca733e60cd4ee533fc03048b2f",
+          "sha256": "ae9fc15ab4349374be19c42e6df58abbcb37422742a204dae4dff5a4eeb1517c",
+          "sha1": "59f039faf22bf03470eff54e19bb268b38280e59",
+          "md5": "eee4e3d20501926be47c11e225f6a89a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.8.8-javadoc.jar",
+          "url": "ble-service-bms-android-0.8.8-javadoc.jar",
+          "size": 259946,
+          "sha512": "76c4d7357b13e2109fded22dfdf6f632fb2d4ff57a730f218542b611ff9d998aa0d0160ed04c682ae43b4873df1ac5cff4f28d732888d3296d51e92197ae7ead",
+          "sha256": "a1b5c66ff7f85ea713dea121a87f369604143151370e860d79c42faeef0cc1a5",
+          "sha1": "c74a9f8d253240041ab86f8521b25ad1f7a26a25",
+          "md5": "5be76341f64f0cf6c247e89f38d89a2d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-bms-android",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bms-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-bms-android-0.8.8.aar",
+          "url": "ble-service-central-bms-android-0.8.8.aar",
+          "size": 3822,
+          "sha512": "d679e2741c30edc9954faf1ee1807479595440c57422ed9508b44e473b3779043640d944f2efe1acaadc427432d29f848d632e01debc4740b99dba44505426cf",
+          "sha256": "922f86303287002a79f2c8854a551739e2471942064f6f56e17c33d4012801f6",
+          "sha1": "4a4b02422a203f31f1629bd0a73e2362baf772f6",
+          "md5": "4977e7e2859beacfe86a9b0cfcf237b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-bms-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-bms-android-0.8.8.aar",
+          "url": "ble-service-central-bms-android-0.8.8.aar",
+          "size": 3822,
+          "sha512": "d679e2741c30edc9954faf1ee1807479595440c57422ed9508b44e473b3779043640d944f2efe1acaadc427432d29f848d632e01debc4740b99dba44505426cf",
+          "sha256": "922f86303287002a79f2c8854a551739e2471942064f6f56e17c33d4012801f6",
+          "sha1": "4a4b02422a203f31f1629bd0a73e2362baf772f6",
+          "md5": "4977e7e2859beacfe86a9b0cfcf237b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-bms-android-0.8.8-sources.jar",
+          "url": "ble-service-central-bms-android-0.8.8-sources.jar",
+          "size": 3921,
+          "sha512": "caf5a4c5502e6b0a1815ed41ede4e8100ac02207fe8fd8fbb8024fbdd75ddac8c020b403f3b86d2f76d5204ee6a59348643cf0fdfefcbf2e86670095989adf8d",
+          "sha256": "dfdadeba5cd1832247fdc3895fa38a04a464ec766aa03d38f1ce53901bbd04a0",
+          "sha1": "562b0c31d5863e9fcf6b59e78362d17d9efdb1d6",
+          "md5": "469b4ca65b375c140255b43fd764b222"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-bms-android-0.8.8-javadoc.jar",
+          "url": "ble-service-central-bms-android-0.8.8-javadoc.jar",
+          "size": 278108,
+          "sha512": "56ba25e8b819411adb8e2b16fa86742de74907b3b079b925f264b401ec77493f7e4560ff6f79ca569e150c42f7b34738b83faa1356e39fd98b833d65a117f717",
+          "sha256": "2ce89db0d4e25a119d949bbbda8939b35924bfe2358acd39f6ed13dc13de92f4",
+          "sha1": "68adcb8e47ea65282bfd8a14934af34b06da83e2",
+          "md5": "32f4ce4bd6cb60590c002a63e8fcc901"
+        }
+      ]
+    }
+  ]
+}

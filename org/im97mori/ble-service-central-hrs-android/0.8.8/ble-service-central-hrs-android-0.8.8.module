@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-hrs-android",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hrs-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-hrs-android-0.8.8.aar",
+          "url": "ble-service-central-hrs-android-0.8.8.aar",
+          "size": 6332,
+          "sha512": "78836309b77305f9bbbcd7f6822499a8d89661b5233d89abaaa7bf1b96f324703c41411a1b5a44bf74f757606cc4b3e5f5cf9ec6d8a57e1ec13fab37f1bdfe4a",
+          "sha256": "72bf717cd7ed4c1af52b50bf54ed8d4e7c4177fc47b45917f526df6240c83cce",
+          "sha1": "a9fefef97f98170fca3b4bb9a142b0fdaba0687c",
+          "md5": "e8885d88848ce4b0f8dddd8d8f2bb79a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-hrs-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-hrs-android-0.8.8.aar",
+          "url": "ble-service-central-hrs-android-0.8.8.aar",
+          "size": 6332,
+          "sha512": "78836309b77305f9bbbcd7f6822499a8d89661b5233d89abaaa7bf1b96f324703c41411a1b5a44bf74f757606cc4b3e5f5cf9ec6d8a57e1ec13fab37f1bdfe4a",
+          "sha256": "72bf717cd7ed4c1af52b50bf54ed8d4e7c4177fc47b45917f526df6240c83cce",
+          "sha1": "a9fefef97f98170fca3b4bb9a142b0fdaba0687c",
+          "md5": "e8885d88848ce4b0f8dddd8d8f2bb79a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-hrs-android-0.8.8-sources.jar",
+          "url": "ble-service-central-hrs-android-0.8.8-sources.jar",
+          "size": 5433,
+          "sha512": "beb4f5604f5372a3679d22a31a2f99f8152040c4ca3ceb482e6424c69ffa4d8fb4f5f1ad0055efc4380406b30c9b3d494ffe37b8c37cc96f2302d60dda13924a",
+          "sha256": "cf06727a238fe9307e78b32c1e30503845e8325e5afaf465fa62f845976dfe53",
+          "sha1": "cf1f12077bcc9c37b3f2c1be5fd475b7b6a30e7a",
+          "md5": "0ea9973b49ca626044000b8006a417b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-hrs-android-0.8.8-javadoc.jar",
+          "url": "ble-service-central-hrs-android-0.8.8-javadoc.jar",
+          "size": 284104,
+          "sha512": "9657d8ceb63d48dea60fcba830fbef8b0efd2ff4a97c11df7ed8feca05f1958704dbb44dc039bfcc7b828043a45cbd3a88307a152ae27916f6dbc56881dc6712",
+          "sha256": "beedfddd0cca05f041f85f8a8c249f792e7218ac24b9098f4d2de3af5c9d7f82",
+          "sha1": "61907c14daa3edbbe3d5cccf2f02d61df729d3fb",
+          "md5": "8f362a6958d1c1f4c81e8a861e8df96f"
+        }
+      ]
+    }
+  ]
+}

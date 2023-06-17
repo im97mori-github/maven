@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-ess-android",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ess-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-ess-android-0.8.8.aar",
+          "url": "ble-service-peripheral-ess-android-0.8.8.aar",
+          "size": 19434,
+          "sha512": "9a10e67e343e7732bc684f5497e604919954b335a00fb3f8b430f5610d62f4e6aefbdc3f8ca3169e08e09cb2da9b9e5021ead15c5504d9caed1b858b45c18afb",
+          "sha256": "a2f6368c1b53f492faddb0f5c1aef0d8fda0b5d62ebc431c848f7d2f89de7f67",
+          "sha1": "202f04089ea9fd0cc8fab709fc0c5db01328ecb2",
+          "md5": "81e75ef8a00ba7f5fad3d765e8861843"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ess-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-ess-android-0.8.8.aar",
+          "url": "ble-service-peripheral-ess-android-0.8.8.aar",
+          "size": 19434,
+          "sha512": "9a10e67e343e7732bc684f5497e604919954b335a00fb3f8b430f5610d62f4e6aefbdc3f8ca3169e08e09cb2da9b9e5021ead15c5504d9caed1b858b45c18afb",
+          "sha256": "a2f6368c1b53f492faddb0f5c1aef0d8fda0b5d62ebc431c848f7d2f89de7f67",
+          "sha1": "202f04089ea9fd0cc8fab709fc0c5db01328ecb2",
+          "md5": "81e75ef8a00ba7f5fad3d765e8861843"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-peripheral-ess-android-0.8.8-sources.jar",
+          "url": "ble-service-peripheral-ess-android-0.8.8-sources.jar",
+          "size": 13221,
+          "sha512": "8875eac94ce9dac80e50d59161d4d99e464ddb8f67a3dab671b3eca46c17dfb2b8242a127b2e54c46506b919431fcbee94dc0c155fd1d8206a6203ca143602e5",
+          "sha256": "a475e6cfee18b6f39c8d84600b12b16ceb52004e108fbfeeaf1d80392cbf9fa1",
+          "sha1": "47d6ba122875123d13ba273ff2cd8e05a07b2a8b",
+          "md5": "e33ffc7e440d39da6052f5ea3b7c042c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-peripheral-ess-android-0.8.8-javadoc.jar",
+          "url": "ble-service-peripheral-ess-android-0.8.8-javadoc.jar",
+          "size": 321314,
+          "sha512": "e94c5ce73d6d40e00d2b2e795bbedd4201f1d775249de7d06b5ce6853e4359c045383c442ba3bfde69ff34c3f267703db9f5836300b46b2fb7f3c80daa32c01e",
+          "sha256": "78ce24e2ad3678fe7dafd8cdc200e4b5885ad8a40e44fc8d132ed4937ca69f7e",
+          "sha1": "d3c4273b2771ca13b3eb0e3a9978f369fb2bcf64",
+          "md5": "e130abbdb80020334a5e9824ca37931b"
+        }
+      ]
+    }
+  ]
+}

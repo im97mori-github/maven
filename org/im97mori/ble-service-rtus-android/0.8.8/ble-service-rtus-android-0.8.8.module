@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-rtus-android",
+    "version": "0.8.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a16-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a17-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.8.8.aar",
+          "url": "ble-service-rtus-android-0.8.8.aar",
+          "size": 1301,
+          "sha512": "8f72b844850ec942972c89ac64022727eb7c95371c14c727a14d09d986f9a87ebe47ac90e509e3a46ba0f226d70bc2099160089fbc2489a98bc1fa26c6dca675",
+          "sha256": "c3604fb02b2890ff8432a4107c432ac5f0607ba2f6ecd95a210439f05be37b40",
+          "sha1": "97f121be5ce8087c56a44d8a95b45a0d36cc301d",
+          "md5": "614d6fca3cfda181a7fbb0d7f7037c8a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a16-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a17-android",
+          "version": {
+            "requires": "0.8.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.8.8.aar",
+          "url": "ble-service-rtus-android-0.8.8.aar",
+          "size": 1301,
+          "sha512": "8f72b844850ec942972c89ac64022727eb7c95371c14c727a14d09d986f9a87ebe47ac90e509e3a46ba0f226d70bc2099160089fbc2489a98bc1fa26c6dca675",
+          "sha256": "c3604fb02b2890ff8432a4107c432ac5f0607ba2f6ecd95a210439f05be37b40",
+          "sha1": "97f121be5ce8087c56a44d8a95b45a0d36cc301d",
+          "md5": "614d6fca3cfda181a7fbb0d7f7037c8a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.8.8-sources.jar",
+          "url": "ble-service-rtus-android-0.8.8-sources.jar",
+          "size": 1198,
+          "sha512": "bea66f626ee0b503ba4dfd714c1facdf00fcfb7493926ff42ca44ef50a6be7c3db2239202e43a3e685e060f5fd955aa59ac5e8a853cf4b1d89c718414143ffd1",
+          "sha256": "5a01aa6676114875661f16135b25129557fbab1f9a7abbde1112d1c5b0d0125b",
+          "sha1": "152871e620df8af50271bd9e86dd1413fa201824",
+          "md5": "b32dd3070a91012fe2e47d16cac56dc4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-rtus-android-0.8.8-javadoc.jar",
+          "url": "ble-service-rtus-android-0.8.8-javadoc.jar",
+          "size": 259963,
+          "sha512": "c700032754d9cf0b70905edf071f2d2ecb69be8a2e290f13096fb000cb4fdc465cb8bd634bc27baf4b132018b0b0694835168ea8d21dad8968bcbe02986b244c",
+          "sha256": "54046b09d0c96fe696b6c9b8b954e0684dc80d64e6811913a971d09a0cb48732",
+          "sha1": "3d14bdc72cdf48ad5b5484708eba11c51af35581",
+          "md5": "e3666d523524e89cc89cef34a952c07e"
+        }
+      ]
+    }
+  ]
+}
