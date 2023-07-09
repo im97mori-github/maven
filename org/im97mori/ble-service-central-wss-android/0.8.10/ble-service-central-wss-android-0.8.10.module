@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-wss-android",
+    "version": "0.8.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-wss-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-wss-android-0.8.10.aar",
+          "url": "ble-service-central-wss-android-0.8.10.aar",
+          "size": 5152,
+          "sha512": "d8d97704e8d193c781c6451f8837f494bee06caa516d3d6d87e6c1da4316b18356cc10bd3d1db6ea9c65ef9774a584f4ec249894f83fa83664d78077c9a56f2a",
+          "sha256": "bbe5b3f5a3233fa89b2b9fe2d617ee6d701d336df6ca5bcd190dd8314cb47e40",
+          "sha1": "e8e4db7e3b81e0b0603455e734863a85daa2a282",
+          "md5": "d4b40ffa7bad5adfa1e13ca1d9fa4287"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-wss-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-wss-android-0.8.10.aar",
+          "url": "ble-service-central-wss-android-0.8.10.aar",
+          "size": 5152,
+          "sha512": "d8d97704e8d193c781c6451f8837f494bee06caa516d3d6d87e6c1da4316b18356cc10bd3d1db6ea9c65ef9774a584f4ec249894f83fa83664d78077c9a56f2a",
+          "sha256": "bbe5b3f5a3233fa89b2b9fe2d617ee6d701d336df6ca5bcd190dd8314cb47e40",
+          "sha1": "e8e4db7e3b81e0b0603455e734863a85daa2a282",
+          "md5": "d4b40ffa7bad5adfa1e13ca1d9fa4287"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-wss-android-0.8.10-sources.jar",
+          "url": "ble-service-central-wss-android-0.8.10-sources.jar",
+          "size": 4665,
+          "sha512": "d3019b522df084520d7fc1b58dfa00ef6770254fbe3eedc762781a093eb7ba0699caed6232f1b0de8d9520fe3a273f7c87721e9f85dbe804cf04fe3b45f6898d",
+          "sha256": "b97e7ef2a2125db8b131a7f74636218d7036974a842f27b0e0130aba0ed7c5d6",
+          "sha1": "d965b5f8b51d6aac61a346c55eb3924c5620e862",
+          "md5": "9f51c7efeb64b9ef0e430d89e8fe05b1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-wss-android-0.8.10-javadoc.jar",
+          "url": "ble-service-central-wss-android-0.8.10-javadoc.jar",
+          "size": 282302,
+          "sha512": "9075a5de270afc6a2e0213db5a3cc74f8689f3a3f6038fdf8186578959e1923b32d9ab052bfcdea34ac3fff503dff811c7dd4ff9042f9aed683148dd8eef50d6",
+          "sha256": "83d72ea4fc75092bb76a381a55e997eaae45e2ff41df96c126ffc1a13ed13d8a",
+          "sha1": "27dd44bb9f7f8c3c76a133121764fa1cc489d66b",
+          "md5": "5f08c3ec134537a7c2ab9d3ba409e866"
+        }
+      ]
+    }
+  ]
+}

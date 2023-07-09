@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-hrp-android",
+    "version": "0.8.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-hrs-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-hrp-android-0.8.10.aar",
+          "url": "ble-profile-central-hrp-android-0.8.10.aar",
+          "size": 7239,
+          "sha512": "8e4a814cce6854926c8cb4002f183d9c17fb285351a963e84731eaff111240deb80a21388cb5ac55366529a147d9799ec80d6176e14af0687387b1be154c090c",
+          "sha256": "98177f5e22bf62aa0d12857c311c8fb1dfdf4abcd478244ca70a130e8b5b89a7",
+          "sha1": "78d2beea84d081f52cc80e622fb41850d44e2125",
+          "md5": "a6946141599a179fb5d7acb4182de1a7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-hrs-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-hrp-android-0.8.10.aar",
+          "url": "ble-profile-central-hrp-android-0.8.10.aar",
+          "size": 7239,
+          "sha512": "8e4a814cce6854926c8cb4002f183d9c17fb285351a963e84731eaff111240deb80a21388cb5ac55366529a147d9799ec80d6176e14af0687387b1be154c090c",
+          "sha256": "98177f5e22bf62aa0d12857c311c8fb1dfdf4abcd478244ca70a130e8b5b89a7",
+          "sha1": "78d2beea84d081f52cc80e622fb41850d44e2125",
+          "md5": "a6946141599a179fb5d7acb4182de1a7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-central-hrp-android-0.8.10-sources.jar",
+          "url": "ble-profile-central-hrp-android-0.8.10-sources.jar",
+          "size": 6142,
+          "sha512": "c1da3ad1cdd59bc608038479165b8fe2060fcc32c328156ebd3309c3d466c9b4d9c5586d2e12e88d5aa6344940a9b15d75ef9a23d93be50b1f1a4a7a4b41e10d",
+          "sha256": "6a6d268c2f13772fbc21773178a080e6105ff5dfe7294762833070e1cdea2358",
+          "sha1": "bc35341cd95b6c2d394bf5b4e1d30b735a65c7ec",
+          "md5": "3d65c6bd0928c59375db4da043e24bdd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-central-hrp-android-0.8.10-javadoc.jar",
+          "url": "ble-profile-central-hrp-android-0.8.10-javadoc.jar",
+          "size": 304002,
+          "sha512": "ff4dba7e908886774c5e1aaaa09285af821b43db5f852a3457618d635653f5f221a9cd31caba419cac9b4294064aa9b22f851ed436d065dd1fd2bf08095238cc",
+          "sha256": "bf4c44a2a331e7ae48e773b5befa939f8d4d2a40bf1d86474be7b82ccd62abfc",
+          "sha1": "1ea5bec4e90bc001b828819a351ecab2e204f969",
+          "md5": "d3b757d8390157c4d7147999dc5f9368"
+        }
+      ]
+    }
+  ]
+}

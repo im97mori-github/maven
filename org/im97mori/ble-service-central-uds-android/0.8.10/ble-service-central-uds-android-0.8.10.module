@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-uds-android",
+    "version": "0.8.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-uds-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-uds-android-0.8.10.aar",
+          "url": "ble-service-central-uds-android-0.8.10.aar",
+          "size": 19016,
+          "sha512": "b1a56d7cecd7d902c4a4ae3f4c2e4b2876e63ebc9921953f62ef657bca611db53727a8d265c7526dab0c1f8739c408f6675b8601c4b32f472107c6c42a9697d8",
+          "sha256": "8f942fa372d6b80cfacc138f1a553a9388df90300b0ceec3f7c15df49c34efc3",
+          "sha1": "d516e15919b54b03a37d46849d8f2b3d0a6d1274",
+          "md5": "b0b05a98792ee7ba45079f327f93732a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-uds-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-uds-android-0.8.10.aar",
+          "url": "ble-service-central-uds-android-0.8.10.aar",
+          "size": 19016,
+          "sha512": "b1a56d7cecd7d902c4a4ae3f4c2e4b2876e63ebc9921953f62ef657bca611db53727a8d265c7526dab0c1f8739c408f6675b8601c4b32f472107c6c42a9697d8",
+          "sha256": "8f942fa372d6b80cfacc138f1a553a9388df90300b0ceec3f7c15df49c34efc3",
+          "sha1": "d516e15919b54b03a37d46849d8f2b3d0a6d1274",
+          "md5": "b0b05a98792ee7ba45079f327f93732a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-uds-android-0.8.10-sources.jar",
+          "url": "ble-service-central-uds-android-0.8.10-sources.jar",
+          "size": 17309,
+          "sha512": "7555ec523d3af3bd4d11189deb3a7435f42456e8aa96128977774430d7ffda915c6451ad822f3ae51ed94a49f3c4f298615e616b02afb6ad91c7e52585808204",
+          "sha256": "4d5cbc8492724e9a90199d35eccd1ee4b34860825ce215cf58ffe88ca9736b50",
+          "sha1": "6b9b411fd9c441cf25c29e6d816705d49f7530bb",
+          "md5": "cfd147137ff73e8d4cc473dc31717ee8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-uds-android-0.8.10-javadoc.jar",
+          "url": "ble-service-central-uds-android-0.8.10-javadoc.jar",
+          "size": 322402,
+          "sha512": "7beb20a4a2cc3b2a2c72cf36073fd57d201fd61d4c0065eb90e42a5eb2d5e648bc1f6291708b812d254b824332099bc5f20eb4d1d44b7643ffe8ed9dd421d169",
+          "sha256": "61a6ce51c07b1dc7545adf1dd681fc4febac6d361182fdac7d51a2502af06cc3",
+          "sha1": "8257399eed8a17ebfcfdf61ad13eb33f6b4a5e15",
+          "md5": "13756a61722ec87d8d820780da5cabba"
+        }
+      ]
+    }
+  ]
+}

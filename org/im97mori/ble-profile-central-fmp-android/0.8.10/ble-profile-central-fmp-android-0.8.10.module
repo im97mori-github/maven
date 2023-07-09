@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-fmp-android",
+    "version": "0.8.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-ias-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-fmp-android-0.8.10.aar",
+          "url": "ble-profile-central-fmp-android-0.8.10.aar",
+          "size": 5844,
+          "sha512": "0b940ff774938662bdfcfc2f43470dab40c38aa347b9b081086276be1c359ca3058b1332cf2171df46e2ea239041bc46f6c9d00f68a6ba222d3362c57f398e3f",
+          "sha256": "01a56d9ef028cf08bad8ce8d0ed9dd5ab14854b0b2d2270af4aa38038747ea60",
+          "sha1": "f6e36bbd4f83b64158b753b98f17bd7f85d78fe9",
+          "md5": "af0ce1d52486e64ba62316d48898594f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-ias-android",
+          "version": {
+            "requires": "0.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-fmp-android-0.8.10.aar",
+          "url": "ble-profile-central-fmp-android-0.8.10.aar",
+          "size": 5844,
+          "sha512": "0b940ff774938662bdfcfc2f43470dab40c38aa347b9b081086276be1c359ca3058b1332cf2171df46e2ea239041bc46f6c9d00f68a6ba222d3362c57f398e3f",
+          "sha256": "01a56d9ef028cf08bad8ce8d0ed9dd5ab14854b0b2d2270af4aa38038747ea60",
+          "sha1": "f6e36bbd4f83b64158b753b98f17bd7f85d78fe9",
+          "md5": "af0ce1d52486e64ba62316d48898594f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-central-fmp-android-0.8.10-sources.jar",
+          "url": "ble-profile-central-fmp-android-0.8.10-sources.jar",
+          "size": 5407,
+          "sha512": "3f58eddac98d7462f831a506899b8f527602a9b59985c337a52e6c0e34649bea936e0c17cfeb6bfdd14c5830ef7ce8842570f4b5518e978443ec92a9b715bd10",
+          "sha256": "c028a5172b4274f424eac9be4481b59343d3b22e85a479c793447889d0319e69",
+          "sha1": "e27aa3a8fe5a4627a22c9bbe3d357c127cba3906",
+          "md5": "d0a1de306961f3bccc97645df4e6d92c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-central-fmp-android-0.8.10-javadoc.jar",
+          "url": "ble-profile-central-fmp-android-0.8.10-javadoc.jar",
+          "size": 299323,
+          "sha512": "becce593bb6c2a9b6bbd74ee5417a43fd370f8a115ed4143de53716897ef313adedb33e8db5e6496471021774bc635690d21259567fabad5d9158384821b2ceb",
+          "sha256": "61d333baf9daacf82d81435c7a8c9df0841b214cfad3c93e8a0e135194f63362",
+          "sha1": "dfe7372458291632227b59d1526449d5b95871c4",
+          "md5": "850f7b1a495d03148865b036f8884334"
+        }
+      ]
+    }
+  ]
+}
