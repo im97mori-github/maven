@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-ans-android",
+    "version": "0.8.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.11"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ans-android",
+          "version": {
+            "requires": "0.8.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-ans-android-0.8.11.aar",
+          "url": "ble-service-central-ans-android-0.8.11.aar",
+          "size": 6464,
+          "sha512": "1a4422c21464e2a875610354bfa2e7f990b4ac0b2f77dba6ee64859e43d67d58ad1ff829f58da49e5eca7097b44c098ad9e50d0b5ea770c07cbb9bfe0ebce5c4",
+          "sha256": "b2e5f82da282e8d1a4ea045291cdd9a4fbb3b8ed5ff0277b6ce5841563cc5649",
+          "sha1": "303c6249cb5194f67fcb5d3b9eb29f2f1594c388",
+          "md5": "fccb2a5e5350a634d18f472ee8e4589e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.11"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ans-android",
+          "version": {
+            "requires": "0.8.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-ans-android-0.8.11.aar",
+          "url": "ble-service-central-ans-android-0.8.11.aar",
+          "size": 6464,
+          "sha512": "1a4422c21464e2a875610354bfa2e7f990b4ac0b2f77dba6ee64859e43d67d58ad1ff829f58da49e5eca7097b44c098ad9e50d0b5ea770c07cbb9bfe0ebce5c4",
+          "sha256": "b2e5f82da282e8d1a4ea045291cdd9a4fbb3b8ed5ff0277b6ce5841563cc5649",
+          "sha1": "303c6249cb5194f67fcb5d3b9eb29f2f1594c388",
+          "md5": "fccb2a5e5350a634d18f472ee8e4589e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-ans-android-0.8.11-sources.jar",
+          "url": "ble-service-central-ans-android-0.8.11-sources.jar",
+          "size": 5789,
+          "sha512": "1a6b8f690c55b2b60063dc31c0c3d398cf754da6cc6e39af55fbae2f206c58f059fd72c8ee08c43446b26939f0f443821a95fad95b65475e477e01e1bc35fa2f",
+          "sha256": "8ca69e532b6bf837c6f7a3baad9800353691ef2631718f680fb5d92fe7dbd5a1",
+          "sha1": "1e03ca3c63774dc06b5bf292e90cd0c4a2430ec3",
+          "md5": "29328f6362211f6c0eee28926a068f02"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-ans-android-0.8.11-javadoc.jar",
+          "url": "ble-service-central-ans-android-0.8.11-javadoc.jar",
+          "size": 286203,
+          "sha512": "cd92eaa9c93489158bbd1c76185bebf7a6052c2a512e7e35d90f42a03d29bac4f336a5d1e016b8c263139cb329d959ccd7b47d21baee2461a9657ca325b2f8bb",
+          "sha256": "0ce178eaf3de86cfe1983e3cd563fe37719ecb14fd51eb978dbe3fe72361d243",
+          "sha1": "6a7f8a63a4f55b7a36eccf74f07563d84a8879a8",
+          "md5": "9d101705ed271a891fa7b4622219feac"
+        }
+      ]
+    }
+  ]
+}
