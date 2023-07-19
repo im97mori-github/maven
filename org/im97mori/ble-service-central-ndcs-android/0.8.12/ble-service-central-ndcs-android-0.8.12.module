@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-ndcs-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-ndcs-android-0.8.12.aar",
+          "url": "ble-service-central-ndcs-android-0.8.12.aar",
+          "size": 3327,
+          "sha512": "6144ba1a81e8fc7fe474a2e2b154e0297f13b47eab3c4282dbf9ce875fec2a5cb0bfdce8e896318d7252ad8a82a9c67b4a1274799b99484309cacf437fc573c8",
+          "sha256": "1356c8debc9401d81fd1c0509cc7ad5f8574971ef8600ce071b586f2a41094f8",
+          "sha1": "eefc5ca496a96e9c0b7fa3f1c78d6c31f6058281",
+          "md5": "d48c560fd9d8f69097f92e4f4d161161"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-ndcs-android-0.8.12.aar",
+          "url": "ble-service-central-ndcs-android-0.8.12.aar",
+          "size": 3327,
+          "sha512": "6144ba1a81e8fc7fe474a2e2b154e0297f13b47eab3c4282dbf9ce875fec2a5cb0bfdce8e896318d7252ad8a82a9c67b4a1274799b99484309cacf437fc573c8",
+          "sha256": "1356c8debc9401d81fd1c0509cc7ad5f8574971ef8600ce071b586f2a41094f8",
+          "sha1": "eefc5ca496a96e9c0b7fa3f1c78d6c31f6058281",
+          "md5": "d48c560fd9d8f69097f92e4f4d161161"
+        }
+      ]
+    }
+  ]
+}

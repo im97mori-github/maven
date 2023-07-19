@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-central",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.8.12.aar",
+          "url": "ble-central-0.8.12.aar",
+          "size": 73372,
+          "sha512": "cca9cfd1270318abc24a016a04e5e2f29fe8e52877897514f3f74e6f481b3f98c56b99b0556b4e4eda42183f8c9e07383958f265338dfd845511b2cf53f7763b",
+          "sha256": "48f1e92f8672e29941f08af3ad53f2de2840239d2d157af3bfc761868fee5989",
+          "sha1": "8ba883219d7542c2a2831bda327488ae1f191721",
+          "md5": "4dcdb680a4cbd372206034f666680bba"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-central-0.8.12.aar",
+          "url": "ble-central-0.8.12.aar",
+          "size": 73372,
+          "sha512": "cca9cfd1270318abc24a016a04e5e2f29fe8e52877897514f3f74e6f481b3f98c56b99b0556b4e4eda42183f8c9e07383958f265338dfd845511b2cf53f7763b",
+          "sha256": "48f1e92f8672e29941f08af3ad53f2de2840239d2d157af3bfc761868fee5989",
+          "sha1": "8ba883219d7542c2a2831bda327488ae1f191721",
+          "md5": "4dcdb680a4cbd372206034f666680bba"
+        }
+      ]
+    }
+  ]
+}

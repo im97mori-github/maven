@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-0.8.12.jar",
+          "url": "ble-core-0.8.12.jar",
+          "size": 261,
+          "sha512": "3a5c9900eef66eb1b75c8d22a204ed9b04a8e26beca73a7912c2b809cc094d9dc61d3cb178b888554dfe35b032d3114d120e37aa33c733356bceae2e42d0e149",
+          "sha256": "901c4766c836fd0a01aa8f6324ddef97130ddf932a303fcae2989ee142836d07",
+          "sha1": "fb8a8aeb559e7dad6e77483b1d65a3a0935aeb55",
+          "md5": "324d5f110bd71100bfd8ef7e57883ed4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-0.8.12.jar",
+          "url": "ble-core-0.8.12.jar",
+          "size": 261,
+          "sha512": "3a5c9900eef66eb1b75c8d22a204ed9b04a8e26beca73a7912c2b809cc094d9dc61d3cb178b888554dfe35b032d3114d120e37aa33c733356bceae2e42d0e149",
+          "sha256": "901c4766c836fd0a01aa8f6324ddef97130ddf932a303fcae2989ee142836d07",
+          "sha1": "fb8a8aeb559e7dad6e77483b1d65a3a0935aeb55",
+          "md5": "324d5f110bd71100bfd8ef7e57883ed4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-core-0.8.12-javadoc.jar",
+          "url": "ble-core-0.8.12-javadoc.jar",
+          "size": 261,
+          "sha512": "3a5c9900eef66eb1b75c8d22a204ed9b04a8e26beca73a7912c2b809cc094d9dc61d3cb178b888554dfe35b032d3114d120e37aa33c733356bceae2e42d0e149",
+          "sha256": "901c4766c836fd0a01aa8f6324ddef97130ddf932a303fcae2989ee142836d07",
+          "sha1": "fb8a8aeb559e7dad6e77483b1d65a3a0935aeb55",
+          "md5": "324d5f110bd71100bfd8ef7e57883ed4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-core-0.8.12-sources.jar",
+          "url": "ble-core-0.8.12-sources.jar",
+          "size": 261,
+          "sha512": "3a5c9900eef66eb1b75c8d22a204ed9b04a8e26beca73a7912c2b809cc094d9dc61d3cb178b888554dfe35b032d3114d120e37aa33c733356bceae2e42d0e149",
+          "sha256": "901c4766c836fd0a01aa8f6324ddef97130ddf932a303fcae2989ee142836d07",
+          "sha1": "fb8a8aeb559e7dad6e77483b1d65a3a0935aeb55",
+          "md5": "324d5f110bd71100bfd8ef7e57883ed4"
+        }
+      ]
+    }
+  ]
+}

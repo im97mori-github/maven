@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-rtus-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rtus-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-rtus-android-0.8.12.aar",
+          "url": "ble-service-peripheral-rtus-android-0.8.12.aar",
+          "size": 4030,
+          "sha512": "6b9e45a7e17c53bad18c87362d7209ee151dfbb3645c45148942942940799e50403790c79d38034aaeb00c7d952cbf589df2cafaaf766f76c22d9d924890bbe8",
+          "sha256": "893dee56726a22c23aacecf86836554e465680e2d4b431b3e5586ca25c270c9a",
+          "sha1": "241e4090fee1031cecb615f79930335f42f95625",
+          "md5": "124886b97fb6e9c7d229a4c2009f9b64"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rtus-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-rtus-android-0.8.12.aar",
+          "url": "ble-service-peripheral-rtus-android-0.8.12.aar",
+          "size": 4030,
+          "sha512": "6b9e45a7e17c53bad18c87362d7209ee151dfbb3645c45148942942940799e50403790c79d38034aaeb00c7d952cbf589df2cafaaf766f76c22d9d924890bbe8",
+          "sha256": "893dee56726a22c23aacecf86836554e465680e2d4b431b3e5586ca25c270c9a",
+          "sha1": "241e4090fee1031cecb615f79930335f42f95625",
+          "md5": "124886b97fb6e9c7d229a4c2009f9b64"
+        }
+      ]
+    }
+  ]
+}

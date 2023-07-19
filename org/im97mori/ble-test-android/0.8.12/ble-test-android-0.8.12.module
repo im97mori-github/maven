@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-test-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-android-0.8.12.aar",
+          "url": "ble-test-android-0.8.12.aar",
+          "size": 5157,
+          "sha512": "b040586d38449449fa192a5cfdbd103350be4a8005c8e0ea9ee126af31ea49954c4f7cdd4cfc17f9221bfa8d2737c79761e541ffa39e55dbfd0515068ffe1035",
+          "sha256": "6051ea3880f2e7028b478189ec701c18077731ededa29e16463bab20ced79c55",
+          "sha1": "63bb205937dd738b7fa910a3873c72cc4fa84f15",
+          "md5": "15d341847ac8dcb5ba31e1bedcf9a46c"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "runner",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "rules",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-android-0.8.12.aar",
+          "url": "ble-test-android-0.8.12.aar",
+          "size": 5157,
+          "sha512": "b040586d38449449fa192a5cfdbd103350be4a8005c8e0ea9ee126af31ea49954c4f7cdd4cfc17f9221bfa8d2737c79761e541ffa39e55dbfd0515068ffe1035",
+          "sha256": "6051ea3880f2e7028b478189ec701c18077731ededa29e16463bab20ced79c55",
+          "sha1": "63bb205937dd738b7fa910a3873c72cc4fa84f15",
+          "md5": "15d341847ac8dcb5ba31e1bedcf9a46c"
+        }
+      ]
+    }
+  ]
+}

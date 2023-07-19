@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-bms-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa4-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa5-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.8.12.aar",
+          "url": "ble-service-bms-android-0.8.12.aar",
+          "size": 1295,
+          "sha512": "8dca8dd107b2776ff497dfa986bb64eafac866f9b2c89a1cf3a6acfc59dcf78fac531f0841eb11e4df9a1748b68d76230313ab07d142691d4e5b2e79013030b4",
+          "sha256": "cd35230e7efa04a4ec91af44ae0594c9be034b80ab6ab8ff58f4825760c4add0",
+          "sha1": "acf026b7b71dd676367b978f597c0114db3ddef1",
+          "md5": "9d4c61decc7987c4053ade8d7af67075"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa4-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2aa5-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-bms-android-0.8.12.aar",
+          "url": "ble-service-bms-android-0.8.12.aar",
+          "size": 1295,
+          "sha512": "8dca8dd107b2776ff497dfa986bb64eafac866f9b2c89a1cf3a6acfc59dcf78fac531f0841eb11e4df9a1748b68d76230313ab07d142691d4e5b2e79013030b4",
+          "sha256": "cd35230e7efa04a4ec91af44ae0594c9be034b80ab6ab8ff58f4825760c4add0",
+          "sha1": "acf026b7b71dd676367b978f597c0114db3ddef1",
+          "md5": "9d4c61decc7987c4053ade8d7af67075"
+        }
+      ]
+    }
+  ]
+}

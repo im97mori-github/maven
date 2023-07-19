@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-pass-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a3f-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a40-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a41-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-pass-android-0.8.12.aar",
+          "url": "ble-service-pass-android-0.8.12.aar",
+          "size": 1298,
+          "sha512": "6c4a1230b5d752b010f03f6f52134593a7cb4f0685da34f01342e49f0f83a1bfaa9ce8c40e8727cf02b0cb38dca9bd684b45affe5391c52346c7580f87e4a55e",
+          "sha256": "fdb052097be7aa717bb8703295adf3295cb688887e511a6cfcddc0c13fbf820e",
+          "sha1": "05ce1aa1d9d6199210a501972cad0bf5031ff184",
+          "md5": "87d59d312296996fd964fec01858a337"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a3f-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a40-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a41-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-pass-android-0.8.12.aar",
+          "url": "ble-service-pass-android-0.8.12.aar",
+          "size": 1298,
+          "sha512": "6c4a1230b5d752b010f03f6f52134593a7cb4f0685da34f01342e49f0f83a1bfaa9ce8c40e8727cf02b0cb38dca9bd684b45affe5391c52346c7580f87e4a55e",
+          "sha256": "fdb052097be7aa717bb8703295adf3295cb688887e511a6cfcddc0c13fbf820e",
+          "sha1": "05ce1aa1d9d6199210a501972cad0bf5031ff184",
+          "md5": "87d59d312296996fd964fec01858a337"
+        }
+      ]
+    }
+  ]
+}

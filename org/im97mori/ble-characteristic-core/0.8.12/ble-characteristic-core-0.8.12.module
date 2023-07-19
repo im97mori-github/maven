@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-characteristic-core",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-core-0.8.12.jar",
+          "url": "ble-characteristic-core-0.8.12.jar",
+          "size": 42043,
+          "sha512": "e2e168db882d6e1d7463d61401c5865a0ebaebf6f93ce9569bfd846e3d3c9d8cbb69d35c9951d0971d4cbf0ea91ffb30cdc090f6df3dfff0d9c6feb31ed590ae",
+          "sha256": "eba836c1d8b25521ff0b3d4ba4c7a52ccf0294481cdc588a1b9d46dc7b55b94a",
+          "sha1": "9fe9de03c2394b881a07962f8ac9c80ccf3b3206",
+          "md5": "174a61cb9a85d487b5675b41ad44cf28"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2904",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-characteristic-core-0.8.12.jar",
+          "url": "ble-characteristic-core-0.8.12.jar",
+          "size": 42043,
+          "sha512": "e2e168db882d6e1d7463d61401c5865a0ebaebf6f93ce9569bfd846e3d3c9d8cbb69d35c9951d0971d4cbf0ea91ffb30cdc090f6df3dfff0d9c6feb31ed590ae",
+          "sha256": "eba836c1d8b25521ff0b3d4ba4c7a52ccf0294481cdc588a1b9d46dc7b55b94a",
+          "sha1": "9fe9de03c2394b881a07962f8ac9c80ccf3b3206",
+          "md5": "174a61cb9a85d487b5675b41ad44cf28"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-characteristic-core-0.8.12-javadoc.jar",
+          "url": "ble-characteristic-core-0.8.12-javadoc.jar",
+          "size": 311055,
+          "sha512": "939c7bf07a48e0b303eb830cebff675976ee83f230395f1c9acbfde38c33e4015f075c21ced8664cc7801ce0978912c73a435cad01316d1b67d49720733b3ea9",
+          "sha256": "f5ffc1432422f2dc2c66568d10999c2cd951ca9a705c05560b2817140eadff7c",
+          "sha1": "782055805ab0e021c50d9ba388595dc1e1850c1c",
+          "md5": "ca8ac480c41c85b60977913ba0846e30"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-characteristic-core-0.8.12-sources.jar",
+          "url": "ble-characteristic-core-0.8.12-sources.jar",
+          "size": 43173,
+          "sha512": "9d36eec50feb6a1e502531623e55f8503f920fe34b85c389945c220f00e538fde27089a7a8a39e0266c88fa7da1e3b5fa9b29e00ce4416e8d984d2e01bfaf060",
+          "sha256": "81d772c9a29023649e7da789f3a59625c21c477dcb04ea796868fa444d6d618c",
+          "sha1": "6cce931e6e09ac8fc4ccf3620c9d09e363ab42ec",
+          "md5": "91be91f0837ba4a80dd9b12a36a5bdc7"
+        }
+      ]
+    }
+  ]
+}

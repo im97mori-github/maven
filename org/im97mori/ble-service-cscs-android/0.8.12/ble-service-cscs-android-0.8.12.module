@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-cscs-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a55-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a5b-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a5c-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a5d-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-cscs-android-0.8.12.aar",
+          "url": "ble-service-cscs-android-0.8.12.aar",
+          "size": 1297,
+          "sha512": "2b8dd711ababbc3407d1c7b8792997cc61c4130e144f760f100cd1d63fd15a1f13b5934d1c4ae762f9a8223289fc2a3ed773c7bc064174dd808b1831f288476b",
+          "sha256": "ad47714138092f02b8b637d767c9b4ced27007ea921c18b652930ba286437231",
+          "sha1": "089660aad95f94d3eff4c8b952f74e7bdf3d8dc5",
+          "md5": "f06119df650c28a1acef72230ffa08fe"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a55-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a5b-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a5c-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a5d-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-cscs-android-0.8.12.aar",
+          "url": "ble-service-cscs-android-0.8.12.aar",
+          "size": 1297,
+          "sha512": "2b8dd711ababbc3407d1c7b8792997cc61c4130e144f760f100cd1d63fd15a1f13b5934d1c4ae762f9a8223289fc2a3ed773c7bc064174dd808b1831f288476b",
+          "sha256": "ad47714138092f02b8b637d767c9b4ced27007ea921c18b652930ba286437231",
+          "sha1": "089660aad95f94d3eff4c8b952f74e7bdf3d8dc5",
+          "md5": "f06119df650c28a1acef72230ffa08fe"
+        }
+      ]
+    }
+  ]
+}

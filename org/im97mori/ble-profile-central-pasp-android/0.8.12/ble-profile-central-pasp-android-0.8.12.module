@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-pasp-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-pass-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-pasp-android-0.8.12.aar",
+          "url": "ble-profile-central-pasp-android-0.8.12.aar",
+          "size": 6462,
+          "sha512": "d7f691069df96e668719cefb1718577ac082bc3d81a9b19b914e09e7c26dc7835603655d1d80672ea296eff83fe5bec6e7bead1de5f3e437fd6a6f7c6f5705a1",
+          "sha256": "865b431bd31a0da91391af2d7363a781442ed64f0e7af82669bfc0a9d99c13ac",
+          "sha1": "0eda88e27925436695a07a07c3feead410c6b5db",
+          "md5": "0528293f0148041ba12d4fcca442269e"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-pass-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-pasp-android-0.8.12.aar",
+          "url": "ble-profile-central-pasp-android-0.8.12.aar",
+          "size": 6462,
+          "sha512": "d7f691069df96e668719cefb1718577ac082bc3d81a9b19b914e09e7c26dc7835603655d1d80672ea296eff83fe5bec6e7bead1de5f3e437fd6a6f7c6f5705a1",
+          "sha256": "865b431bd31a0da91391af2d7363a781442ed64f0e7af82669bfc0a9d99c13ac",
+          "sha1": "0eda88e27925436695a07a07c3feead410c6b5db",
+          "md5": "0528293f0148041ba12d4fcca442269e"
+        }
+      ]
+    }
+  ]
+}

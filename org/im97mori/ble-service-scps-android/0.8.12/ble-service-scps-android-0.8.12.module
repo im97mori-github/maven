@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-scps-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a31-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a4f-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-scps-android-0.8.12.aar",
+          "url": "ble-service-scps-android-0.8.12.aar",
+          "size": 1300,
+          "sha512": "90145c4797d0ea868755f5bba1d88f52036d2ea512b445efeec50b90a7c5dc57e4331071a3a0878381db5d14dc28ffb7988c436e73b68ed526465d484ea1d39a",
+          "sha256": "a157752de46bd5f05ee724f66ff9382c8dd8584f60d9b2b7892c0ff685c85797",
+          "sha1": "171d35588238d00e25ed6e70c02e79c142bb24ef",
+          "md5": "dbcba190203b6ce840cb894936dc4546"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-descriptor-u2902-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a31-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a4f-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-scps-android-0.8.12.aar",
+          "url": "ble-service-scps-android-0.8.12.aar",
+          "size": 1300,
+          "sha512": "90145c4797d0ea868755f5bba1d88f52036d2ea512b445efeec50b90a7c5dc57e4331071a3a0878381db5d14dc28ffb7988c436e73b68ed526465d484ea1d39a",
+          "sha256": "a157752de46bd5f05ee724f66ff9382c8dd8584f60d9b2b7892c0ff685c85797",
+          "sha1": "171d35588238d00e25ed6e70c02e79c142bb24ef",
+          "md5": "dbcba190203b6ce840cb894936dc4546"
+        }
+      ]
+    }
+  ]
+}

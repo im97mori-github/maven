@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-ndcs-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a11-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.8.12.aar",
+          "url": "ble-service-ndcs-android-0.8.12.aar",
+          "size": 1297,
+          "sha512": "f6dfd571177ec85fccaf3b6893c14d0d4921ae5ce25dc389af578c0992b712d5206d2b0b56a20d8a461e434210d8e943cde62cdb66e1ffe11d334240e53ba47b",
+          "sha256": "8bb046a1491e8ec0d4c6de44800df45820d8b4ab5c62a49917ccba1e74a1fb98",
+          "sha1": "5952ac576616939c4bde8f003e083a932e822d83",
+          "md5": "06fcc61522c55b6f446c61369396fcd7"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-characteristic-u2a11-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-ndcs-android-0.8.12.aar",
+          "url": "ble-service-ndcs-android-0.8.12.aar",
+          "size": 1297,
+          "sha512": "f6dfd571177ec85fccaf3b6893c14d0d4921ae5ce25dc389af578c0992b712d5206d2b0b56a20d8a461e434210d8e943cde62cdb66e1ffe11d334240e53ba47b",
+          "sha256": "8bb046a1491e8ec0d4c6de44800df45820d8b4ab5c62a49917ccba1e74a1fb98",
+          "sha1": "5952ac576616939c4bde8f003e083a932e822d83",
+          "md5": "06fcc61522c55b6f446c61369396fcd7"
+        }
+      ]
+    }
+  ]
+}

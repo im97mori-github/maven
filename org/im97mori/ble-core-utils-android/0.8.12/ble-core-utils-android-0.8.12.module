@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core-utils-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "stacklog",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.12.aar",
+          "url": "ble-core-utils-android-0.8.12.aar",
+          "size": 3394,
+          "sha512": "ab3a4eb0b2a65304e6caffeb28e7dda9585eae03d4dbbde50f094620a37c914a68e526adcaf97d97143152450e6551622d2377598e6c7b7efa0aa423cbad2869",
+          "sha256": "f1f8fa7495a1ee10b9f08eebca3b025f6d99f5b6496c3bea354b1ea86e387a18",
+          "sha1": "268e0cf7040377528a3afc31bbbaedd9ac9bf067",
+          "md5": "fe162d918ed6ce8d1e4af152b4e0046f"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "stacklog",
+          "version": {
+            "requires": "0.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.12.aar",
+          "url": "ble-core-utils-android-0.8.12.aar",
+          "size": 3394,
+          "sha512": "ab3a4eb0b2a65304e6caffeb28e7dda9585eae03d4dbbde50f094620a37c914a68e526adcaf97d97143152450e6551622d2377598e6c7b7efa0aa423cbad2869",
+          "sha256": "f1f8fa7495a1ee10b9f08eebca3b025f6d99f5b6496c3bea354b1ea86e387a18",
+          "sha1": "268e0cf7040377528a3afc31bbbaedd9ac9bf067",
+          "md5": "fe162d918ed6ce8d1e4af152b4e0046f"
+        }
+      ]
+    }
+  ]
+}

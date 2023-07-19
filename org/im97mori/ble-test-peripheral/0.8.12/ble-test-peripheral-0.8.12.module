@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-test-peripheral",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-peripheral-0.8.12.aar",
+          "url": "ble-test-peripheral-0.8.12.aar",
+          "size": 3579,
+          "sha512": "702725469715ccff5f48263dcbbf5f1b2740fbbc11a6a89030b2da577172fd687a6dba7f173011546b51c5072f7d37d7b2e6a54b3c11f6c9f818edee005e424b",
+          "sha256": "fbc4e89ba39f0d166ee521afa0ac34dae329d1832cb760f6ccdbb2dbbf7c7656",
+          "sha1": "a4bc1ca6314c67e505db6bb5a6ea7d2647f14d2e",
+          "md5": "7588786e3dea444e1590473db2e183b1"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-test-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-test-peripheral-0.8.12.aar",
+          "url": "ble-test-peripheral-0.8.12.aar",
+          "size": 3579,
+          "sha512": "702725469715ccff5f48263dcbbf5f1b2740fbbc11a6a89030b2da577172fd687a6dba7f173011546b51c5072f7d37d7b2e6a54b3c11f6c9f818edee005e424b",
+          "sha256": "fbc4e89ba39f0d166ee521afa0ac34dae329d1832cb760f6ccdbb2dbbf7c7656",
+          "sha1": "a4bc1ca6314c67e505db6bb5a6ea7d2647f14d2e",
+          "md5": "7588786e3dea444e1590473db2e183b1"
+        }
+      ]
+    }
+  ]
+}

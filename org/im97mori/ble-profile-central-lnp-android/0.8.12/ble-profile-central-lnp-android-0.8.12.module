@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-lnp-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-bas-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-lns-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-lnp-android-0.8.12.aar",
+          "url": "ble-profile-central-lnp-android-0.8.12.aar",
+          "size": 8201,
+          "sha512": "1430d24ece148ed6d37f1977c6580991cd42c528e10d230c944f15d6030d3bd18efd3aab8fe68b587573c4661cf2f2cf5dfb7a96e35506d346ab4d64065c5901",
+          "sha256": "5d25e9b644bc0e2cc28738c5ace8401918540f8bd85951494aea70e5e82ea956",
+          "sha1": "cd9b3defc7cbad6250c5a4ead06a83012715cebd",
+          "md5": "d49bf649fc9f17ab09702a585949dba2"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-dis-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-bas-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-lns-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-lnp-android-0.8.12.aar",
+          "url": "ble-profile-central-lnp-android-0.8.12.aar",
+          "size": 8201,
+          "sha512": "1430d24ece148ed6d37f1977c6580991cd42c528e10d230c944f15d6030d3bd18efd3aab8fe68b587573c4661cf2f2cf5dfb7a96e35506d346ab4d64065c5901",
+          "sha256": "5d25e9b644bc0e2cc28738c5ace8401918540f8bd85951494aea70e5e82ea956",
+          "sha1": "cd9b3defc7cbad6250c5a4ead06a83012715cebd",
+          "md5": "d49bf649fc9f17ab09702a585949dba2"
+        }
+      ]
+    }
+  ]
+}

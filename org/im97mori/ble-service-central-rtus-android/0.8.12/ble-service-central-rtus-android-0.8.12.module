@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-rtus-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rtus-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-rtus-android-0.8.12.aar",
+          "url": "ble-service-central-rtus-android-0.8.12.aar",
+          "size": 3810,
+          "sha512": "d513807f95671eba621e0cf2d296eda9edfbc830c783b943fbd8efadd3c89264501c1c246533ab209250bf79efa346d0b98175e222d16a4483b663d190d8feb8",
+          "sha256": "84904aa44ccde8885428137a16a25637eb8a77265a7faa7bf5fac1e59bf68993",
+          "sha1": "f63026b522f02747d2d102e11d3885b5237f8644",
+          "md5": "d5b165618a6d7a779a7a3926502881f8"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rtus-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-rtus-android-0.8.12.aar",
+          "url": "ble-service-central-rtus-android-0.8.12.aar",
+          "size": 3810,
+          "sha512": "d513807f95671eba621e0cf2d296eda9edfbc830c783b943fbd8efadd3c89264501c1c246533ab209250bf79efa346d0b98175e222d16a4483b663d190d8feb8",
+          "sha256": "84904aa44ccde8885428137a16a25637eb8a77265a7faa7bf5fac1e59bf68993",
+          "sha1": "f63026b522f02747d2d102e11d3885b5237f8644",
+          "md5": "d5b165618a6d7a779a7a3926502881f8"
+        }
+      ]
+    }
+  ]
+}

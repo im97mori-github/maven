@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-ndcs-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-ndcs-android-0.8.12.aar",
+          "url": "ble-service-peripheral-ndcs-android-0.8.12.aar",
+          "size": 3815,
+          "sha512": "f1120a75590951bc9df6f727d5b905ad4b995b90964100ba7c13873db7ef6a3ec3f8d8ef47d6683bf82229c562b1f62a5d4bf14d32e691939c351278bd443fd4",
+          "sha256": "787f727b299b9dbf8a2cd6980c2eb6cbb0db71405338fc3078a6b87265212be3",
+          "sha1": "71b4997623cb7b64d168e9cb60491207447546a5",
+          "md5": "59abfae4e75a5fe78548e9f6b3453e6c"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-ndcs-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-ndcs-android-0.8.12.aar",
+          "url": "ble-service-peripheral-ndcs-android-0.8.12.aar",
+          "size": 3815,
+          "sha512": "f1120a75590951bc9df6f727d5b905ad4b995b90964100ba7c13873db7ef6a3ec3f8d8ef47d6683bf82229c562b1f62a5d4bf14d32e691939c351278bd443fd4",
+          "sha256": "787f727b299b9dbf8a2cd6980c2eb6cbb0db71405338fc3078a6b87265212be3",
+          "sha1": "71b4997623cb7b64d168e9cb60491207447546a5",
+          "md5": "59abfae4e75a5fe78548e9f6b3453e6c"
+        }
+      ]
+    }
+  ]
+}

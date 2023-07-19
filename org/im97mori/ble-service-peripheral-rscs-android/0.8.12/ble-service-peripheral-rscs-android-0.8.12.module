@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-rscs-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rscs-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-rscs-android-0.8.12.aar",
+          "url": "ble-service-peripheral-rscs-android-0.8.12.aar",
+          "size": 13923,
+          "sha512": "fea0627430ac4d535ee212bae59ec6d4797d9bf8a46cbf2efdec0936bdb46df0804319dd3cb8bb1693a1661285e41cc390ee2abfed1dc4257ccc16aefa036ad4",
+          "sha256": "5e7cd9c0d3198a7ab415889de2e8b0af5434bb228eab8b7868ef704eab22e9fa",
+          "sha1": "b78f4b53be542abdaed41026ae291b50b92bdcc6",
+          "md5": "44c3d493147b31ae195bd5663dce5ae0"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-rscs-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-rscs-android-0.8.12.aar",
+          "url": "ble-service-peripheral-rscs-android-0.8.12.aar",
+          "size": 13923,
+          "sha512": "fea0627430ac4d535ee212bae59ec6d4797d9bf8a46cbf2efdec0936bdb46df0804319dd3cb8bb1693a1661285e41cc390ee2abfed1dc4257ccc16aefa036ad4",
+          "sha256": "5e7cd9c0d3198a7ab415889de2e8b0af5434bb228eab8b7868ef704eab22e9fa",
+          "sha1": "b78f4b53be542abdaed41026ae291b50b92bdcc6",
+          "md5": "44c3d493147b31ae195bd5663dce5ae0"
+        }
+      ]
+    }
+  ]
+}

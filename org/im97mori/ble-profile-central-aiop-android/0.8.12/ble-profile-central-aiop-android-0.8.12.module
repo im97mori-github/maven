@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-profile-central-aiop-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-aios-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-aiop-android-0.8.12.aar",
+          "url": "ble-profile-central-aiop-android-0.8.12.aar",
+          "size": 9293,
+          "sha512": "2e81cb386ee093bb691eaccc37e22b5d426ce5337bbfc748a7d777c0a9457f101cf537976ed2b3434bc13a58831f5090e6ded14c57e54b2f66ef3e723af97716",
+          "sha256": "1c37d753e2706764cea8d588438941417e7fa02ca9e5ceadddb4aacb170cd6ea",
+          "sha1": "e6f7ef133759b05eae4cbd4562c757615d80ff79",
+          "md5": "3c4796a48fa7c987ad1ab89a025807b4"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-profile-central-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-aios-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-profile-central-aiop-android-0.8.12.aar",
+          "url": "ble-profile-central-aiop-android-0.8.12.aar",
+          "size": 9293,
+          "sha512": "2e81cb386ee093bb691eaccc37e22b5d426ce5337bbfc748a7d777c0a9457f101cf537976ed2b3434bc13a58831f5090e6ded14c57e54b2f66ef3e723af97716",
+          "sha256": "1c37d753e2706764cea8d588438941417e7fa02ca9e5ceadddb4aacb170cd6ea",
+          "sha1": "e6f7ef133759b05eae4cbd4562c757615d80ff79",
+          "md5": "3c4796a48fa7c987ad1ab89a025807b4"
+        }
+      ]
+    }
+  ]
+}

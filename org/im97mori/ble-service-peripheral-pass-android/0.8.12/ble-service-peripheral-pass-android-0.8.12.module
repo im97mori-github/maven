@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-peripheral-pass-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-pass-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-pass-android-0.8.12.aar",
+          "url": "ble-service-peripheral-pass-android-0.8.12.aar",
+          "size": 6497,
+          "sha512": "7a94fdab7154757c010b2006959bda4b7d72ce1a0d194a7ea76d8e88173cd439536255cb20bb2da6a4515049eb99a06ce35de76013c6ff556af41f03e4ff004d",
+          "sha256": "43673213f211fb4535c9657f73d4f2f5365a7d82852c18f907e1f63d413dee1c",
+          "sha1": "2e8caf9741ae49fdf4a8f7ec3db6ab0496d30447",
+          "md5": "2d35cbd1e2a92a64626517b3042ff906"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-peripheral-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-pass-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-peripheral-pass-android-0.8.12.aar",
+          "url": "ble-service-peripheral-pass-android-0.8.12.aar",
+          "size": 6497,
+          "sha512": "7a94fdab7154757c010b2006959bda4b7d72ce1a0d194a7ea76d8e88173cd439536255cb20bb2da6a4515049eb99a06ce35de76013c6ff556af41f03e4ff004d",
+          "sha256": "43673213f211fb4535c9657f73d4f2f5365a7d82852c18f907e1f63d413dee1c",
+          "sha1": "2e8caf9741ae49fdf4a8f7ec3db6ab0496d30447",
+          "md5": "2d35cbd1e2a92a64626517b3042ff906"
+        }
+      ]
+    }
+  ]
+}

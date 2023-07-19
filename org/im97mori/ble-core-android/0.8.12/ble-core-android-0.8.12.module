@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-core-android",
+    "version": "0.8.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "stagingVariantStagingApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-android-0.8.12.aar",
+          "url": "ble-core-android-0.8.12.aar",
+          "size": 1260,
+          "sha512": "85b8208a688c0d836f94aa635d43c5544c4e345aa05534d7e26b5658e5a4f8d59a8c98b9e2aa847ff7a76297979fc6f1645bca899c36385727a85e8e5066cdb4",
+          "sha256": "7ddadc72437a12df57ca9108870c1e0e0f81d84fe67a4d209442f1a274c13fc9",
+          "sha1": "19f31a15963b085e2d7a26fa41b87c271d514d29",
+          "md5": "191a8a8c7ed4ee34eb5c6d1588df6d66"
+        }
+      ]
+    },
+    {
+      "name": "stagingVariantStagingRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils-android",
+          "version": {
+            "requires": "0.8.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-core-android-0.8.12.aar",
+          "url": "ble-core-android-0.8.12.aar",
+          "size": 1260,
+          "sha512": "85b8208a688c0d836f94aa635d43c5544c4e345aa05534d7e26b5658e5a4f8d59a8c98b9e2aa847ff7a76297979fc6f1645bca899c36385727a85e8e5066cdb4",
+          "sha256": "7ddadc72437a12df57ca9108870c1e0e0f81d84fe67a4d209442f1a274c13fc9",
+          "sha1": "19f31a15963b085e2d7a26fa41b87c271d514d29",
+          "md5": "191a8a8c7ed4ee34eb5c6d1588df6d66"
+        }
+      ]
+    }
+  ]
+}
