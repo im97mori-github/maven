@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -42,16 +42,16 @@
         {
           "name": "ble-service-peripheral-lns-android-0.8.12.aar",
           "url": "ble-service-peripheral-lns-android-0.8.12.aar",
-          "size": 13284,
-          "sha512": "5dfb84165a405f896c62f13fe5150878e512479c3353a36cdf6cbbf91acb11e1d1b74832141478418ed66b3ceab9bbb1f1e5e240584f76947bfbdda97d420ce5",
-          "sha256": "b80ffcbde845521b450bc3acd41178a19ef2643caff0dae53a817a2278ab6788",
-          "sha1": "b5f930109d3b58af7bdb4c0df08de4b78ec0fc14",
-          "md5": "180974fe0f6604b045829e7710cda817"
+          "size": 13566,
+          "sha512": "3550e09e9521d4c3f82eda7010c284c128abc4edba42b5fa8c801a5978d3a010d7e6a1135b58cdb8dcda443925a699d82f3f6d4118785eea8e7f1dc3c83c754d",
+          "sha256": "0db15ba7bc2c68af8a9fe6c39876421208fdd618717f0eb43f71d742477ea4e4",
+          "sha1": "715ee19c5b3ab5d7e4012ff8c0ae323a139e5674",
+          "md5": "c1990e111bf76c7c7d875495d01f3f3a"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -78,11 +78,51 @@
         {
           "name": "ble-service-peripheral-lns-android-0.8.12.aar",
           "url": "ble-service-peripheral-lns-android-0.8.12.aar",
-          "size": 13284,
-          "sha512": "5dfb84165a405f896c62f13fe5150878e512479c3353a36cdf6cbbf91acb11e1d1b74832141478418ed66b3ceab9bbb1f1e5e240584f76947bfbdda97d420ce5",
-          "sha256": "b80ffcbde845521b450bc3acd41178a19ef2643caff0dae53a817a2278ab6788",
-          "sha1": "b5f930109d3b58af7bdb4c0df08de4b78ec0fc14",
-          "md5": "180974fe0f6604b045829e7710cda817"
+          "size": 13566,
+          "sha512": "3550e09e9521d4c3f82eda7010c284c128abc4edba42b5fa8c801a5978d3a010d7e6a1135b58cdb8dcda443925a699d82f3f6d4118785eea8e7f1dc3c83c754d",
+          "sha256": "0db15ba7bc2c68af8a9fe6c39876421208fdd618717f0eb43f71d742477ea4e4",
+          "sha1": "715ee19c5b3ab5d7e4012ff8c0ae323a139e5674",
+          "md5": "c1990e111bf76c7c7d875495d01f3f3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-peripheral-lns-android-0.8.12-sources.jar",
+          "url": "ble-service-peripheral-lns-android-0.8.12-sources.jar",
+          "size": 9041,
+          "sha512": "820372b031e5bb379669d4f087e3c0e123702a367b9e88611ce3e54e6a88224fdb0e5adcab552560f565ba779a60adcd64a3e3f2eeb47f346d5392d2e3cc2bc7",
+          "sha256": "ce6a986919b66120a958f90ec8247f1f4b50bf32670a7d6406c0a0e695fc44ef",
+          "sha1": "7e75a93a073ba378d72de36f8d55edaac1e7c5b0",
+          "md5": "cfaea3136246565690016529789a1b2b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-peripheral-lns-android-0.8.12-javadoc.jar",
+          "url": "ble-service-peripheral-lns-android-0.8.12-javadoc.jar",
+          "size": 303062,
+          "sha512": "8d1a6a120ae194a3a5f1beea0bbced74d089015bbccc2945010b8f97dcd64e832ae476f9c536de1c7c835797868093ba256d631c3515069965d1d3b3eba50f8b",
+          "sha256": "2d7b252c334ba648f93e0191906c25aa9f56b9eb19f45bf6abef85c6b0b5cdd3",
+          "sha1": "5cc6b59aaffbe9ad5d48a2c651625134a5154ef8",
+          "md5": "6f42d0b4b99bcb277be65f991d786157"
         }
       ]
     }

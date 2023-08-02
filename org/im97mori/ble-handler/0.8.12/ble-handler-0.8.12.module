@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -42,16 +42,16 @@
         {
           "name": "ble-handler-0.8.12.aar",
           "url": "ble-handler-0.8.12.aar",
-          "size": 5160,
-          "sha512": "744f9a76433a44ba07ef92b6b0dea07527b658e46b0ebe93128a6a3fd04fdb490897be2f430c781539fd4cc8fa0c0d9f6e20fe10d42a7bb4db2dd1bc50934078",
-          "sha256": "1717ccc05c57e1785d7149b8761a6106f9688b68141f7b48a47bc0ded7ffc46b",
-          "sha1": "b7267281dbc32e8948deb26dbec15b4951f07cb7",
-          "md5": "20cced24092205ee0cde42d3fbde1f9c"
+          "size": 5166,
+          "sha512": "75ef1f80a29823889e1bd5c9ea30ce74da5b04d829613cd3c21b3093bbba67522e3770220ae690bdc70391e66dd977f0f4f7fc95fa329672a68a9deabbbce341",
+          "sha256": "779a54b59fd84e7245b8d2fc18b01f452278ad114eba0c6f4950085517892bc2",
+          "sha1": "0dfab36db7e56ce9e480c11b75ffd88a98cc3251",
+          "md5": "d2dcae38d38103576935fdcd947a0a23"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -78,11 +78,51 @@
         {
           "name": "ble-handler-0.8.12.aar",
           "url": "ble-handler-0.8.12.aar",
-          "size": 5160,
-          "sha512": "744f9a76433a44ba07ef92b6b0dea07527b658e46b0ebe93128a6a3fd04fdb490897be2f430c781539fd4cc8fa0c0d9f6e20fe10d42a7bb4db2dd1bc50934078",
-          "sha256": "1717ccc05c57e1785d7149b8761a6106f9688b68141f7b48a47bc0ded7ffc46b",
-          "sha1": "b7267281dbc32e8948deb26dbec15b4951f07cb7",
-          "md5": "20cced24092205ee0cde42d3fbde1f9c"
+          "size": 5166,
+          "sha512": "75ef1f80a29823889e1bd5c9ea30ce74da5b04d829613cd3c21b3093bbba67522e3770220ae690bdc70391e66dd977f0f4f7fc95fa329672a68a9deabbbce341",
+          "sha256": "779a54b59fd84e7245b8d2fc18b01f452278ad114eba0c6f4950085517892bc2",
+          "sha1": "0dfab36db7e56ce9e480c11b75ffd88a98cc3251",
+          "md5": "d2dcae38d38103576935fdcd947a0a23"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-handler-0.8.12-sources.jar",
+          "url": "ble-handler-0.8.12-sources.jar",
+          "size": 4336,
+          "sha512": "ae197dd1aa96f6b6674865ebea3cfd5f3fcad9fce8784c6b19a9b36614973de55b1bae76c06d8f168b6cf182340f2dbad999a63e0d4ea37cbe0fc6d6a8173a1b",
+          "sha256": "24867adf67c220f2cba71a4b7a67a269c0700389fbaaa32cc650345a9bfb75e3",
+          "sha1": "7f78f58067fee5f49a5855895ce88472289d5eda",
+          "md5": "9e9abb1d2891ec63eb35b29496bc43ba"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-handler-0.8.12-javadoc.jar",
+          "url": "ble-handler-0.8.12-javadoc.jar",
+          "size": 291083,
+          "sha512": "57483aaf74f7637aa34a2c0cb48a4cb141aea6a494a5d0180a50b0de26cc4aee1e9b0a56d9a0e32463e1534ba5932d8e89ec0f6e0e1c8d1d4ac717b9a847a206",
+          "sha256": "4aff5cfb60a382fae61b3ba2b7b37aa72d06503de88d814c1c8ddcbe676fb563",
+          "sha1": "40ae4b63d468aef2a7e599ab83db5f3fe8097690",
+          "md5": "7c1944f58ffc8d16e23c907302ac9529"
         }
       ]
     }

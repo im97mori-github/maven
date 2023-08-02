@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -42,16 +42,16 @@
         {
           "name": "ble-central-0.8.12.aar",
           "url": "ble-central-0.8.12.aar",
-          "size": 73372,
-          "sha512": "cca9cfd1270318abc24a016a04e5e2f29fe8e52877897514f3f74e6f481b3f98c56b99b0556b4e4eda42183f8c9e07383958f265338dfd845511b2cf53f7763b",
-          "sha256": "48f1e92f8672e29941f08af3ad53f2de2840239d2d157af3bfc761868fee5989",
-          "sha1": "8ba883219d7542c2a2831bda327488ae1f191721",
-          "md5": "4dcdb680a4cbd372206034f666680bba"
+          "size": 76113,
+          "sha512": "afc5328bea76b1ada8059dc97c14b22cb32f81d571cc636cad27947f6118ef6ba07d7fcf874dd6f80c2588ad32032ac9f52063a46a192673a29b022bb9e097f5",
+          "sha256": "c7414bb6aecbbcd469729bc1c160a5974a24d2f11c8533a124a60caf769a0db8",
+          "sha1": "aba0ebab137984fb2759c77bf8d1db97422529d6",
+          "md5": "d296e6d497caa19aef426cfe33fd78bb"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -78,11 +78,51 @@
         {
           "name": "ble-central-0.8.12.aar",
           "url": "ble-central-0.8.12.aar",
-          "size": 73372,
-          "sha512": "cca9cfd1270318abc24a016a04e5e2f29fe8e52877897514f3f74e6f481b3f98c56b99b0556b4e4eda42183f8c9e07383958f265338dfd845511b2cf53f7763b",
-          "sha256": "48f1e92f8672e29941f08af3ad53f2de2840239d2d157af3bfc761868fee5989",
-          "sha1": "8ba883219d7542c2a2831bda327488ae1f191721",
-          "md5": "4dcdb680a4cbd372206034f666680bba"
+          "size": 76113,
+          "sha512": "afc5328bea76b1ada8059dc97c14b22cb32f81d571cc636cad27947f6118ef6ba07d7fcf874dd6f80c2588ad32032ac9f52063a46a192673a29b022bb9e097f5",
+          "sha256": "c7414bb6aecbbcd469729bc1c160a5974a24d2f11c8533a124a60caf769a0db8",
+          "sha1": "aba0ebab137984fb2759c77bf8d1db97422529d6",
+          "md5": "d296e6d497caa19aef426cfe33fd78bb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-central-0.8.12-sources.jar",
+          "url": "ble-central-0.8.12-sources.jar",
+          "size": 53088,
+          "sha512": "87e557cf43bb0229b920a182466f6733c03f1bf1fc08e1bc1e9cd17d4cc4170f217cb9f8072f5557308285d24d19210e8161f3d766906f923df1e60a6a84ee16",
+          "sha256": "9c632520f882a36f0d7a57eb4976f07821d4958cb0140fb1e305d95021b2e78c",
+          "sha1": "321ebbb8ad44ccea8d87832935858d2ef84b4187",
+          "md5": "333a35087892561809dfdee24fe65c0a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-central-0.8.12-javadoc.jar",
+          "url": "ble-central-0.8.12-javadoc.jar",
+          "size": 429657,
+          "sha512": "2dadd3b53378dbed7aed1a10f3aded1a39eb632b6cbb493bd239650d1a85f01a173ffcbf69aa87d25eca57d06f86212b5c68551f0f19092f4a78520fdadf40ce",
+          "sha256": "dd406a8b7e06952f81326df298bc7b2988a21a8ef4154229c95401b32b12a5d4",
+          "sha1": "1f78d880596e01786477e508477c7ba72185bbfb",
+          "md5": "f1ceffab46c573833d33b8c9fb640a18"
         }
       ]
     }

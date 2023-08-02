@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -49,16 +49,16 @@
         {
           "name": "ble-descriptor-u2905-android-0.8.12.aar",
           "url": "ble-descriptor-u2905-android-0.8.12.aar",
-          "size": 3185,
-          "sha512": "deb52c61e6b63a597f7dbea25529dba1a94989c4222b8bd06e6d67847a3b5d79bd31e78da83e7d480b583b6759382c8a1f9e93e34b16dab2cfed7e8d23471a1e",
-          "sha256": "e9fdfe617bbfbd18e07dd26d0bdb322d0885cc0e169120637c8bd5a09b7b82a3",
-          "sha1": "ff162a6d53c3d719aa4f7a0e570099d092c2d1f4",
-          "md5": "ce1ff2c92fe5f7074d0b406514028a0e"
+          "size": 3129,
+          "sha512": "813208111c8119458fe07352b5f4560c8174af20c93350a3ecf7075404baa8a6468cea31e6157cd590843d264292bf526d6693c7fcd530b0a6a8270f0e89a747",
+          "sha256": "884e2f537489db8e9ad4a8e1421635ef075d38167f06a2ad972393b444a5b89c",
+          "sha1": "998e517cd7be64579b641ecfa667dedaa53ba46f",
+          "md5": "fdfff8f03f28625633eaf1ce2b218aeb"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -92,11 +92,51 @@
         {
           "name": "ble-descriptor-u2905-android-0.8.12.aar",
           "url": "ble-descriptor-u2905-android-0.8.12.aar",
-          "size": 3185,
-          "sha512": "deb52c61e6b63a597f7dbea25529dba1a94989c4222b8bd06e6d67847a3b5d79bd31e78da83e7d480b583b6759382c8a1f9e93e34b16dab2cfed7e8d23471a1e",
-          "sha256": "e9fdfe617bbfbd18e07dd26d0bdb322d0885cc0e169120637c8bd5a09b7b82a3",
-          "sha1": "ff162a6d53c3d719aa4f7a0e570099d092c2d1f4",
-          "md5": "ce1ff2c92fe5f7074d0b406514028a0e"
+          "size": 3129,
+          "sha512": "813208111c8119458fe07352b5f4560c8174af20c93350a3ecf7075404baa8a6468cea31e6157cd590843d264292bf526d6693c7fcd530b0a6a8270f0e89a747",
+          "sha256": "884e2f537489db8e9ad4a8e1421635ef075d38167f06a2ad972393b444a5b89c",
+          "sha1": "998e517cd7be64579b641ecfa667dedaa53ba46f",
+          "md5": "fdfff8f03f28625633eaf1ce2b218aeb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-descriptor-u2905-android-0.8.12-sources.jar",
+          "url": "ble-descriptor-u2905-android-0.8.12-sources.jar",
+          "size": 2170,
+          "sha512": "e932690c649b95539d8c65a2c58d65889937f8610c430d27ed82f43ed38cb928f342a48a112b52c5d8ebf2867665f031281efadd6726b21e2b43bc35fb0a847d",
+          "sha256": "7df06f60bbae3c02dcdf79497a1949a9be40b80f4276f8b86069a50339cc0249",
+          "sha1": "20563e85de0126bbfd24ac4a159a20e58a555965",
+          "md5": "82d8e1d7a381253716b748a394a476bd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-descriptor-u2905-android-0.8.12-javadoc.jar",
+          "url": "ble-descriptor-u2905-android-0.8.12-javadoc.jar",
+          "size": 271124,
+          "sha512": "01753d6dfbf0e81e47582fa115ee60141d767ab2d522c5fb9dafa25cb89242b5e4843fed47ceec17b414eb90db1fb86ff7cba607fe710e5572422a080684e3c7",
+          "sha256": "7415d861b3ace7699a14e399afcb2824e6971d26b96f10e37e7a7bdca693f4cc",
+          "sha1": "abf28d34f8a6b2f55a4517b6ba00a50ed6b7d298",
+          "md5": "85f78959e443858874b7db2de51d5b6c"
         }
       ]
     }

@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -49,16 +49,16 @@
         {
           "name": "ble-descriptor-u2906-android-0.8.12.aar",
           "url": "ble-descriptor-u2906-android-0.8.12.aar",
-          "size": 3197,
-          "sha512": "4886ec48b6094df0c09c2471198907536de5dfac8fc3829b31f97f0e7542b31adf1199da8fe015df4948597678eee40d723234f620bb2c3ea94846ea438c6932",
-          "sha256": "17e4215084c123e56a784a9c45760e3bab2f034bbcb8d5799a0a5744f9e31317",
-          "sha1": "2edcd9fe553d3e7f06bcad2baedae90fb3ab4b43",
-          "md5": "d5b880d64bbe51194f6b491a764f69a1"
+          "size": 3145,
+          "sha512": "a33e2007f6cb8c6f3cceb8f42211be7fd56f5848af56d370fd697069d1ab064a4f709e9d3ed5d62c18112405ffa4a356d0fcb4b8cb8187f2bfb1f57ec757420e",
+          "sha256": "e6f41d89e96e8858a7c7c72132eb31ae53d34c3f6e3fe0ac0d7e925989303d74",
+          "sha1": "eb224bb366d8da187751a1c8e544b20693d86751",
+          "md5": "205a5082c76b62dfd3687bdc8b8829fc"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -92,11 +92,51 @@
         {
           "name": "ble-descriptor-u2906-android-0.8.12.aar",
           "url": "ble-descriptor-u2906-android-0.8.12.aar",
-          "size": 3197,
-          "sha512": "4886ec48b6094df0c09c2471198907536de5dfac8fc3829b31f97f0e7542b31adf1199da8fe015df4948597678eee40d723234f620bb2c3ea94846ea438c6932",
-          "sha256": "17e4215084c123e56a784a9c45760e3bab2f034bbcb8d5799a0a5744f9e31317",
-          "sha1": "2edcd9fe553d3e7f06bcad2baedae90fb3ab4b43",
-          "md5": "d5b880d64bbe51194f6b491a764f69a1"
+          "size": 3145,
+          "sha512": "a33e2007f6cb8c6f3cceb8f42211be7fd56f5848af56d370fd697069d1ab064a4f709e9d3ed5d62c18112405ffa4a356d0fcb4b8cb8187f2bfb1f57ec757420e",
+          "sha256": "e6f41d89e96e8858a7c7c72132eb31ae53d34c3f6e3fe0ac0d7e925989303d74",
+          "sha1": "eb224bb366d8da187751a1c8e544b20693d86751",
+          "md5": "205a5082c76b62dfd3687bdc8b8829fc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-descriptor-u2906-android-0.8.12-sources.jar",
+          "url": "ble-descriptor-u2906-android-0.8.12-sources.jar",
+          "size": 2180,
+          "sha512": "838272884232419be85ca0a2fac994856bb735877f24b2d577f507b53e6f8f8d98c9bcc3129c0dfaace5af04cb62e1933b35bc80c183749fd60b0a6b98b960b5",
+          "sha256": "c25b7398e6229103856d534ece1cde8083fb89f94cef89b46e46a56df093f32a",
+          "sha1": "90856c99407cf92a7027d2dd8d599a6bcc70a7fa",
+          "md5": "74235e1b1439755baee2332582df1962"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-descriptor-u2906-android-0.8.12-javadoc.jar",
+          "url": "ble-descriptor-u2906-android-0.8.12-javadoc.jar",
+          "size": 271261,
+          "sha512": "31bd4bb1e9cdd21de5c3eed1814d0cb5bce991ee09843419e7d56ab2a2377025cb463fd3e03c8472f70d98df4069e98484e9cff47eab2f82ab41fcddc9da8ef2",
+          "sha256": "1fe1e27a334e577073671ad92b8e10402ec8059d7fccadc1049cd694fcb9f128",
+          "sha1": "6a98b8632016acf13ad784b27b411069f65ca1fe",
+          "md5": "053bddac4984005677860be96c66a506"
         }
       ]
     }

@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -50,15 +50,15 @@
           "name": "ble-profile-peripheral-blp-android-0.8.12.aar",
           "url": "ble-profile-peripheral-blp-android-0.8.12.aar",
           "size": 5454,
-          "sha512": "91de408ab6fdffc5cd6ac1de83f5b488cd31bd65e3afd43db9a686967e9df8d8d0fbb32d3b05d86a9ab718ed48a7f9a09f986b82b334b9bd2bf13e9b62415474",
-          "sha256": "2b39078cfe89bd8b5c4e12da0283864f965dc2d62b8ba33956f272dd144dfc63",
-          "sha1": "80eec0421b43de759f97f9c6d5d9fe0561117cab",
-          "md5": "43c07a2dfe6f3d98dc02f4988e5c6dca"
+          "sha512": "15657da1765874ea46000207c8ea33e56fe5f911958bf38c2adbbaa5d0e99a626010ceaeef37626b8f4af51b3dc3ee98af9b2ac0d735900d66a12ea7ff1f8c41",
+          "sha256": "6ae14bfb3b25b89224a40c4dda7b15bf6ac3d1c9c7e135bd3fc10b4d8766b411",
+          "sha1": "e976f327c86ce533e34c9b015deb8ffcc70e5b67",
+          "md5": "927207fa60637985457fddae1c9f7bbb"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -93,10 +93,50 @@
           "name": "ble-profile-peripheral-blp-android-0.8.12.aar",
           "url": "ble-profile-peripheral-blp-android-0.8.12.aar",
           "size": 5454,
-          "sha512": "91de408ab6fdffc5cd6ac1de83f5b488cd31bd65e3afd43db9a686967e9df8d8d0fbb32d3b05d86a9ab718ed48a7f9a09f986b82b334b9bd2bf13e9b62415474",
-          "sha256": "2b39078cfe89bd8b5c4e12da0283864f965dc2d62b8ba33956f272dd144dfc63",
-          "sha1": "80eec0421b43de759f97f9c6d5d9fe0561117cab",
-          "md5": "43c07a2dfe6f3d98dc02f4988e5c6dca"
+          "sha512": "15657da1765874ea46000207c8ea33e56fe5f911958bf38c2adbbaa5d0e99a626010ceaeef37626b8f4af51b3dc3ee98af9b2ac0d735900d66a12ea7ff1f8c41",
+          "sha256": "6ae14bfb3b25b89224a40c4dda7b15bf6ac3d1c9c7e135bd3fc10b4d8766b411",
+          "sha1": "e976f327c86ce533e34c9b015deb8ffcc70e5b67",
+          "md5": "927207fa60637985457fddae1c9f7bbb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-peripheral-blp-android-0.8.12-sources.jar",
+          "url": "ble-profile-peripheral-blp-android-0.8.12-sources.jar",
+          "size": 3408,
+          "sha512": "3ad6e021de82b0d633bcdb85575e89b9991c08e7c198cade43e953ff6c178dfa6c7c878ef9e8cd5cac6e45b45bcd0ed4ea69264b10e6260dfcc28d6f4e9b30eb",
+          "sha256": "851d1ab21af174afc75e5a565c77ab3f8bfd113d9e9a4c4a6d90d3493c5fad86",
+          "sha1": "a53aedebeb0bd9fe0d0a5b50d4a4de1f7609b64b",
+          "md5": "0bc3958b35d181cf7e21ed7feb48d4c8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-peripheral-blp-android-0.8.12-javadoc.jar",
+          "url": "ble-profile-peripheral-blp-android-0.8.12-javadoc.jar",
+          "size": 280466,
+          "sha512": "2ea17c292998edf702d391aab522f232a1180bc0b582b6ec1d782f189866801d500233d6fc3786120969d74d62c9d93b071201d8426ac6b93f90aaed3f7476f9",
+          "sha256": "cfe3dabd80bf8f28816173fc09cba8861e3ffff583197de4552ae2d7f1807e98",
+          "sha1": "eca5695633f7fd6a9a94516376ff37d31df3117c",
+          "md5": "72c0ed9c7f22cc2333572589a918f5fb"
         }
       ]
     }

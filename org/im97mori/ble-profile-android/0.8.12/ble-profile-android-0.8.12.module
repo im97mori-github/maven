@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -280,16 +280,16 @@
         {
           "name": "ble-profile-android-0.8.12.aar",
           "url": "ble-profile-android-0.8.12.aar",
-          "size": 1308,
-          "sha512": "ba6dac5020253c36a8201d91b4650e3b0d6ae8253ac877f6f9918c3004c3ae5b79c8f010b3b7398253b4638027edf0051e0b9800081d900f35d7bf7197227730",
-          "sha256": "f6ebb36677a470f440670cca4dd54c055b92520430c2b9cd325e40c1049a920b",
-          "sha1": "d46623c8ffa2cb7682c378a0146811b6a71e0283",
-          "md5": "dd3cd0df32b21efbf5ea78b9385b3c91"
+          "size": 1312,
+          "sha512": "aa32e5eaa0d059295707b81ee8e4786ef395a2fc1c281d98ff9812ed2413d0d35eeb248305570be37c5633ac9c9adc7ac69505d5eb4b0a5bd9beaee8958dcad3",
+          "sha256": "68c8df84e3ddb00e656b5b39a98caed12795078f27edc2514eae3d96863e6a69",
+          "sha1": "643889fa45c0d1d67fc00d18fdc98c4954322680",
+          "md5": "bd1bfbc94d95bde37e46e18728cff671"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -554,11 +554,51 @@
         {
           "name": "ble-profile-android-0.8.12.aar",
           "url": "ble-profile-android-0.8.12.aar",
-          "size": 1308,
-          "sha512": "ba6dac5020253c36a8201d91b4650e3b0d6ae8253ac877f6f9918c3004c3ae5b79c8f010b3b7398253b4638027edf0051e0b9800081d900f35d7bf7197227730",
-          "sha256": "f6ebb36677a470f440670cca4dd54c055b92520430c2b9cd325e40c1049a920b",
-          "sha1": "d46623c8ffa2cb7682c378a0146811b6a71e0283",
-          "md5": "dd3cd0df32b21efbf5ea78b9385b3c91"
+          "size": 1312,
+          "sha512": "aa32e5eaa0d059295707b81ee8e4786ef395a2fc1c281d98ff9812ed2413d0d35eeb248305570be37c5633ac9c9adc7ac69505d5eb4b0a5bd9beaee8958dcad3",
+          "sha256": "68c8df84e3ddb00e656b5b39a98caed12795078f27edc2514eae3d96863e6a69",
+          "sha1": "643889fa45c0d1d67fc00d18fdc98c4954322680",
+          "md5": "bd1bfbc94d95bde37e46e18728cff671"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-android-0.8.12-sources.jar",
+          "url": "ble-profile-android-0.8.12-sources.jar",
+          "size": 1044,
+          "sha512": "283bce142c354552abb67669fc645e8c3d6dc5d4b1fbce7985e7bec5ab9f1e3900c2c2243a8845b2fcdd0291717be836bd9df352eed8de99cd5a40b37dbbeabd",
+          "sha256": "d3da2de0fb786ab77650d5f897000c0dda4e1bd90168999eed152a4570832e1b",
+          "sha1": "630eb72191350cbb5b8408a3fea4ade67f207cdd",
+          "md5": "b760c032b76472f6b1da2b0e442d10c9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-android-0.8.12-javadoc.jar",
+          "url": "ble-profile-android-0.8.12-javadoc.jar",
+          "size": 259733,
+          "sha512": "2db8f98bd9184f5a92fae718721e255eba48f627234c735c7109bf434345c5a7d0d697e24aa87a2c92c43c3261c4a51ea82990613f5dc040d490137ff4b76115",
+          "sha256": "06981d38a3f22d74579c1cefbfa787b13f08a1943f2057259933ce3e5af3877a",
+          "sha1": "5467840615b28422e54ee36a39f98cd7d6b087bb",
+          "md5": "ce82e567041fc6ca3da45979ec2f5324"
         }
       ]
     }

@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -63,16 +63,16 @@
         {
           "name": "ble-characteristic-u2b4a-android-0.8.12.aar",
           "url": "ble-characteristic-u2b4a-android-0.8.12.aar",
-          "size": 3169,
-          "sha512": "36d5c0849fcae76553ccaa10411ccbf4447a7258bc0e7435929297e69d892c7bf6acf357d97ce0e2de9fc6bc11a006843c23a51eece14568027632b56cd94d11",
-          "sha256": "2214b647158b46719916312aaf2761578991694397f3d00529a72adc094c69c4",
-          "sha1": "6d6e482f7a934b59b86384fb3d6a3fe8a3970ad7",
-          "md5": "8c6b325cdd02bfe6513718839d1bbbdf"
+          "size": 3121,
+          "sha512": "2a1ccfbac43ab54a7964582135148bac1c3974716774a5ed95f84430f93df295749af7c6b6034b734c1e9aad09b692a72566127692bceb6e58c27e24057f2521",
+          "sha256": "abadbf01e90f36595c34f0b704e1f21db1080fac1174dd6c33c50ae346dc5677",
+          "sha1": "195ad724a1409a15a952a97ebe0dfd6399992a9d",
+          "md5": "97e298accb97c11d9078ddbc66e87467"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -120,11 +120,51 @@
         {
           "name": "ble-characteristic-u2b4a-android-0.8.12.aar",
           "url": "ble-characteristic-u2b4a-android-0.8.12.aar",
-          "size": 3169,
-          "sha512": "36d5c0849fcae76553ccaa10411ccbf4447a7258bc0e7435929297e69d892c7bf6acf357d97ce0e2de9fc6bc11a006843c23a51eece14568027632b56cd94d11",
-          "sha256": "2214b647158b46719916312aaf2761578991694397f3d00529a72adc094c69c4",
-          "sha1": "6d6e482f7a934b59b86384fb3d6a3fe8a3970ad7",
-          "md5": "8c6b325cdd02bfe6513718839d1bbbdf"
+          "size": 3121,
+          "sha512": "2a1ccfbac43ab54a7964582135148bac1c3974716774a5ed95f84430f93df295749af7c6b6034b734c1e9aad09b692a72566127692bceb6e58c27e24057f2521",
+          "sha256": "abadbf01e90f36595c34f0b704e1f21db1080fac1174dd6c33c50ae346dc5677",
+          "sha1": "195ad724a1409a15a952a97ebe0dfd6399992a9d",
+          "md5": "97e298accb97c11d9078ddbc66e87467"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-characteristic-u2b4a-android-0.8.12-sources.jar",
+          "url": "ble-characteristic-u2b4a-android-0.8.12-sources.jar",
+          "size": 2174,
+          "sha512": "aba130c2ddd9218102299abf651645ebd2bdcf9a2a4fa7797b9fa1ab15e1ff33a1e129cdd8b72c541ebb6c1c3e56e1e092c471a63e8603ec09c497d798fe7264",
+          "sha256": "2e52a8710bd46167034a65e9bb1630bc0429b719e5e7a3b876b020b139b539ec",
+          "sha1": "2d573d32dbc43f8814ba5f67776095f9e17ec4ed",
+          "md5": "00cdcbbdbd5db7f03d4f672cae945e3a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-characteristic-u2b4a-android-0.8.12-javadoc.jar",
+          "url": "ble-characteristic-u2b4a-android-0.8.12-javadoc.jar",
+          "size": 272857,
+          "sha512": "3250542439bc54f47c502f2160a9e0a859c256b83e6757441d682ed1a62bbf006d64163446a6c6c772e9f82df80fa0a3de158694123955c7195c1fe80fcb5632",
+          "sha256": "0ac9792263de2f774cf4f5f489bc308f23bdbb9df69e695c2429f40201da81e6",
+          "sha1": "4ee4e8289892de090a06e42baafbf2a3809a736b",
+          "md5": "d23ca7361473dddb7f4a1e4ef489ab99"
         }
       ]
     }

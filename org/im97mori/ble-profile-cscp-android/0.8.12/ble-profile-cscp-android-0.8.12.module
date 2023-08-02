@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -27,15 +27,15 @@
           "name": "ble-profile-cscp-android-0.8.12.aar",
           "url": "ble-profile-cscp-android-0.8.12.aar",
           "size": 1300,
-          "sha512": "f0c3ee792b938a5d4b325fba3bbb5703ab5b04084f36cbc9f094886fc327c20017668e9baa591e7c2e5877085d11729235085d20762231d4437f8059394d0eb7",
-          "sha256": "be0c76c289fb58a1855f3bcdbac71ed2618b5bd62ffc9045f116d20a99059571",
-          "sha1": "517d27a5df2d45829cde753f7f851c60944cc109",
-          "md5": "9ca241f6b9ae9066e2435077dba71807"
+          "sha512": "b765508933b8199f02b6c86223318959f0429e8c90383be1111a00fccfb9eb56d2bb8683c89ae7e2a3ad7df20eff31c282c6ac9bda6363308ac2ee8fffa93302",
+          "sha256": "66975e80523953ecb0787b1852805bc939a5d148cc19b97703c92d9d766e2c1c",
+          "sha1": "c6c5927ea78b163e9180cad691c105fc81a420ed",
+          "md5": "8f9d72def58cfaa1c9adb86cd7b3a957"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -47,10 +47,50 @@
           "name": "ble-profile-cscp-android-0.8.12.aar",
           "url": "ble-profile-cscp-android-0.8.12.aar",
           "size": 1300,
-          "sha512": "f0c3ee792b938a5d4b325fba3bbb5703ab5b04084f36cbc9f094886fc327c20017668e9baa591e7c2e5877085d11729235085d20762231d4437f8059394d0eb7",
-          "sha256": "be0c76c289fb58a1855f3bcdbac71ed2618b5bd62ffc9045f116d20a99059571",
-          "sha1": "517d27a5df2d45829cde753f7f851c60944cc109",
-          "md5": "9ca241f6b9ae9066e2435077dba71807"
+          "sha512": "b765508933b8199f02b6c86223318959f0429e8c90383be1111a00fccfb9eb56d2bb8683c89ae7e2a3ad7df20eff31c282c6ac9bda6363308ac2ee8fffa93302",
+          "sha256": "66975e80523953ecb0787b1852805bc939a5d148cc19b97703c92d9d766e2c1c",
+          "sha1": "c6c5927ea78b163e9180cad691c105fc81a420ed",
+          "md5": "8f9d72def58cfaa1c9adb86cd7b3a957"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-cscp-android-0.8.12-sources.jar",
+          "url": "ble-profile-cscp-android-0.8.12-sources.jar",
+          "size": 1195,
+          "sha512": "094e9964668a41b3f47b126282f8fde6544b90c965093a9fa593d09bb9cfee464982930550565b9e6eea3c661d76c1d8a3807e9a27f8788e57f5cd1d7b0531c2",
+          "sha256": "698f42434cf73b02099f9c60bafaca87a20ebc6a8cdf4cbb11a9ff6d0590d98e",
+          "sha1": "5fbb6d2c333c107b404aa14ccce8bd203ac0e3c2",
+          "md5": "c7044c41bb7efd3b5702db2c07b81e76"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-profile-cscp-android-0.8.12-javadoc.jar",
+          "url": "ble-profile-cscp-android-0.8.12-javadoc.jar",
+          "size": 259961,
+          "sha512": "12dc655a029d86b7be9e72541cbd7a9b5dd51d59e3d5502765e55de7246bec1f1d6a7bb0f29a308cd3a2675af2d93c9859d74a32fea926db9138e7752c9845f7",
+          "sha256": "139133148fbfd2ab97d166b976b4fa5ff3128f0cc858d5b7479bdb9a0f4414b9",
+          "sha1": "33cc1736997a8eaf104e225887e7ae8ee6d00ee5",
+          "md5": "43618a7a44e0cb7ce6171f9858eec025"
         }
       ]
     }

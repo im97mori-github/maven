@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -105,16 +105,16 @@
         {
           "name": "ble-service-aios-android-0.8.12.aar",
           "url": "ble-service-aios-android-0.8.12.aar",
-          "size": 1299,
-          "sha512": "94292e781bbfa071a9b1f91aeedc74585ad02a9d7dc0f8f0f8b2c65115c1a1bc97869b66f281a740b8b6e91cdcd79fae6f05b16886534bfc468d89e10ad0b761",
-          "sha256": "e42eae8091230778641a373afa6b4cdcde6db1bf7a59317ecb2613ec848bea95",
-          "sha1": "f7dd52fe1900b90c26c90e9adf53b7af3a0cc3be",
-          "md5": "feea3f5514cc6a9b5bf8f96ffefef164"
+          "size": 1300,
+          "sha512": "bf94ffa13397a081f65b42f5dfd71e770e6c8d2a7794e107b232242dd34e27d2d925c06fd1cd795cdf35282ac1d9e2d8e13ac84c14b65c4092401963529a5a9d",
+          "sha256": "64ba49728f89d6b77b12dafb87e697730bfeecb188045fdc438b2e5544245cfc",
+          "sha1": "3f43d3149fee7d03009731ff6f81bd31d4cffe4b",
+          "md5": "059226897eca417e93a403d50e9f1f1e"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -204,11 +204,51 @@
         {
           "name": "ble-service-aios-android-0.8.12.aar",
           "url": "ble-service-aios-android-0.8.12.aar",
-          "size": 1299,
-          "sha512": "94292e781bbfa071a9b1f91aeedc74585ad02a9d7dc0f8f0f8b2c65115c1a1bc97869b66f281a740b8b6e91cdcd79fae6f05b16886534bfc468d89e10ad0b761",
-          "sha256": "e42eae8091230778641a373afa6b4cdcde6db1bf7a59317ecb2613ec848bea95",
-          "sha1": "f7dd52fe1900b90c26c90e9adf53b7af3a0cc3be",
-          "md5": "feea3f5514cc6a9b5bf8f96ffefef164"
+          "size": 1300,
+          "sha512": "bf94ffa13397a081f65b42f5dfd71e770e6c8d2a7794e107b232242dd34e27d2d925c06fd1cd795cdf35282ac1d9e2d8e13ac84c14b65c4092401963529a5a9d",
+          "sha256": "64ba49728f89d6b77b12dafb87e697730bfeecb188045fdc438b2e5544245cfc",
+          "sha1": "3f43d3149fee7d03009731ff6f81bd31d4cffe4b",
+          "md5": "059226897eca417e93a403d50e9f1f1e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-aios-android-0.8.12-sources.jar",
+          "url": "ble-service-aios-android-0.8.12-sources.jar",
+          "size": 1197,
+          "sha512": "ad3b60021276221fd5d9da04f339cc6a6d71ad525902b4894350e134dfaa9a9056278b278543164ee1b9b08b3d65992477de077cc14cf70ae0e7ea9b6f3c99f3",
+          "sha256": "9c181b1128e1cc16700efb9dd6d42488c7ca3d030dd33460a051e48c7d1a105c",
+          "sha1": "9f6edd0dcbb6d8eaba736bf1698fd762c3ec2ac2",
+          "md5": "aaaa549455fed7c238eda968913cf223"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-aios-android-0.8.12-javadoc.jar",
+          "url": "ble-service-aios-android-0.8.12-javadoc.jar",
+          "size": 259961,
+          "sha512": "7ebc8bcc48ff9e018a7a323e79e1e4b066318940649ad9ae29295fa951e0d290b4d5da32a99fc0978cd72808b09f88c833bb4998a8168c514b575ea06af85d3c",
+          "sha256": "54c0ed54112a12b9fd1d5dbb33969f5b5dd11b5adda36e12b5c8868139dcc8b3",
+          "sha1": "70d8096bc15e94058f1f308ddef1fd38a0b39d81",
+          "md5": "7f20ede04612af5dc4b2f5ebd35068a2"
         }
       ]
     }

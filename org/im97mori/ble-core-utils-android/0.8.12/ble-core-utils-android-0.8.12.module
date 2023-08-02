@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -49,16 +49,16 @@
         {
           "name": "ble-core-utils-android-0.8.12.aar",
           "url": "ble-core-utils-android-0.8.12.aar",
-          "size": 3394,
-          "sha512": "ab3a4eb0b2a65304e6caffeb28e7dda9585eae03d4dbbde50f094620a37c914a68e526adcaf97d97143152450e6551622d2377598e6c7b7efa0aa423cbad2869",
-          "sha256": "f1f8fa7495a1ee10b9f08eebca3b025f6d99f5b6496c3bea354b1ea86e387a18",
-          "sha1": "268e0cf7040377528a3afc31bbbaedd9ac9bf067",
-          "md5": "fe162d918ed6ce8d1e4af152b4e0046f"
+          "size": 3437,
+          "sha512": "697d1982b471f505e6229114b486aaf4084624a078fa3edf73a446abbcc36bb19e66d2daabf83f57570d278c42e0d7e94705d0ccdb2dfbdea63f62a1cf8735ea",
+          "sha256": "33d7165156702af5516c058258a446811b14af3d535bf997cb95ffeb16c5e587",
+          "sha1": "f33393d4c74613dcd462503b7917256fe1f2a1f1",
+          "md5": "3e867d687433e1a44b71d9061e9cdb76"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -92,11 +92,51 @@
         {
           "name": "ble-core-utils-android-0.8.12.aar",
           "url": "ble-core-utils-android-0.8.12.aar",
-          "size": 3394,
-          "sha512": "ab3a4eb0b2a65304e6caffeb28e7dda9585eae03d4dbbde50f094620a37c914a68e526adcaf97d97143152450e6551622d2377598e6c7b7efa0aa423cbad2869",
-          "sha256": "f1f8fa7495a1ee10b9f08eebca3b025f6d99f5b6496c3bea354b1ea86e387a18",
-          "sha1": "268e0cf7040377528a3afc31bbbaedd9ac9bf067",
-          "md5": "fe162d918ed6ce8d1e4af152b4e0046f"
+          "size": 3437,
+          "sha512": "697d1982b471f505e6229114b486aaf4084624a078fa3edf73a446abbcc36bb19e66d2daabf83f57570d278c42e0d7e94705d0ccdb2dfbdea63f62a1cf8735ea",
+          "sha256": "33d7165156702af5516c058258a446811b14af3d535bf997cb95ffeb16c5e587",
+          "sha1": "f33393d4c74613dcd462503b7917256fe1f2a1f1",
+          "md5": "3e867d687433e1a44b71d9061e9cdb76"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.12-sources.jar",
+          "url": "ble-core-utils-android-0.8.12-sources.jar",
+          "size": 2874,
+          "sha512": "a75a9e68203339937542f06a3d3488b9576e1ebdd790228db652717e32ca8882d4f7baf476e3ad651d8e998030ef1df0de2847fb481a0add98431ee5d488c748",
+          "sha256": "e771c245268ab5328ed6e40fd8516c1ce9610aa4f4e980166618b301dab0e200",
+          "sha1": "54bfe940fccf9d86893f6d61ac5d0551718d15de",
+          "md5": "b3551654d463651b14d03cfdeb87ecb0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-core-utils-android-0.8.12-javadoc.jar",
+          "url": "ble-core-utils-android-0.8.12-javadoc.jar",
+          "size": 279622,
+          "sha512": "65d8d988ded157dd547d47896393361ae1dea006f1e18f1658fcbb2a64d537795e3b609032d74edcf4ae5b0440c7e233decd061510fe3b1cb7c3eea7c57b2613",
+          "sha256": "a8f2014fbd1e2ca677811e2f6d28865ac0162e093a351c22fc211318b1cb09a8",
+          "sha1": "0658acf6b8164dfe98983ebd4897b29a21fed208",
+          "md5": "d5aea13ef1deb1bb6ca0e7565003ef66"
         }
       ]
     }

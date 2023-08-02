@@ -15,7 +15,7 @@
   },
   "variants": [
     {
-      "name": "stagingVariantStagingApiPublication",
+      "name": "releaseVariantReleaseApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -35,16 +35,16 @@
         {
           "name": "ble-test-central-0.8.12.aar",
           "url": "ble-test-central-0.8.12.aar",
-          "size": 4373,
-          "sha512": "9a0a2ad45823e44a2d703c497ed7e232fa964c69d01139d6424ed5898405e120ef21a28e644e3619f1f43279f9db4a51441f0d330ce721d043e0717cea77d83d",
-          "sha256": "1dc3f9f998236ca2af8f11aab95b382cc7dde2056dd7931c379065b3eca7d419",
-          "sha1": "699b6194abec27b3b71364434463b28d9e0a1fac",
-          "md5": "5730c3795b1d11058b5903be6235b9aa"
+          "size": 4385,
+          "sha512": "bdda1960a425d2da516d91ea24d5030dcf7648a894908a002ae04eca269331a01ad15d9b7cec9309b0a2ab958290be47c35cb6f5390cc99dacb42a9ec57a5ac1",
+          "sha256": "43e03ad9da23337f3a82d479ee94de5d123eaef8f39d82f7d13d11759e6b0347",
+          "sha1": "ef5888d1fd9ed87d1e75fe00128a69add748ff1f",
+          "md5": "ae084ab3bf5c9c2710eb7fd9738095b1"
         }
       ]
     },
     {
-      "name": "stagingVariantStagingRuntimePublication",
+      "name": "releaseVariantReleaseRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -64,11 +64,51 @@
         {
           "name": "ble-test-central-0.8.12.aar",
           "url": "ble-test-central-0.8.12.aar",
-          "size": 4373,
-          "sha512": "9a0a2ad45823e44a2d703c497ed7e232fa964c69d01139d6424ed5898405e120ef21a28e644e3619f1f43279f9db4a51441f0d330ce721d043e0717cea77d83d",
-          "sha256": "1dc3f9f998236ca2af8f11aab95b382cc7dde2056dd7931c379065b3eca7d419",
-          "sha1": "699b6194abec27b3b71364434463b28d9e0a1fac",
-          "md5": "5730c3795b1d11058b5903be6235b9aa"
+          "size": 4385,
+          "sha512": "bdda1960a425d2da516d91ea24d5030dcf7648a894908a002ae04eca269331a01ad15d9b7cec9309b0a2ab958290be47c35cb6f5390cc99dacb42a9ec57a5ac1",
+          "sha256": "43e03ad9da23337f3a82d479ee94de5d123eaef8f39d82f7d13d11759e6b0347",
+          "sha1": "ef5888d1fd9ed87d1e75fe00128a69add748ff1f",
+          "md5": "ae084ab3bf5c9c2710eb7fd9738095b1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-test-central-0.8.12-sources.jar",
+          "url": "ble-test-central-0.8.12-sources.jar",
+          "size": 2930,
+          "sha512": "eb70d37a2c9360f6b32d3035bfe937921e3b5846f4a3f3fe576e8a1625f41c39d0b8034bb80f94d3d3fffe9de39d91d2e4fc783674436fd149b7765fda705543",
+          "sha256": "bb37a253e64552add9bf86d49e90e89a9857b1d3e99784f83af2bfa6a3fe5e2d",
+          "sha1": "2ce65e6f745ff6e734237f20f1d9dbf06225a41a",
+          "md5": "93f12b3700fa5bd8014ec22a2ef3ed88"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-test-central-0.8.12-javadoc.jar",
+          "url": "ble-test-central-0.8.12-javadoc.jar",
+          "size": 284839,
+          "sha512": "60b60aa86d905e465255bc326f06066a83898090d3359c1936dfec8b7642ac7adb142950ed05f34b0bb50d01fd2fe9eae9177e8fd0395ae835ed2998dc2e47ac",
+          "sha256": "8d5c37b23a8f92d1d3c583d71b3f298441e42758eac7c99a6429308e5f9ea603",
+          "sha1": "b1792c2892dec479d5718130652d814457c37f28",
+          "md5": "736b91a9652ec6a5bf1673e8cbc48222"
         }
       ]
     }
