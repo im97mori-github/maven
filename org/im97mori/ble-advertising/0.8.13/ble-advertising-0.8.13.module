@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-advertising",
+    "version": "0.8.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-appearance",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-company",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-datatype",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-scheme",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-advertising-0.8.13.jar",
+          "url": "ble-advertising-0.8.13.jar",
+          "size": 63083,
+          "sha512": "735b753f9a5cb124a4b78f677587ca2d96641465eb9da582c21df7674ce92e44d409050eabe2dbdbd5d61a6513770ffe80539bfed40a1a87470e4754ac130e5e",
+          "sha256": "18e0e9eb4016bc577be269de2522f6c458d4212bd6dd45691115f86c06476c91",
+          "sha1": "c6bee539e213cc8bca0f9a6de8a862fc7c52465a",
+          "md5": "0328e5fe92df79452ec2d9e7c11dde79"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-appearance",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-company",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-datatype",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-scheme",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-utils",
+          "version": {
+            "requires": "0.8.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-advertising-0.8.13.jar",
+          "url": "ble-advertising-0.8.13.jar",
+          "size": 63083,
+          "sha512": "735b753f9a5cb124a4b78f677587ca2d96641465eb9da582c21df7674ce92e44d409050eabe2dbdbd5d61a6513770ffe80539bfed40a1a87470e4754ac130e5e",
+          "sha256": "18e0e9eb4016bc577be269de2522f6c458d4212bd6dd45691115f86c06476c91",
+          "sha1": "c6bee539e213cc8bca0f9a6de8a862fc7c52465a",
+          "md5": "0328e5fe92df79452ec2d9e7c11dde79"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-advertising-0.8.13-javadoc.jar",
+          "url": "ble-advertising-0.8.13-javadoc.jar",
+          "size": 259670,
+          "sha512": "9128e44caf8f411a6449299adef655e705b814d46ca7beb6e3d0c8c95c9665b03cd5b962aa632c5f492781f25a1a1d46ae9f340075a4beec6c6a3d551def87d0",
+          "sha256": "9c276fdab8b8043f67fd166adeb412b1481403b3e0f9240195b13ff523c11122",
+          "sha1": "e673e01adcb698a6c488968d45fd3668f6b6dbc4",
+          "md5": "867954d98230912922a166f875bee6b5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-advertising-0.8.13-sources.jar",
+          "url": "ble-advertising-0.8.13-sources.jar",
+          "size": 49256,
+          "sha512": "cb162537f28b925c776c2799902d0eb18dfa541db0ed39a4de9e4c7ad1b105dc569bc0a33bb2575dbb83773ca04bf1623f9a50215c4e855af3d9ccb7dff2d661",
+          "sha256": "231d5b70a9b1683c515709a5c9d5be276447d3a3b4710a0ea61a7cacfb0b35ec",
+          "sha1": "d0b5946247d3b16faf2e162e6b00543c4ceed40f",
+          "md5": "9122a6c7ce5e1285ee220be794c3ef39"
+        }
+      ]
+    }
+  ]
+}

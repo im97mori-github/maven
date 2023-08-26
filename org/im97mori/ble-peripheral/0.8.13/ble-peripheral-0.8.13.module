@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-peripheral",
+    "version": "0.8.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.8.13.aar",
+          "url": "ble-peripheral-0.8.13.aar",
+          "size": 57802,
+          "sha512": "40a63243524751529c4d1085f9956ea8d87e44c81967892868caea5d375df92f2ed3ddc306fc225ff2e9b2d522a125d7a26d743e023eb91e7ae4ae0b1bc298de",
+          "sha256": "43f630133646e051499ceeccf874638d55bff4d0afddbafd581532acfd988a10",
+          "sha1": "977440eb300835020b85fc58c9f357cbc2fa1aa0",
+          "md5": "b16c6c5604d97dbd0aa4b43dd2792ba1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-descriptor",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-core-constants-errorcode",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-advertising-android",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-handler",
+          "version": {
+            "requires": "0.8.13"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-peripheral-0.8.13.aar",
+          "url": "ble-peripheral-0.8.13.aar",
+          "size": 57802,
+          "sha512": "40a63243524751529c4d1085f9956ea8d87e44c81967892868caea5d375df92f2ed3ddc306fc225ff2e9b2d522a125d7a26d743e023eb91e7ae4ae0b1bc298de",
+          "sha256": "43f630133646e051499ceeccf874638d55bff4d0afddbafd581532acfd988a10",
+          "sha1": "977440eb300835020b85fc58c9f357cbc2fa1aa0",
+          "md5": "b16c6c5604d97dbd0aa4b43dd2792ba1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-peripheral-0.8.13-sources.jar",
+          "url": "ble-peripheral-0.8.13-sources.jar",
+          "size": 35288,
+          "sha512": "2baeb5c85952a912ab7520b74d8b518bbfc82e1fcab4986347a2a0055c1f5f46397355df2a68c1894bb9bbfb35f2bbac520c952e0613d8bf0046f70384ab1362",
+          "sha256": "cf0578dd8f35d54feef73b013b6491e8c2cffc81aedbeb220ffe3d8fa46c2c35",
+          "sha1": "43a5418c377e41d044a9deb37f02cefb10c0f4c9",
+          "md5": "2ec81f03870c8a1743c3264abb704e1c"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-peripheral-0.8.13-javadoc.jar",
+          "url": "ble-peripheral-0.8.13-javadoc.jar",
+          "size": 382051,
+          "sha512": "f26dd2b3fc860f7b91e6c9b8902293c4de4d55754dee09a63f99d76431a2183230aa0ba388966dd4d000deeea280002e66c4c8985a4121d5f22f5d5914bbf087",
+          "sha256": "c0c31fdb9b5842b3b2c611d2ca0ddcc009ac6efb8ceb7b553b45027d207b5179",
+          "sha1": "6a5790d8b4f478cf4f7caf127455bef41e24b006",
+          "md5": "2115bc23cf8d0c48d411ca7f47e3be80"
+        }
+      ]
+    }
+  ]
+}
