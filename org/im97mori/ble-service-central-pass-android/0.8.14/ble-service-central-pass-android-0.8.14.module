@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "ble-service-central-pass-android",
+    "version": "0.8.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.14"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-pass-android",
+          "version": {
+            "requires": "0.8.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-pass-android-0.8.14.aar",
+          "url": "ble-service-central-pass-android-0.8.14.aar",
+          "size": 6369,
+          "sha512": "1e5a5caa0b24cf3ffbe581629e86008f19d11d5d097f0d9f2bba03b51a859791ce139b2c0613201c90bef4e376b1964364d0f708a5a6adcd24b9c785d3bfb869",
+          "sha256": "92f3619b045091a5d980e6d3d91f23b97412eb0de350e7f0f4f1d5eb8f6d506b",
+          "sha1": "6498677f14706c3c0554f3269c1e21536cabf72e",
+          "md5": "f1d14f25d037c7d9f592a38cfda153f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-central-android",
+          "version": {
+            "requires": "0.8.14"
+          }
+        },
+        {
+          "group": "org.im97mori",
+          "module": "ble-service-pass-android",
+          "version": {
+            "requires": "0.8.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ble-service-central-pass-android-0.8.14.aar",
+          "url": "ble-service-central-pass-android-0.8.14.aar",
+          "size": 6369,
+          "sha512": "1e5a5caa0b24cf3ffbe581629e86008f19d11d5d097f0d9f2bba03b51a859791ce139b2c0613201c90bef4e376b1964364d0f708a5a6adcd24b9c785d3bfb869",
+          "sha256": "92f3619b045091a5d980e6d3d91f23b97412eb0de350e7f0f4f1d5eb8f6d506b",
+          "sha1": "6498677f14706c3c0554f3269c1e21536cabf72e",
+          "md5": "f1d14f25d037c7d9f592a38cfda153f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-pass-android-0.8.14-sources.jar",
+          "url": "ble-service-central-pass-android-0.8.14-sources.jar",
+          "size": 5596,
+          "sha512": "2f5af6935aa0a6f4b49942682bc818976509852c442f49cff875c5f8c686886a2f36beaee36d335a93eebce54845e2930318a053ec497a152c4595b9a580fade",
+          "sha256": "ca050dd7dd46638fafab1fe52a1589301e92a98d0f10d56b67f2e1b2e6423c56",
+          "sha1": "df080db039c37caaa0901b8d59799f8aa54d1168",
+          "md5": "a1a29a679b538f3e564cf92b3837c90b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ble-service-central-pass-android-0.8.14-javadoc.jar",
+          "url": "ble-service-central-pass-android-0.8.14-javadoc.jar",
+          "size": 286019,
+          "sha512": "dc526e63b89272514eb3ba9e9a5cb58239302c559d9554ac6967fed1cd1c491fdfbac7b95c438d2d75a5e429e3b31c02d4519e0a10a7b4102c8e4f3b399bfbef",
+          "sha256": "00cd6d608ab9972a69abf45db16e8689124bf9f8903ad324156d9d0793190101",
+          "sha1": "57a5273abff0d7b1cc0a68d1ad4c72010cd65e96",
+          "md5": "d956011e65b5fe6bd8bcfaed1b13cb34"
+        }
+      ]
+    }
+  ]
+}
