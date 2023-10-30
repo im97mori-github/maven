@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.im97mori",
+    "module": "test-android-fragment",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-android-fragment-0.2.0.aar",
+          "url": "test-android-fragment-0.2.0.aar",
+          "size": 33684,
+          "sha512": "9b54157e1d2da7821f94bfcc9a5b21d05df20ce4bbf797fb2ba615b09b5a6aae4d74e14a2f11596b36ba2086e1b8f13ff59d8ac3ea6cfaf75dfdf45cfbb8b343",
+          "sha256": "efa8461e2ef488d0f69776ee83cf2bce4234f468b0d8cc3e8b4c228367f67823",
+          "sha1": "9ef02596b69c4855e11194b825f7d69e76c4ad25",
+          "md5": "26e2f844af8dca3db942a04e66abe81b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "test-android-fragment-0.2.0.aar",
+          "url": "test-android-fragment-0.2.0.aar",
+          "size": 33684,
+          "sha512": "9b54157e1d2da7821f94bfcc9a5b21d05df20ce4bbf797fb2ba615b09b5a6aae4d74e14a2f11596b36ba2086e1b8f13ff59d8ac3ea6cfaf75dfdf45cfbb8b343",
+          "sha256": "efa8461e2ef488d0f69776ee83cf2bce4234f468b0d8cc3e8b4c228367f67823",
+          "sha1": "9ef02596b69c4855e11194b825f7d69e76c4ad25",
+          "md5": "26e2f844af8dca3db942a04e66abe81b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "test-android-fragment-0.2.0-sources.jar",
+          "url": "test-android-fragment-0.2.0-sources.jar",
+          "size": 8022,
+          "sha512": "c04b7af297f06185953092721d54da9d27b0b5d17fbb486c3a8fc83a0860057d94ecbc6664b69c8f5de6c93ade159ac358bc596cf6dbcfc9501848f0f7964aab",
+          "sha256": "8001b5facaa1f3ace4157899ceacf08f4b8f6087c1e21f268693dd04390bc13c",
+          "sha1": "66c66fcdcedb9c8233c8096f1398f7a6e9efed5d",
+          "md5": "d5415faed4cf8331ba012b089e6e5a21"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "test-android-fragment-0.2.0-javadoc.jar",
+          "url": "test-android-fragment-0.2.0-javadoc.jar",
+          "size": 305704,
+          "sha512": "93ffb2fc1b786574d41a49f1328f67588ec0861b6f4e51f6c5a064657c73a478ccbfbfbc594c5902221d439f59d158acb77b8939cb8095a1b89cc3cc78ed3bbc",
+          "sha256": "4b797093d4fc15a763fed341fc4e5c7223867d11107e8bcae9eefa94ea308ea8",
+          "sha1": "003c7de032ceccc42b26867c16fd5c1ca65bf528",
+          "md5": "b37ffe79c82f51a70510a365ab73ab9b"
+        }
+      ]
+    }
+  ]
+}
